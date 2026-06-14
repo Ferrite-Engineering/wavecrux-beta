@@ -1,0 +1,10 @@
+[
+  {
+    "direction": "RX",
+    "sofTick": 15,
+    "eofTick": 180365,
+    "byteCount": 9018,
+    "errorAsserted": false,
+    "truncated": false
+  }
+]

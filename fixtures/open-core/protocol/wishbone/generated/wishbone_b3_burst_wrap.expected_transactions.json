@@ -1,0 +1,169 @@
+[
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "R 0x00000108 → 0x11111111 [Burst-Incr 1]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Incr",
+      "address": "0x00000108",
+      "data": "0x11111111",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "1",
+      "cti": "0b010",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 45,
+    "label": "Burst-Incr/Wrap-4 4× R 0x108..0x104",
+    "fields": {
+      "type": "Burst",
+      "cycle": "Burst-Incr/Wrap-4",
+      "beats": "4",
+      "first_address": "0x108",
+      "last_address": "0x104",
+      "direction": "Read",
+      "burst_id": "b3-15",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "R 0x0000010C → 0x22222222 [Burst-Incr 2]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Incr",
+      "address": "0x0000010C",
+      "data": "0x22222222",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "2",
+      "cti": "0b010",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "R 0x00000100 → 0x33333333 [Burst-Incr 3]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Incr",
+      "address": "0x00000100",
+      "data": "0x33333333",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "3",
+      "cti": "0b010",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 45,
+    "endTime": 45,
+    "label": "R 0x00000104 → 0x44444444 [Burst-EOB 4]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-EOB",
+      "address": "0x00000104",
+      "data": "0x44444444",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "4",
+      "cti": "0b111",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 75,
+    "endTime": 75,
+    "label": "R 0x00000200 → 0xAAAA0001 [Burst-Const 1]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Const",
+      "address": "0x00000200",
+      "data": "0xAAAA0001",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-75",
+      "beat_index": "1",
+      "cti": "0b001",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 75,
+    "endTime": 95,
+    "label": "Burst-Const 3× R 0x200",
+    "fields": {
+      "type": "Burst",
+      "cycle": "Burst-Const",
+      "beats": "3",
+      "first_address": "0x200",
+      "last_address": "0x200",
+      "direction": "Read",
+      "burst_id": "b3-75",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 85,
+    "endTime": 85,
+    "label": "R 0x00000200 → 0xAAAA0002 [Burst-Const 2]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Const",
+      "address": "0x00000200",
+      "data": "0xAAAA0002",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-75",
+      "beat_index": "2",
+      "cti": "0b001",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 95,
+    "endTime": 95,
+    "label": "R 0x00000200 → 0xAAAA0003 [Burst-EOB 3]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-EOB",
+      "address": "0x00000200",
+      "data": "0xAAAA0003",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-75",
+      "beat_index": "3",
+      "cti": "0b111",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

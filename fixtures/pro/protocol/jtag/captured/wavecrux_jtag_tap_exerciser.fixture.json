@@ -1,0 +1,15 @@
+{
+  "decoder": "jtag",
+  "signal_bindings": {
+    "tck": "tb_jtag_tap_exerciser.tck",
+    "tms": "tb_jtag_tap_exerciser.tms",
+    "tdi": "tb_jtag_tap_exerciser.tdi",
+    "tdo": "tb_jtag_tap_exerciser.tdo",
+    "trst": "tb_jtag_tap_exerciser.trst_n"
+  },
+  "parameters": {
+    "ir_width": 4,
+    "tdi_bit_order": "lsb",
+    "decode_known_instructions": false
+  }
+}

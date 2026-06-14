@@ -1,0 +1,30 @@
+[
+  {
+    "direction": "RX",
+    "sofTick": 8,
+    "eofTick": 512,
+    "byteCount": 64,
+    "errorAsserted": false
+  },
+  {
+    "direction": "TX",
+    "sofTick": 688,
+    "eofTick": 12696,
+    "byteCount": 1502,
+    "errorAsserted": false
+  },
+  {
+    "direction": "RX",
+    "sofTick": 12872,
+    "eofTick": 13376,
+    "byteCount": 64,
+    "errorAsserted": false
+  },
+  {
+    "direction": "TX",
+    "sofTick": 13472,
+    "eofTick": 13976,
+    "byteCount": 64,
+    "errorAsserted": false
+  }
+]

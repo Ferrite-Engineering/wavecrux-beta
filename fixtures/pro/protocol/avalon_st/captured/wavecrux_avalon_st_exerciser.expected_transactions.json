@@ -1,0 +1,73 @@
+[
+  {
+    "startTime": 65000,
+    "endTime": 65000,
+    "label": "Avalon-ST packet (1 beats, 4 bytes)",
+    "fields": {
+      "beat_count": "1",
+      "byte_count": "4",
+      "payload_bytes": "44434241",
+      "ready_latency": "0",
+      "channel_id": "0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 115000,
+    "endTime": 135000,
+    "label": "Avalon-ST packet (2 beats, 8 bytes)",
+    "fields": {
+      "beat_count": "2",
+      "byte_count": "8",
+      "payload_bytes": "78563412ddccbbaa",
+      "ready_latency": "0",
+      "channel_id": "0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 185000,
+    "endTime": 225000,
+    "label": "Avalon-ST packet (3 beats, 12 bytes)",
+    "fields": {
+      "beat_count": "3",
+      "byte_count": "12",
+      "payload_bytes": "010101010202020203030303",
+      "ready_latency": "0",
+      "channel_id": "1"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 275000,
+    "endTime": 275000,
+    "label": "Avalon-ST packet (1 beats, 3 bytes)",
+    "fields": {
+      "beat_count": "1",
+      "byte_count": "3",
+      "payload_bytes": "efbead",
+      "ready_latency": "0",
+      "channel_id": "0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 325000,
+    "endTime": 345000,
+    "label": "Avalon-ST packet (2 beats, 8 bytes)",
+    "fields": {
+      "beat_count": "2",
+      "byte_count": "8",
+      "payload_bytes": "44332211ffffffff",
+      "ready_latency": "0",
+      "channel_id": "0",
+      "per_beat_errors": "1"
+    },
+    "isError": true,
+    "errorMessage": "error sideband asserted on at least one beat"
+  }
+]

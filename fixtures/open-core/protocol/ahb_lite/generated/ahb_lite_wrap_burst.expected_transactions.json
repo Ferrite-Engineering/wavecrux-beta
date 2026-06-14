@@ -1,0 +1,98 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 15,
+    "label": "R 0x00000108 → 0x11111111 [WRAP4 1]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000108",
+      "data": "0x11111111",
+      "size_bits": "32",
+      "burst": "WRAP4",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "5",
+      "data_phase_start": "5",
+      "burst_id": "ahb-5",
+      "beat_index": "1"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 5,
+    "endTime": 45,
+    "label": "WRAP4 4× R 0x108..0x104",
+    "fields": {
+      "type": "Burst",
+      "burst": "WRAP4",
+      "beats": "4",
+      "first_address": "0x108",
+      "last_address": "0x104",
+      "direction": "Read",
+      "burst_id": "ahb-5"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 25,
+    "label": "R 0x0000010C → 0x22222222 [WRAP4 2]",
+    "fields": {
+      "type": "Read",
+      "address": "0x0000010C",
+      "data": "0x22222222",
+      "size_bits": "32",
+      "burst": "WRAP4",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "15",
+      "data_phase_start": "15",
+      "burst_id": "ahb-5",
+      "beat_index": "2"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 35,
+    "label": "R 0x00000100 → 0x33333333 [WRAP4 3]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000100",
+      "data": "0x33333333",
+      "size_bits": "32",
+      "burst": "WRAP4",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "25",
+      "data_phase_start": "25",
+      "burst_id": "ahb-5",
+      "beat_index": "3"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 45,
+    "label": "R 0x00000104 → 0x44444444 [WRAP4 4]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000104",
+      "data": "0x44444444",
+      "size_bits": "32",
+      "burst": "WRAP4",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "35",
+      "data_phase_start": "35",
+      "burst_id": "ahb-5",
+      "beat_index": "4"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

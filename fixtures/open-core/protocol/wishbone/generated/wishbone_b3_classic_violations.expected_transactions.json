@@ -1,0 +1,311 @@
+[
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "STB asserted while CYC deasserted"
+    },
+    "isError": true,
+    "errorMessage": "STB asserted while CYC deasserted"
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Termination (ACK/ERR/RTY) asserted while CYC deasserted"
+    },
+    "isError": true,
+    "errorMessage": "Termination (ACK/ERR/RTY) asserted while CYC deasserted"
+  },
+  {
+    "startTime": 55,
+    "endTime": 55,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Multiple terminations asserted simultaneously (ACK=1 ERR=1 RTY=0)"
+    },
+    "isError": true,
+    "errorMessage": "Multiple terminations asserted simultaneously (ACK=1 ERR=1 RTY=0)"
+  },
+  {
+    "startTime": 75,
+    "endTime": 75,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Reserved CTI value 0b011 (allowed: 000 Classic, 001 Const, 010 Incr, 111 EOB)"
+    },
+    "isError": true,
+    "errorMessage": "Reserved CTI value 0b011 (allowed: 000 Classic, 001 Const, 010 Incr, 111 EOB)"
+  },
+  {
+    "startTime": 75,
+    "endTime": 75,
+    "label": "R 0x00000100 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000100",
+      "data": "0x12345678",
+      "termination": "ACK",
+      "sel": "0xF",
+      "cti": "0b011",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 95,
+    "endTime": 95,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "BTE=0b01 with CTI=0b000 (BTE only meaningful for incrementing bursts)"
+    },
+    "isError": true,
+    "errorMessage": "BTE=0b01 with CTI=0b000 (BTE only meaningful for incrementing bursts)"
+  },
+  {
+    "startTime": 95,
+    "endTime": 95,
+    "label": "R 0x00000100 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000100",
+      "data": "0x12345678",
+      "termination": "ACK",
+      "sel": "0xF",
+      "cti": "0b000",
+      "bte": "0b01"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 115,
+    "endTime": 115,
+    "label": "W 0x00000101 = 0xDEADBEEF",
+    "fields": {
+      "type": "Write",
+      "cycle": "Classic",
+      "address": "0x00000101",
+      "data": "0xDEADBEEF",
+      "termination": "ACK",
+      "sel": "0xF",
+      "cti": "0b000",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 115,
+    "endTime": 115,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Misaligned address 0x00000101 for stride 4 bytes (data_width=32, granularity=8)"
+    },
+    "isError": true,
+    "errorMessage": "Misaligned address 0x00000101 for stride 4 bytes (data_width=32, granularity=8)"
+  },
+  {
+    "startTime": 135,
+    "endTime": 135,
+    "label": "R 0x00000200 → 0x10000000 [Burst-Const 1]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Const",
+      "address": "0x00000200",
+      "data": "0x10000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-135",
+      "beat_index": "1",
+      "cti": "0b001",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 135,
+    "endTime": 155,
+    "label": "Burst-Const 3× R 0x200",
+    "fields": {
+      "type": "Burst",
+      "cycle": "Burst-Const",
+      "beats": "3",
+      "first_address": "0x200",
+      "last_address": "0x208",
+      "direction": "Read",
+      "burst_id": "b3-135",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 145,
+    "endTime": 145,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Constant-address burst (CTI=001) but ADR changed from 0x00000200 to 0x00000204"
+    },
+    "isError": true,
+    "errorMessage": "Constant-address burst (CTI=001) but ADR changed from 0x00000200 to 0x00000204"
+  },
+  {
+    "startTime": 145,
+    "endTime": 145,
+    "label": "R 0x00000204 → 0x20000000 [Burst-Const 2]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Const",
+      "address": "0x00000204",
+      "data": "0x20000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-135",
+      "beat_index": "2",
+      "cti": "0b001",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 155,
+    "endTime": 155,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Constant-address burst (CTI=001) but ADR changed from 0x00000204 to 0x00000208"
+    },
+    "isError": true,
+    "errorMessage": "Constant-address burst (CTI=001) but ADR changed from 0x00000204 to 0x00000208"
+  },
+  {
+    "startTime": 155,
+    "endTime": 155,
+    "label": "R 0x00000208 → 0x30000000 [Burst-EOB 3]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-EOB",
+      "address": "0x00000208",
+      "data": "0x30000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-135",
+      "beat_index": "3",
+      "cti": "0b111",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 175,
+    "endTime": 175,
+    "label": "R 0x00000300 → 0x40000000 [Burst-Incr 1]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Burst-Incr",
+      "address": "0x00000300",
+      "data": "0x40000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-175",
+      "beat_index": "1",
+      "cti": "0b010",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 175,
+    "endTime": 195,
+    "label": "Burst-Incr 3× R 0x300..0x308",
+    "fields": {
+      "type": "Burst",
+      "cycle": "Burst-Incr",
+      "beats": "3",
+      "first_address": "0x300",
+      "last_address": "0x308",
+      "direction": "Read",
+      "burst_id": "b3-175",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 185,
+    "endTime": 185,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "WE changed mid-cycle (was 0, now 1) without CYC dropping"
+    },
+    "isError": true,
+    "errorMessage": "WE changed mid-cycle (was 0, now 1) without CYC dropping"
+  },
+  {
+    "startTime": 185,
+    "endTime": 185,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Incrementing burst (CTI=010) but WE changed beat-to-beat"
+    },
+    "isError": true,
+    "errorMessage": "Incrementing burst (CTI=010) but WE changed beat-to-beat"
+  },
+  {
+    "startTime": 185,
+    "endTime": 185,
+    "label": "W 0x00000304 = 0x50000000 [Burst-Incr 2]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-Incr",
+      "address": "0x00000304",
+      "data": "0x50000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-175",
+      "beat_index": "2",
+      "cti": "0b010",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 195,
+    "endTime": 195,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Incrementing burst (CTI=010) but WE changed beat-to-beat"
+    },
+    "isError": true,
+    "errorMessage": "Incrementing burst (CTI=010) but WE changed beat-to-beat"
+  },
+  {
+    "startTime": 195,
+    "endTime": 195,
+    "label": "W 0x00000308 = 0x60000000 [Burst-EOB 3]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-EOB",
+      "address": "0x00000308",
+      "data": "0x60000000",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-175",
+      "beat_index": "3",
+      "cti": "0b111",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

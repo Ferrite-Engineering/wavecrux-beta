@@ -1,0 +1,17 @@
+{
+  "decoder": "riscv",
+  "signal_bindings": {
+    "clk": "tb_picorv32_riscv_ez.wb_clk",
+    "instruction": "tb_picorv32_riscv_ez.wb_dat_s2m",
+    "pc": "tb_picorv32_riscv_ez.wb_adr",
+    "valid": "tb_picorv32_riscv_ez.ifetch_valid"
+  },
+  "parameters": {
+    "xlen": "32",
+    "ext_m": false,
+    "ext_a": false,
+    "ext_f": false,
+    "ext_d": false,
+    "ext_c": false
+  }
+}

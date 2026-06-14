@@ -1,0 +1,14 @@
+{
+  "decoder": "uart",
+  "signal_bindings": {
+    "tx": "tb.uart_txd"
+  },
+  "parameters": {
+    "baud_rate": 9600,
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": "1",
+    "bit_order": "lsb",
+    "group_gap_bits": 10
+  }
+}

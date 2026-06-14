@@ -1,0 +1,30 @@
+[
+  {
+    "sofTick": 15,
+    "eofTick": 645,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 865,
+    "eofTick": 15875,
+    "byteCount": 1502,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 16095,
+    "eofTick": 16945,
+    "byteCount": 86,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 17165,
+    "eofTick": 17795,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  }
+]

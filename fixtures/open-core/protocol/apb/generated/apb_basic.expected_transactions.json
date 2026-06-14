@@ -1,0 +1,60 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 15,
+    "label": "W 0x00000004 = 0xDEADBEEF",
+    "fields": {
+      "type": "Write",
+      "address": "0x00000004",
+      "data": "0xDEADBEEF",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 35,
+    "label": "R 0x00000008 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000008",
+      "data": "0x12345678",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 45,
+    "endTime": 65,
+    "label": "W 0x0000000C = 0xCAFEBABE",
+    "fields": {
+      "type": "Write",
+      "address": "0x0000000C",
+      "data": "0xCAFEBABE",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 75,
+    "endTime": 85,
+    "label": "R 0x00000010 → 0xA5A5A5A5 [SLVERR]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000010",
+      "data": "0xA5A5A5A5",
+      "response": "SLVERR",
+      "pprot": "0x0"
+    },
+    "isError": true,
+    "errorMessage": "Slave error (PSLVERR)"
+  }
+]

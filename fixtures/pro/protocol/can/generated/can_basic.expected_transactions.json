@@ -1,0 +1,43 @@
+[
+  {
+    "startTime": 6000,
+    "endTime": 142000,
+    "label": "DATA 0x1AB [3]",
+    "fields": {
+      "type": "Data Frame",
+      "id": "0x1AB",
+      "ide": "Standard (11-bit)",
+      "dlc": "3",
+      "data": "DE AD BE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 148000,
+    "endTime": 308000,
+    "label": "DATA 0x12345AB [2]",
+    "fields": {
+      "type": "Data Frame",
+      "id": "0x12345AB",
+      "ide": "Extended (29-bit)",
+      "dlc": "2",
+      "data": "CA FE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 314000,
+    "endTime": 402000,
+    "label": "REMOTE 0x123",
+    "fields": {
+      "type": "Remote Frame",
+      "id": "0x123",
+      "ide": "Standard (11-bit)",
+      "dlc": "4"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

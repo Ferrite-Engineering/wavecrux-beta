@@ -1,0 +1,66 @@
+[
+  {
+    "startTime": 2765000,
+    "endTime": 5245000,
+    "label": "W 0x05.0x00 = 0x1140",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x05",
+      "regad": "0x00",
+      "ta": "10",
+      "data": "0x1140",
+      "frame_hex": "0x52821140",
+      "op": "W"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 7975000,
+    "endTime": 10455000,
+    "label": "R 0x05.0x01 → 0x796D",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x05",
+      "regad": "0x01",
+      "ta": "10",
+      "data": "0x796D",
+      "frame_hex": "0x6286796D",
+      "op": "R"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 13415000,
+    "endTime": 15895000,
+    "label": "W 0x01.0x09 = 0x0200",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x09",
+      "ta": "10",
+      "data": "0x0200",
+      "frame_hex": "0x50A60200",
+      "op": "W"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 18625000,
+    "endTime": 21105000,
+    "label": "R 0x01.0x02 → 0x0141",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x02",
+      "ta": "10",
+      "data": "0x0141",
+      "frame_hex": "0x608A0141",
+      "op": "R"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

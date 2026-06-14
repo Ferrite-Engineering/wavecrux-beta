@@ -1,0 +1,28 @@
+[
+  {
+    "startTime": 1000,
+    "endTime": 12000,
+    "label": "UART TX: A",
+    "fields": {
+      "channel": "TX",
+      "data": "0x41",
+      "ascii": "A",
+      "bytes": "1"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 16000,
+    "endTime": 27000,
+    "label": "UART TX: B",
+    "fields": {
+      "channel": "TX",
+      "data": "0x42",
+      "ascii": "B",
+      "bytes": "1"
+    },
+    "isError": true,
+    "errorMessage": "Parity error"
+  }
+]

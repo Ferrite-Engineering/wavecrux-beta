@@ -1,0 +1,14 @@
+[
+  {
+    "startTime": 10,
+    "endTime": 980,
+    "label": "FAST_READ",
+    "fields": {
+      "opcode": "0x0B",
+      "address": "0x002000",
+      "data": "0xAB"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

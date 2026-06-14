@@ -1,0 +1,66 @@
+[
+  {
+    "startTime": 50,
+    "endTime": 805,
+    "label": "I²C 0x50 W 0x42",
+    "fields": {
+      "address": "0x50",
+      "rw": "W",
+      "data": "0x42",
+      "ack": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 875,
+    "endTime": 1630,
+    "label": "I²C 0x50 R 0xBE",
+    "fields": {
+      "address": "0x50",
+      "rw": "R",
+      "data": "0xBE",
+      "ack": "NACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 1700,
+    "endTime": 2095,
+    "label": "I²C 0x55 W NACK",
+    "fields": {
+      "address": "0x55",
+      "rw": "W",
+      "ack": "NACK"
+    },
+    "isError": true,
+    "errorMessage": "Address phase NACK"
+  },
+  {
+    "startTime": 2165,
+    "endTime": 2930,
+    "label": "I²C 0x50 W 0x10",
+    "fields": {
+      "address": "0x50",
+      "rw": "W",
+      "data": "0x10",
+      "ack": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 2930,
+    "endTime": 3685,
+    "label": "I²C 0x50 R 0xDE",
+    "fields": {
+      "address": "0x50",
+      "rw": "R",
+      "data": "0xDE",
+      "ack": "NACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

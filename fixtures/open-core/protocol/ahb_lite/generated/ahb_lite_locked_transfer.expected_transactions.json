@@ -1,0 +1,50 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 15,
+    "label": "R 0x00000400 → 0x00000010",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000400",
+      "data": "0x00000010",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "5",
+      "data_phase_start": "5",
+      "locked": "1",
+      "hprot": "0x3",
+      "hprot_data_or_instr": "data",
+      "hprot_privileged": "1",
+      "hprot_bufferable": "0",
+      "hprot_cacheable": "0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 25,
+    "label": "W 0x00000400 = 0x00000011",
+    "fields": {
+      "type": "Write",
+      "address": "0x00000400",
+      "data": "0x00000011",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "15",
+      "data_phase_start": "15",
+      "locked": "1",
+      "hprot": "0x3",
+      "hprot_data_or_instr": "data",
+      "hprot_privileged": "1",
+      "hprot_bufferable": "0",
+      "hprot_cacheable": "0"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

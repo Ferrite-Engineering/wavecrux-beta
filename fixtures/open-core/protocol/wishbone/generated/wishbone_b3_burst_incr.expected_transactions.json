@@ -1,0 +1,95 @@
+[
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "W 0x00000100 = 0xA0A0A0A0 [Burst-Incr 1]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-Incr",
+      "address": "0x00000100",
+      "data": "0xA0A0A0A0",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "1",
+      "cti": "0b010",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 45,
+    "label": "Burst-Incr 4× W 0x100..0x10C",
+    "fields": {
+      "type": "Burst",
+      "cycle": "Burst-Incr",
+      "beats": "4",
+      "first_address": "0x100",
+      "last_address": "0x10C",
+      "direction": "Write",
+      "burst_id": "b3-15",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "W 0x00000104 = 0xB1B1B1B1 [Burst-Incr 2]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-Incr",
+      "address": "0x00000104",
+      "data": "0xB1B1B1B1",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "2",
+      "cti": "0b010",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "W 0x00000108 = 0xC2C2C2C2 [Burst-Incr 3]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-Incr",
+      "address": "0x00000108",
+      "data": "0xC2C2C2C2",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "3",
+      "cti": "0b010",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 45,
+    "endTime": 45,
+    "label": "W 0x0000010C = 0xD3D3D3D3 [Burst-EOB 4]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Burst-EOB",
+      "address": "0x0000010C",
+      "data": "0xD3D3D3D3",
+      "termination": "ACK",
+      "sel": "0xF",
+      "burst_id": "b3-15",
+      "beat_index": "4",
+      "cti": "0b111",
+      "bte": "0b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

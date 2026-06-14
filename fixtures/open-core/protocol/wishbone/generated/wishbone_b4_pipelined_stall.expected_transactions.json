@@ -1,0 +1,50 @@
+[
+  {
+    "startTime": 15,
+    "endTime": 65,
+    "label": "R 0x00000100 → 0xAAAAAAAA [Pipelined]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Pipelined",
+      "address": "0x00000100",
+      "data": "0xAAAAAAAA",
+      "termination": "ACK",
+      "latency": "50",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 45,
+    "endTime": 75,
+    "label": "R 0x00000104 → 0xBBBBBBBB [Pipelined]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Pipelined",
+      "address": "0x00000104",
+      "data": "0xBBBBBBBB",
+      "termination": "ACK",
+      "latency": "30",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 55,
+    "endTime": 85,
+    "label": "R 0x00000108 → 0xCCCCCCCC [Pipelined]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Pipelined",
+      "address": "0x00000108",
+      "data": "0xCCCCCCCC",
+      "termination": "ACK",
+      "latency": "30",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

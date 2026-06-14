@@ -1,0 +1,58 @@
+name: 🧪 Fixture submission
+description: Contribute a waveform that exposes a decoder/parser bug or an uncovered protocol variant.
+title: "[Fixture]: "
+labels: ["fixture", "beta-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A trace that a decoder gets wrong is the most valuable thing you can give
+        us — once it's in the suite, that behavior can never silently regress.
+        Please read
+        [Submitting a Test Fixture](https://github.com/Ferrite-Engineering/wavecrux-beta/blob/main/docs/SUBMITTING_FIXTURES.md)
+        first, especially the licensing rules.
+  - type: input
+    id: protocol
+    attributes:
+      label: Decoder / protocol
+      placeholder: "e.g. AXI4-Lite, USB, SPI, Ethernet RGMII…"
+    validations:
+      required: true
+  - type: textarea
+    id: current-vs-expected
+    attributes:
+      label: What WaveCrux does vs. what it should do
+      description: Be as precise as you can — ideally the exact transaction(s) or value(s) that are wrong.
+      placeholder: |
+        Transaction 3 decodes as a READ to 0x40.
+        It should be a WRITE to 0x40 with data 0xDEAD_BEEF.
+    validations:
+      required: true
+  - type: textarea
+    id: attach
+    attributes:
+      label: The fixture
+      description: |
+        Drag the waveform file (`.vcd`, `.fst`, or `.vcd.zst`) into this box, or
+        link to it. Keep it small and focused — the fewest cycles that still
+        reproduce the behavior.
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License / origin
+      description: We can only publish permissively-licensed fixtures. See the guide for details.
+      options:
+        - My own hand-crafted trace — I contribute it under CC0 / public domain
+        - Derived from an open-source project under MIT / BSD / Apache-2.0 / ISC / CC0 / public domain
+        - Other / not sure (we'll follow up — do not attach proprietary, GPL, or AGPL traces)
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source project + version (for derived traces)
+      description: Project name and commit/tag, and how you generated the trace (e.g. "ran the testbench under Icarus Verilog").
+    validations:
+      required: false

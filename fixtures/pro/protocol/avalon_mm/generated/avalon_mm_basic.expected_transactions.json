@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "write",
+    "address_hex": "10000004",
+    "writedata_hex": "deadbeef",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 15,
+    "eofTick": 15
+  },
+  {
+    "kind": "read",
+    "address_hex": "10000008",
+    "readdata_hex": "12345678",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 45,
+    "eofTick": 45
+  },
+  {
+    "kind": "write",
+    "address_hex": "1000000c",
+    "writedata_hex": "cafebabe",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 95,
+    "eofTick": 95
+  }
+]

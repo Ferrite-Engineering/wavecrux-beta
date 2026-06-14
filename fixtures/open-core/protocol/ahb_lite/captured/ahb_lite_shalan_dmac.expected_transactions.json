@@ -1,0 +1,182 @@
+[
+  {
+    "startTime": 450000,
+    "endTime": 470000,
+    "label": "R 0x40000000 → 0xC0FFEE00",
+    "fields": {
+      "type": "Read",
+      "address": "0x40000000",
+      "data": "0xC0FFEE00",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "450000",
+      "data_phase_start": "450000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 490000,
+    "endTime": 510000,
+    "label": "W 0x50000000 = 0xC0FFEE00",
+    "fields": {
+      "type": "Write",
+      "address": "0x50000000",
+      "data": "0xC0FFEE00",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "490000",
+      "data_phase_start": "490000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 530000,
+    "endTime": 550000,
+    "label": "R 0x40000004 → 0xC0FFEE04",
+    "fields": {
+      "type": "Read",
+      "address": "0x40000004",
+      "data": "0xC0FFEE04",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "530000",
+      "data_phase_start": "530000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 570000,
+    "endTime": 590000,
+    "label": "W 0x50000004 = 0xC0FFEE04",
+    "fields": {
+      "type": "Write",
+      "address": "0x50000004",
+      "data": "0xC0FFEE04",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "570000",
+      "data_phase_start": "570000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 610000,
+    "endTime": 630000,
+    "label": "R 0x40000008 → 0xC0FFEE08",
+    "fields": {
+      "type": "Read",
+      "address": "0x40000008",
+      "data": "0xC0FFEE08",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "610000",
+      "data_phase_start": "610000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 650000,
+    "endTime": 670000,
+    "label": "W 0x50000008 = 0xC0FFEE08",
+    "fields": {
+      "type": "Write",
+      "address": "0x50000008",
+      "data": "0xC0FFEE08",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "650000",
+      "data_phase_start": "650000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 690000,
+    "endTime": 710000,
+    "label": "R 0x4000000C → 0xC0FFEE0C",
+    "fields": {
+      "type": "Read",
+      "address": "0x4000000C",
+      "data": "0xC0FFEE0C",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "690000",
+      "data_phase_start": "690000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 730000,
+    "endTime": 750000,
+    "label": "W 0x5000000C = 0xC0FFEE0C",
+    "fields": {
+      "type": "Write",
+      "address": "0x5000000C",
+      "data": "0xC0FFEE0C",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "730000",
+      "data_phase_start": "730000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 770000,
+    "endTime": 790000,
+    "label": "R 0x40000010 → 0xC0FFEE10",
+    "fields": {
+      "type": "Read",
+      "address": "0x40000010",
+      "data": "0xC0FFEE10",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "770000",
+      "data_phase_start": "770000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 810000,
+    "endTime": 830000,
+    "label": "W 0x50000010 = 0xC0FFEE10",
+    "fields": {
+      "type": "Write",
+      "address": "0x50000010",
+      "data": "0xC0FFEE10",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "810000",
+      "data_phase_start": "810000"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

@@ -1,0 +1,18 @@
+Placeholder for the binary `gauge.riv` runtime asset.
+
+A real `.riv` file is an opaque binary produced by the Rive editor; the
+runtime cannot generate one synthetically. Tests that exercise the Rive
+controller pipeline therefore inject a fake `RiveStateMachineHost`
+(see `test/features/stage_pro/runtime/rive_backed_animation_controller_test.dart`)
+rather than loading this asset directly.
+
+The acceptance test in
+`test/features/stage_pro/runtime/sample_widget_acceptance_test.dart`
+parses `manifest.yaml`, instantiates the renderer with a controller
+override that returns a fake host wired to the manifest's declared
+inputs (`value` number, `alarm` boolean), pumps synthetic cursor motion,
+and asserts clean tear-down — matching the deliverable in the task spec
+without requiring a binary `.riv` artifact in the repo.
+
+This file is committed solely so the directory layout matches what a
+real bundle would publish on disk.

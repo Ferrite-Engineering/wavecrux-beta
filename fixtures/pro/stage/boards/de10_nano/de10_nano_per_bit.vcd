@@ -1,0 +1,88 @@
+$version Hand-crafted DE10-Nano per-bit fixture $end
+$comment 8 LED bits, 4 switch bits, 2 button bits, HDMI out pixel data, accelerometer sample bus, and 8 ADC channels — all as INDIVIDUAL per-bit / per-channel signals (no vector buses). Tests the auto-bind service's per-bit fallback tier and exercises the LED / switch / button / ADC slot families. $end
+$date 2026-05-04 $end
+$timescale 1ns $end
+$scope module top $end
+$var wire 1 ! led_0 $end
+$var wire 1 " led_1 $end
+$var wire 1 # led_2 $end
+$var wire 1 $ led_3 $end
+$var wire 1 % led_4 $end
+$var wire 1 & led_5 $end
+$var wire 1 ' led_6 $end
+$var wire 1 ( led_7 $end
+$var wire 1 ) sw_0 $end
+$var wire 1 * sw_1 $end
+$var wire 1 + sw_2 $end
+$var wire 1 , sw_3 $end
+$var wire 1 - key0 $end
+$var wire 1 . key1 $end
+$var wire 24 / hdmi_out_data $end
+$var wire 36 0 accel_xyz $end
+$var wire 12 1 adc_ch_0 $end
+$var wire 12 2 adc_ch_1 $end
+$var wire 12 3 adc_ch_2 $end
+$var wire 12 4 adc_ch_3 $end
+$var wire 12 5 adc_ch_4 $end
+$var wire 12 6 adc_ch_5 $end
+$var wire 12 7 adc_ch_6 $end
+$var wire 12 8 adc_ch_7 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+0*
+1+
+0,
+0-
+0.
+b000000000000000000000000 /
+b000000000000000000000000000000000000 0
+b000000000000 1
+b000000000000 2
+b000000000000 3
+b000000000000 4
+b000000000000 5
+b000000000000 6
+b000000000000 7
+b000000000000 8
+$end
+#100
+1!
+0)
+b111111110000000000000000 /
+b001100110011001100110011001100110011 0
+b000011110000 1
+b000011110000 2
+#200
+1"
+1*
+b000000001111111100000000 /
+b110011001100110011001100110011001100 0
+b000000001111 3
+b111100000000 4
+#300
+1#
+1-
+1)
+b000000000000000011111111 /
+b101010101010101010101010101010101010 0
+b010101010101 5
+b101010101010 6
+#400
+0!
+1.
+0)
+b101010101010101010101010 /
+b111100001111000011110000111100001111 0
+b111111111111 7
+b000000000000 8
+$end

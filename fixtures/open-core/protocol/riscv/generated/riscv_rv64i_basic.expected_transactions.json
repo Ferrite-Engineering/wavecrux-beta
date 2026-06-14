@@ -1,0 +1,54 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 5,
+    "label": "ld a0, 16(sp)",
+    "fields": {
+      "mnemonic": "ld",
+      "disasm": "ld a0, 16(sp)",
+      "raw": "0x01013503",
+      "isa": "RV64I"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "sd t1, 24(sp)",
+    "fields": {
+      "mnemonic": "sd",
+      "disasm": "sd t1, 24(sp)",
+      "raw": "0x00613C23",
+      "isa": "RV64I"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "addw a0, a1, a2",
+    "fields": {
+      "mnemonic": "addw",
+      "disasm": "addw a0, a1, a2",
+      "raw": "0x00C5853B",
+      "isa": "RV64I"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "slli t0, t1, 32",
+    "fields": {
+      "mnemonic": "slli",
+      "disasm": "slli t0, t1, 32",
+      "raw": "0x02031293",
+      "isa": "RV64I"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

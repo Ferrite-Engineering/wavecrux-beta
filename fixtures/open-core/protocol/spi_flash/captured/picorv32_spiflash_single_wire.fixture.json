@@ -1,0 +1,24 @@
+{
+  "decoder": "spi_flash",
+  "signal_bindings": {
+    "sclk": "tb_picorv32_spiflash_single_wire.flash_clk",
+    "mosi": "tb_picorv32_spiflash_single_wire.flash_io0",
+    "miso": "tb_picorv32_spiflash_single_wire.flash_io1",
+    "cs": "tb_picorv32_spiflash_single_wire.flash_csb"
+  },
+  "parent": {
+    "decoder": "spi",
+    "parameters": {
+      "cpol": "0",
+      "cpha": "0",
+      "bit_order": "msb",
+      "word_size": 8,
+      "cs_active_level": "0"
+    }
+  },
+  "parameters": {
+    "vendor_preset": "generic",
+    "address_width": "24",
+    "dummy_cycles": -1
+  }
+}

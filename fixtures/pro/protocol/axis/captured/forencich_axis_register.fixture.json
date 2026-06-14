@@ -1,0 +1,21 @@
+{
+  "decoder": "axi_stream",
+  "signal_bindings": {
+    "aclk": "axis_register.clk",
+    "aresetn": "iverilog_dump.aresetn",
+    "tvalid": "axis_register.s_axis_tvalid",
+    "tdata": "axis_register.s_axis_tdata",
+    "tready": "axis_register.s_axis_tready",
+    "tlast": "axis_register.s_axis_tlast",
+    "tuser": "axis_register.s_axis_tuser",
+    "tdest": "axis_register.s_axis_tdest",
+    "tid": "axis_register.s_axis_tid"
+  },
+  "parameters": {
+    "data_width": 8,
+    "tkeep_mode": "continuous",
+    "tstrb_present": false,
+    "max_packet_size_bytes": 0,
+    "emit_single_beat_packets": true
+  }
+}

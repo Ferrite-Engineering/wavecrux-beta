@@ -1,0 +1,147 @@
+[
+  {
+    "startTime": 85000,
+    "endTime": 95000,
+    "label": "W 0x100 = 0xDEADBEEF",
+    "fields": {
+      "type": "Write",
+      "address": "0x100",
+      "data": "0xDEADBEEF",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 145000,
+    "endTime": 155000,
+    "label": "W 0x104 = 0x12345678",
+    "fields": {
+      "type": "Write",
+      "address": "0x104",
+      "data": "0x12345678",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 205000,
+    "endTime": 215000,
+    "label": "W 0x108 = 0xCAFEBABE",
+    "fields": {
+      "type": "Write",
+      "address": "0x108",
+      "data": "0xCAFEBABE",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 265000,
+    "endTime": 275000,
+    "label": "W 0x10C = 0xA5A5A5A5",
+    "fields": {
+      "type": "Write",
+      "address": "0x10C",
+      "data": "0xA5A5A5A5",
+      "response": "OKAY",
+      "pstrb": "0xF",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 325000,
+    "endTime": 335000,
+    "label": "R 0x100 → 0xDEADBEEF",
+    "fields": {
+      "type": "Read",
+      "address": "0x100",
+      "data": "0xDEADBEEF",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 385000,
+    "endTime": 395000,
+    "label": "R 0x104 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "address": "0x104",
+      "data": "0x12345678",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 445000,
+    "endTime": 455000,
+    "label": "R 0x108 → 0xCAFEBABE",
+    "fields": {
+      "type": "Read",
+      "address": "0x108",
+      "data": "0xCAFEBABE",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 505000,
+    "endTime": 515000,
+    "label": "R 0x10C → 0xA5A5A5A5",
+    "fields": {
+      "type": "Read",
+      "address": "0x10C",
+      "data": "0xA5A5A5A5",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 565000,
+    "endTime": 575000,
+    "label": "W 0x100 = 0x0000C0DE",
+    "fields": {
+      "type": "Write",
+      "address": "0x100",
+      "data": "0x0000C0DE",
+      "response": "OKAY",
+      "pstrb": "0x3",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 625000,
+    "endTime": 635000,
+    "label": "R 0x100 → 0xDEADC0DE",
+    "fields": {
+      "type": "Read",
+      "address": "0x100",
+      "data": "0xDEADC0DE",
+      "response": "OKAY",
+      "pprot": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "description": "Two clocked write ports active concurrently. Cursor at 80 ns covers all writes from both ports.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": "top.dut.clk",
+    "wp1Address": "top.dut.wp1_addr",
+    "wp1Data": "top.dut.wp1_data",
+    "wp1Enable": "top.dut.wp1_en",
+    "wp2Address": "top.dut.wp2_addr",
+    "wp2Data": "top.dut.wp2_data",
+    "wp2Enable": "top.dut.wp2_en"
+  },
+  "config": {
+    "registerCount": 32,
+    "registerWidth": 32,
+    "naming": "numeric",
+    "dualWritePort": true
+  },
+  "cursorTime": 80,
+  "expectedSnapshot": {
+    "totalAccessCount": 5,
+    "cells": {
+      "1":  { "name": "R1",  "value": "0x0000000A", "lastWriteTime": 10, "lastWritePort": "writePort1" },
+      "2":  { "name": "R2",  "value": "0x0000000B", "lastWriteTime": 30, "lastWritePort": "writePort1" },
+      "3":  { "name": "R3",  "value": "0x0000000C", "lastWriteTime": 50, "lastWritePort": "writePort1" },
+      "16": { "name": "R16", "value": "0x00000100", "lastWriteTime": 10, "lastWritePort": "writePort2" },
+      "17": { "name": "R17", "value": "0x00000200", "lastWriteTime": 30, "lastWritePort": "writePort2" }
+    }
+  }
+}

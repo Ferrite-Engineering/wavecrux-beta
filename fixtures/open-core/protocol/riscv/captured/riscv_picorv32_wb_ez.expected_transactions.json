@@ -1,0 +1,100 @@
+[
+  {
+    "startTime": 80000,
+    "endTime": 80000,
+    "label": "[0x00000000] addi ra, zero, 1020",
+    "fields": {
+      "mnemonic": "addi",
+      "disasm": "addi ra, zero, 1020",
+      "raw": "0x3FC00093",
+      "isa": "RV32I",
+      "pc": "0x00000000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 140000,
+    "endTime": 140000,
+    "label": "[0x00000004] sw zero, 0(ra)",
+    "fields": {
+      "mnemonic": "sw",
+      "disasm": "sw zero, 0(ra)",
+      "raw": "0x0000A023",
+      "isa": "RV32I",
+      "pc": "0x00000004"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 200000,
+    "endTime": 200000,
+    "label": "[0x00000008] lw sp, 0(ra)",
+    "fields": {
+      "mnemonic": "lw",
+      "disasm": "lw sp, 0(ra)",
+      "raw": "0x0000A103",
+      "isa": "RV32I",
+      "pc": "0x00000008"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 310000,
+    "endTime": 310000,
+    "label": "[0x0000000C] addi sp, sp, 1",
+    "fields": {
+      "mnemonic": "addi",
+      "disasm": "addi sp, sp, 1",
+      "raw": "0x00110113",
+      "isa": "RV32I",
+      "pc": "0x0000000C"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 420000,
+    "endTime": 420000,
+    "label": "[0x00000010] sw sp, 0(ra)",
+    "fields": {
+      "mnemonic": "sw",
+      "disasm": "sw sp, 0(ra)",
+      "raw": "0x0020A023",
+      "isa": "RV32I",
+      "pc": "0x00000010"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 480000,
+    "endTime": 480000,
+    "label": "[0x00000014] jal zero, -2561",
+    "fields": {
+      "mnemonic": "jal",
+      "disasm": "jal zero, -2561",
+      "raw": "0xFF5FF06F",
+      "isa": "RV32I",
+      "pc": "0x00000014"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 590000,
+    "endTime": 590000,
+    "label": "[0x00000008] lw sp, 0(ra)",
+    "fields": {
+      "mnemonic": "lw",
+      "disasm": "lw sp, 0(ra)",
+      "raw": "0x0000A103",
+      "isa": "RV32I",
+      "pc": "0x00000008"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

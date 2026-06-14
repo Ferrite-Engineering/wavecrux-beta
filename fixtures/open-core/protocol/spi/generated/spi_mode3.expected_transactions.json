@@ -1,0 +1,26 @@
+[
+  {
+    "startTime": 10,
+    "endTime": 170,
+    "label": "SPI 0xFE",
+    "fields": {
+      "mosi": "0xFE",
+      "miso": "0xAA",
+      "words": "1"
+    },
+    "isError": true,
+    "errorMessage": "Incomplete word: 7 of 8 bits"
+  },
+  {
+    "startTime": 180,
+    "endTime": 500,
+    "label": "SPI 2 words",
+    "fields": {
+      "mosi": "0xFF 0x00",
+      "miso": "0xAA 0x54",
+      "words": "2"
+    },
+    "isError": true,
+    "errorMessage": "Incomplete word: 7 of 8 bits"
+  }
+]

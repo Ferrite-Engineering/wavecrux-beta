@@ -1,0 +1,74 @@
+[
+  {
+    "startTime": 65000,
+    "endTime": 65000,
+    "label": "Avalon-MM WRITE 0x0 = 0xdeadbeef",
+    "fields": {
+      "kind": "write",
+      "address_hex": "0",
+      "writedata_hex": "deadbeef",
+      "beats": "1",
+      "byteenable_bin": "1111",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 105000,
+    "endTime": 125000,
+    "label": "Avalon-MM READ 0x0 → 0xdeadbeef",
+    "fields": {
+      "kind": "read",
+      "address_hex": "0",
+      "readdata_hex": "deadbeef",
+      "beats": "1",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 155000,
+    "endTime": 155000,
+    "label": "Avalon-MM WRITE 0x10 = 0x12345678",
+    "fields": {
+      "kind": "write",
+      "address_hex": "10",
+      "writedata_hex": "12345678",
+      "beats": "1",
+      "byteenable_bin": "0011",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 195000,
+    "endTime": 215000,
+    "label": "Avalon-MM READ 0x10 → 0x5678",
+    "fields": {
+      "kind": "read",
+      "address_hex": "10",
+      "readdata_hex": "5678",
+      "beats": "1",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 245000,
+    "endTime": 265000,
+    "label": "Avalon-MM READ 0x400 → 0xdeadbade",
+    "fields": {
+      "kind": "read",
+      "address_hex": "400",
+      "readdata_hex": "deadbade",
+      "beats": "1",
+      "response": "SLAVEERROR"
+    },
+    "isError": true,
+    "errorMessage": "response = SLAVEERROR (Avalon-MM error code)"
+  }
+]

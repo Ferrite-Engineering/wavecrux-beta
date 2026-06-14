@@ -1,0 +1,11 @@
+{
+  "decoder": "usb2",
+  "signal_bindings": {
+    "dp": "tb_usb_cdc_host_tx.dp_sense",
+    "dm": "tb_usb_cdc_host_tx.dn_sense"
+  },
+  "parameters": {
+    "bus_speed": "full",
+    "bit_period_ticks": 83000
+  }
+}

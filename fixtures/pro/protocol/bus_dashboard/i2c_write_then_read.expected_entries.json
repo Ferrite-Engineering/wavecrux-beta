@@ -1,0 +1,18 @@
+[
+  {
+    "direction": "write",
+    "address": "0x50",
+    "deviceName": null,
+    "payload": ["0x00", "0x01"],
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "direction": "read",
+    "address": "0x50",
+    "deviceName": null,
+    "payload": ["0xAA", "0xBB"],
+    "isError": false,
+    "errorMessage": null
+  }
+]

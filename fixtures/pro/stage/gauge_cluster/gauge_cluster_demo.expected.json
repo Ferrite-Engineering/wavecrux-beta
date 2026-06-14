@@ -1,0 +1,20 @@
+{
+  "_comment": "Expected gauge readings for gauge_cluster_demo.vcd at the cursor times exercised by the integration test. Each entry maps signalRef → (cursorTimeNs → expectedRawInteger | 'x'). The Gauge Cluster widget is configured with: gaugeCount=4, all gauges min=0/max=100, gauge0 (rpm) warning [70,90]/critical [90,100], gauge1 (temp) warning [60,80]/critical [80,100]. The expected zone column documents the renderer's expected GaugeZone for each (signal, time) pair.",
+  "vcd": "gauge_cluster_demo.vcd",
+  "config": {
+    "gaugeCount": 4,
+    "gauges": [
+      { "signal": "top.gauges.rpm",  "min": 0, "max": 100, "warning": [70, 90], "critical": [90, 100] },
+      { "signal": "top.gauges.temp", "min": 0, "max": 100, "warning": [60, 80], "critical": [80, 100] },
+      { "signal": "top.gauges.volt", "min": 0, "max": 100 },
+      { "signal": "top.gauges.psi",  "min": 0, "max": 100 }
+    ]
+  },
+  "samples": [
+    { "time": 0,   "rpm": 0,   "rpmZone": "normal",   "temp": 30,  "tempZone": "normal",   "volt": 50, "voltZone": "normal", "psi": 50,  "psiZone": "normal" },
+    { "time": 100, "rpm": 50,  "rpmZone": "normal",   "temp": 30,  "tempZone": "normal",   "volt": 50, "voltZone": "normal", "psi": 50,  "psiZone": "normal" },
+    { "time": 150, "rpm": 78,  "rpmZone": "warning",  "temp": 70,  "tempZone": "warning",  "volt": 50, "voltZone": "normal", "psi": 50,  "psiZone": "normal" },
+    { "time": 200, "rpm": 95,  "rpmZone": "critical", "temp": 70,  "tempZone": "warning",  "volt": 50, "voltZone": "normal", "psi": "x", "psiZone": "error" },
+    { "time": 250, "rpm": 95,  "rpmZone": "critical", "temp": 88,  "tempZone": "critical", "volt": 50, "voltZone": "normal", "psi": "x", "psiZone": "error" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "decoder": "ethernet_rgmii",
+  "signal_bindings": {
+    "rgmii_clk": "eth_mac_1g_rgmii.rgmii_rx_clk",
+    "rgmii_d": "eth_mac_1g_rgmii.rgmii_rxd",
+    "rgmii_ctl": "eth_mac_1g_rgmii.rgmii_rx_ctl"
+  },
+  "parameters": {
+    "direction": "rx",
+    "phase_mode": "rx-delay",
+    "link_speed": "1000"
+  }
+}

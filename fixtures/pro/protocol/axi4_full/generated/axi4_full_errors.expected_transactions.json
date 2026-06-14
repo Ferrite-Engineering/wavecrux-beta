@@ -1,0 +1,70 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 45,
+    "label": "W 0x00000100 ×1 RESERVED [OKAY]",
+    "fields": {
+      "type": "Write Burst",
+      "id": "0x0",
+      "address": "0x00000100",
+      "beats": "1",
+      "burst_type": "RESERVED",
+      "size_bytes": "4",
+      "data": "0xAAAA0001",
+      "response": "OKAY"
+    },
+    "isError": true,
+    "errorMessage": "Reserved BURST=2'b11 on AW"
+  },
+  {
+    "startTime": 75,
+    "endTime": 105,
+    "label": "W 0x00000200 ×2 INCR [OKAY]",
+    "fields": {
+      "type": "Write Burst",
+      "id": "0x1",
+      "address": "0x00000200",
+      "beats": "2",
+      "burst_type": "INCR",
+      "size_bytes": "4",
+      "data": "0xBBBB0001, 0xBBBB0002",
+      "response": "OKAY"
+    },
+    "isError": true,
+    "errorMessage": "WLAST asserted early at beat 2 of 4; Beat count mismatch: expected 4, got 2"
+  },
+  {
+    "startTime": 135,
+    "endTime": 175,
+    "label": "W 0x00000300 ×3 WRAP [OKAY]",
+    "fields": {
+      "type": "Write Burst",
+      "id": "0x2",
+      "address": "0x00000300",
+      "beats": "3",
+      "burst_type": "WRAP",
+      "size_bytes": "4",
+      "data": "0xCCCC0001, 0xCCCC0002, 0xCCCC0003",
+      "response": "OKAY"
+    },
+    "isError": true,
+    "errorMessage": "WRAP burst length must be 2/4/8/16 (AWLEN must be 1/3/7/15), got AWLEN=2"
+  },
+  {
+    "startTime": 205,
+    "endTime": 225,
+    "label": "R 0x00000400 ×2 INCR [SLVERR]",
+    "fields": {
+      "type": "Read Burst",
+      "id": "0x3",
+      "address": "0x00000400",
+      "beats": "2",
+      "burst_type": "INCR",
+      "size_bytes": "4",
+      "data": "0xDEAD0001, 0xDEAD0002",
+      "response": "SLVERR"
+    },
+    "isError": true,
+    "errorMessage": "Response: SLVERR"
+  }
+]

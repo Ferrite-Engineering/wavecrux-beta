@@ -1,0 +1,10 @@
+{
+  "decoder": "mdio",
+  "signal_bindings": {
+    "mdc": "tb_mdio_master.mdc",
+    "mdio": "tb_mdio_master.mdio"
+  },
+  "parameters": {
+    "clause": "auto"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "50% duty / 1 kHz PWM. 200 cycles, period 1 ms, half-period 500 us. 50 ms window centered at 100 ms covers 50 full cycles (49 rising-edge intervals).",
+  "timescaleSecondsPerTick": 1e-9,
+  "signal": "top.dut.pwm",
+  "cursorTime": 100000000,
+  "windowMs": 50,
+  "expected": {
+    "dutyCyclePercentApprox": 50.0,
+    "dutyCyclePercentTolerance": 0.5,
+    "frequencyHzApprox": 1000.0,
+    "frequencyHzTolerance": 1.0,
+    "risingEdgeCountApprox": 50,
+    "risingEdgeCountTolerance": 1,
+    "hasError": false,
+    "isStatic": false
+  }
+}

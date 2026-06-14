@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "packet",
+    "sofTick": 15,
+    "eofTick": 25,
+    "beatCount": 2,
+    "byteCount": 8,
+    "payloadHex": "1011121314151617",
+    "channel": 1
+  },
+  {
+    "kind": "packet",
+    "sofTick": 75,
+    "eofTick": 95,
+    "beatCount": 3,
+    "byteCount": 12,
+    "payloadHex": "202122232425262728292a2b",
+    "channel": 5
+  },
+  {
+    "kind": "packet",
+    "sofTick": 145,
+    "eofTick": 155,
+    "beatCount": 2,
+    "byteCount": 8,
+    "payloadHex": "3031323334353637",
+    "channel": 1
+  }
+]

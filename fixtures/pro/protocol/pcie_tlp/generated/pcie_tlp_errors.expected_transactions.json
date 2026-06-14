@@ -1,0 +1,73 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 45,
+    "label": "TLP-Prefix 0x30000000",
+    "fields": {
+      "fmt": "3'b100",
+      "type": "5'b00000",
+      "length_dw": "1",
+      "requester_id": "01:00.0",
+      "tag": "0x0A",
+      "first_be": "4'b1111",
+      "last_be": "4'b1111",
+      "address": "0x30000000",
+      "ph": "2'b00"
+    },
+    "isError": true,
+    "errorMessage": "Reserved Fmt=3'b100"
+  },
+  {
+    "startTime": 65,
+    "endTime": 75,
+    "label": "MRd32",
+    "fields": {
+      "fmt": "3'b000",
+      "type": "5'b00000",
+      "length_dw": "2",
+      "requester_id": "01:00.0",
+      "tag": "0x09",
+      "first_be": "4'b1111",
+      "last_be": "4'b1111"
+    },
+    "isError": true,
+    "errorMessage": "Truncated header: expected 3 DW(s), got 2"
+  },
+  {
+    "startTime": 95,
+    "endTime": 135,
+    "label": "MWr32 0x40000000 ×4",
+    "fields": {
+      "fmt": "3'b010",
+      "type": "5'b00000",
+      "length_dw": "4",
+      "requester_id": "01:00.0",
+      "tag": "0x08",
+      "first_be": "4'b1111",
+      "last_be": "4'b1111",
+      "address": "0x40000000",
+      "ph": "2'b00",
+      "data": "0xBBBB0001, 0xBBBB0002"
+    },
+    "isError": true,
+    "errorMessage": "Length mismatch: header Length=4 DW, actual 2 DW"
+  },
+  {
+    "startTime": 155,
+    "endTime": 175,
+    "label": "Cpl [UR]",
+    "fields": {
+      "fmt": "3'b000",
+      "type": "5'b01010",
+      "length_dw": "1024",
+      "completer_id": "00:10.0",
+      "cpl_status": "UR",
+      "byte_count": "0",
+      "requester_id": "01:00.0",
+      "tag": "0x09",
+      "lower_addr": "0x00"
+    },
+    "isError": true,
+    "errorMessage": "Completion status: UR"
+  }
+]

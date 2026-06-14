@@ -1,0 +1,71 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 75,
+    "label": "W 0x00001000 ×4 INCR [OKAY]",
+    "fields": {
+      "type": "Write Burst",
+      "id": "0x0",
+      "address": "0x00001000",
+      "beats": "4",
+      "burst_type": "INCR",
+      "size_bytes": "4",
+      "data": "0xDEADBEEF, 0xCAFEBABE, 0x12345678, 0xFEEDFACE",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 105,
+    "endTime": 125,
+    "label": "R 0x00002000 ×2 INCR [OKAY]",
+    "fields": {
+      "type": "Read Burst",
+      "id": "0x1",
+      "address": "0x00002000",
+      "beats": "2",
+      "burst_type": "INCR",
+      "size_bytes": "4",
+      "data": "0xA5A5A5A5, 0x5A5A5A5A",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 155,
+    "endTime": 175,
+    "label": "W 0x00003000 ×1 INCR [EXOKAY]",
+    "fields": {
+      "type": "Write Burst",
+      "id": "0x2",
+      "address": "0x00003000",
+      "beats": "1",
+      "burst_type": "INCR",
+      "size_bytes": "4",
+      "lock": "exclusive",
+      "data": "0xEEEEEEEE",
+      "response": "EXOKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 205,
+    "endTime": 245,
+    "label": "R 0x00004000 ×4 WRAP [OKAY]",
+    "fields": {
+      "type": "Read Burst",
+      "id": "0x3",
+      "address": "0x00004000",
+      "beats": "4",
+      "burst_type": "WRAP",
+      "size_bytes": "4",
+      "data": "0x11111111, 0x22222222, 0x33333333, 0x44444444",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

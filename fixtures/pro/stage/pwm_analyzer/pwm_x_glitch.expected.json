@@ -1,0 +1,12 @@
+{
+  "description": "Clean PWM with a 1 us X glitch at 25 ms. A 5 ms window centered on the glitch must surface hasError=true and null readouts.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signal": "top.dut.pwm",
+  "cursorTime": 25000000,
+  "windowMs": 5,
+  "expected": {
+    "dutyCyclePercent": null,
+    "frequencyHz": null,
+    "hasError": true
+  }
+}

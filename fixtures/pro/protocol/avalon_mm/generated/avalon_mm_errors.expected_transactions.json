@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "error",
+    "error_class": "readdatavalid_with_no_pending_read",
+    "tick": 15
+  },
+  {
+    "kind": "read",
+    "address_hex": "40000000",
+    "readdata_hex": "bad0bad0",
+    "beats": 1,
+    "response": "SLAVEERROR",
+    "sofTick": 45,
+    "eofTick": 65
+  }
+]

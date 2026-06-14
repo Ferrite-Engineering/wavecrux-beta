@@ -1,0 +1,114 @@
+From: WaveCrux Pro capture pipeline
+Subject: [PATCH] cocotb 2.0 compat + 1 GbE-only trim for eth_mac_1g_rgmii
+
+Two changes to Forencich's `test_eth_mac_1g_rgmii.py`, applied as a
+single patch by the capture pipeline:
+
+1. **cocotb 2.0 compatibility.** The upstream testbench predates the
+   cocotb 2.0 LogicArray/Logic API change. Three patterns break under
+   cocotb 2.0.1:
+     - `assert dut.speed == N` — comparing a `LogicArrayObject` to an
+       `int` no longer works implicitly; cast through `.value` and
+       `int()`.
+     - `dut.mac_gmii_tx_clk_en.value.integer` — single-bit `Logic`
+       objects no longer expose `.integer`; use `int(.value)`.
+   The upstream verilog-ethernet repo was marked **deprecated** on
+   2025-02-27 and will not receive these fixes. We patch locally.
+
+2. **Trim the test sweep to 1 GbE only.** The full sweep runs each of
+   `run_test_rx`, `run_test_tx`, `run_test_tx_underrun`, `run_test_tx_error`
+   at three link speeds (1 Gbit, 100 Mbit, 10 Mbit). At 10 Mbit the clock
+   period is 50× longer than at 1 GbE, so the 10/100 Mbit cases dominate
+   sim time and FST size. The decoder treats all three speeds identically
+   (one byte per full clock cycle on a DDR data bus); the 1 GbE case
+   covers the decode path. We also trim `size_list` from 80 frames to 12
+   frames (60..69 + 512 + 1514) — enough to exercise small/mid/jumbo
+   without redundant runt repetition. Net: FST shrinks from ~50 MB
+   (estimated, all-speeds-all-sizes) to 52 KB.
+
+Apply with `patch -p1` from inside `verilog-ethernet/tb/eth_mac_1g_rgmii/`:
+
+    patch -p1 < forencich_eth_mac_1g_rgmii_cocotb2_1gbe.patch
+
+Tested against `alexforencich/verilog-ethernet` commit
+`77320a9471d19c7dd383914bc049e02d9f4f1ffb`.
+
+---
+ test_eth_mac_1g_rgmii.py | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+diff --git a/test_eth_mac_1g_rgmii.py b/test_eth_mac_1g_rgmii.py
+--- a/test_eth_mac_1g_rgmii.py
++++ b/test_eth_mac_1g_rgmii.py
+@@ -97,11 +97,11 @@ async def run_test_rx(dut, payload_lengths=None, payload_data=None, ifg=12, spee
+         await RisingEdge(dut.rx_clk)
+
+     if speed == 10e6:
+-        assert dut.speed == 0
++        assert int(dut.speed.value) == 0
+     elif speed == 100e6:
+-        assert dut.speed == 1
++        assert int(dut.speed.value) == 1
+     else:
+-        assert dut.speed == 2
++        assert int(dut.speed.value) == 2
+
+     test_frames = [payload_data(x) for x in payload_lengths()]
+
+@@ -135,11 +135,11 @@ async def run_test_tx(dut, payload_lengths=None, payload_data=None, ifg=12, spee
+         await RisingEdge(dut.rx_clk)
+
+     if speed == 10e6:
+-        assert dut.speed == 0
++        assert int(dut.speed.value) == 0
+     elif speed == 100e6:
+-        assert dut.speed == 1
++        assert int(dut.speed.value) == 1
+     else:
+-        assert dut.speed == 2
++        assert int(dut.speed.value) == 2
+
+     test_frames = [payload_data(x) for x in payload_lengths()]
+
+@@ -181,7 +181,7 @@ async def run_test_tx_underrun(dut, ifg=12, speed=1000e6):
+     for k in range(200 if speed != 1000e6 else 100):
+         while True:
+             await RisingEdge(dut.tx_clk)
+-            if dut.mac_gmii_tx_clk_en.value.integer:
++            if int(dut.mac_gmii_tx_clk_en.value):
+                 break
+
+     tb.axis_source.pause = True
+@@ -189,7 +189,7 @@ async def run_test_tx_underrun(dut, ifg=12, speed=1000e6):
+     for k in range(10):
+         while True:
+             await RisingEdge(dut.tx_clk)
+-            if dut.mac_gmii_tx_clk_en.value.integer:
++            if int(dut.mac_gmii_tx_clk_en.value):
+                 break
+
+     tb.axis_source.pause = False
+@@ -248,7 +248,7 @@ async def run_test_tx_error(dut, ifg=12, speed=1000e6):
+
+
+ def size_list():
+-    return list(range(60, 128)) + [512, 1514] + [60]*10
++    return list(range(60, 70)) + [512, 1514]
+
+
+ def incrementing_payload(length):
+@@ -267,14 +267,14 @@ if cocotb.SIM_NAME:
+         factory.add_option("payload_lengths", [size_list])
+         factory.add_option("payload_data", [incrementing_payload])
+         factory.add_option("ifg", [12])
+-        factory.add_option("speed", [1000e6, 100e6, 10e6])
++        factory.add_option("speed", [1000e6])
+         factory.generate_tests()
+
+     for test in [run_test_tx_underrun, run_test_tx_error]:
+
+         factory = TestFactory(test)
+         factory.add_option("ifg", [12])
+-        factory.add_option("speed", [1000e6, 100e6, 10e6])
++        factory.add_option("speed", [1000e6])
+         factory.generate_tests()

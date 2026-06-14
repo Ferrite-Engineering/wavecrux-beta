@@ -1,0 +1,24 @@
+[
+  {
+    "startTime": 10,
+    "endTime": 180,
+    "label": "WREN",
+    "fields": {
+      "opcode": "0x06"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 280,
+    "endTime": 1250,
+    "label": "PP",
+    "fields": {
+      "opcode": "0x02",
+      "address": "0x012000",
+      "data": "0xAA 0xBB"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

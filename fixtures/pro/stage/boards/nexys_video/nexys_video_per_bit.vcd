@@ -1,0 +1,81 @@
+$version Hand-crafted Nexys Video per-bit fixture $end
+$comment 8 LED bits, 8 switch bits, 5 button bits, OLED MOSI, HDMI in/out pixel data, and audio sample stream — all as INDIVIDUAL per-bit signals (no vector buses). Tests the auto-bind service's per-bit fallback tier and exercises the LED / switch / button slots. $end
+$date 2026-05-04 $end
+$timescale 1ns $end
+$scope module top $end
+$var wire 1 ! led_0 $end
+$var wire 1 " led_1 $end
+$var wire 1 # led_2 $end
+$var wire 1 $ led_3 $end
+$var wire 1 % led_4 $end
+$var wire 1 & led_5 $end
+$var wire 1 ' led_6 $end
+$var wire 1 ( led_7 $end
+$var wire 1 ) sw_0 $end
+$var wire 1 * sw_1 $end
+$var wire 1 + sw_2 $end
+$var wire 1 , sw_3 $end
+$var wire 1 - sw_4 $end
+$var wire 1 . sw_5 $end
+$var wire 1 / sw_6 $end
+$var wire 1 0 sw_7 $end
+$var wire 1 1 btnC $end
+$var wire 1 2 btnU $end
+$var wire 1 3 btnL $end
+$var wire 1 4 btnR $end
+$var wire 1 5 btnD $end
+$var wire 1 6 oled_mosi $end
+$var wire 24 7 hdmi_in_data $end
+$var wire 24 8 hdmi_out_data $end
+$var wire 16 9 audio_left $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+0*
+1+
+0,
+1-
+0.
+1/
+00
+01
+02
+03
+04
+05
+06
+b000000000000000000000000 7
+b000000000000000000000000 8
+b0000000000000000 9
+$end
+#100
+1!
+0)
+b111111110000000000000000 7
+b1100110011001100 9
+#200
+1"
+1*
+b000000001111111100000000 8
+b0011001100110011 9
+#300
+1#
+01
+1)
+b000000000000000011111111 7
+b0101010101010101 9
+#400
+0!
+12
+0)
+b101010101010101010101010 8
+$end

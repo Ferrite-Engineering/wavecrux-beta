@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "error",
+    "error_class": "sop_without_eop_before_reset",
+    "sofTick": 15
+  },
+  {
+    "kind": "packet",
+    "sofTick": 35,
+    "eofTick": 35,
+    "beatCount": 1,
+    "byteCount": 4,
+    "payloadHex": "10111213"
+  },
+  {
+    "kind": "packet",
+    "sofTick": 85,
+    "eofTick": 95,
+    "beatCount": 2,
+    "byteCount": 8,
+    "payloadHex": "2021222324252627",
+    "beatError": true
+  },
+  {
+    "kind": "reset_abort",
+    "sofTick": 145,
+    "tick": 175,
+    "bytesDropped": 12
+  }
+]

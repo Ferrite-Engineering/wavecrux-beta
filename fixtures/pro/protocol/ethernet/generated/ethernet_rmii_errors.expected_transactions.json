@@ -1,0 +1,58 @@
+[
+  {
+    "direction": "RX",
+    "sofTick": 15,
+    "eofTick": 2565,
+    "byteCount": 64,
+    "errorAsserted": false,
+    "truncated": false
+  },
+  {
+    "direction": "RX",
+    "sofTick": 2785,
+    "eofTick": 5335,
+    "byteCount": 64,
+    "errorAsserted": true,
+    "truncated": false
+  },
+  {
+    "direction": "TX",
+    "sofTick": 5555,
+    "eofTick": 8105,
+    "byteCount": 64,
+    "errorAsserted": false,
+    "truncated": false
+  },
+  {
+    "direction": "TX",
+    "sofTick": 8325,
+    "eofTick": 10875,
+    "byteCount": 64,
+    "errorAsserted": true,
+    "truncated": false
+  },
+  {
+    "direction": "RX",
+    "sofTick": 11095,
+    "eofTick": 13645,
+    "byteCount": 64,
+    "errorAsserted": false,
+    "truncated": false
+  },
+  {
+    "direction": "RX",
+    "sofTick": 13865,
+    "eofTick": 16405,
+    "byteCount": 63,
+    "errorAsserted": false,
+    "truncated": true
+  },
+  {
+    "direction": "RX",
+    "sofTick": 16625,
+    "eofTick": 19175,
+    "byteCount": 64,
+    "errorAsserted": false,
+    "truncated": false
+  }
+]

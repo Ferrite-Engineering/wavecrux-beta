@@ -1,0 +1,41 @@
+[
+  {
+    "startTime": 1000,
+    "endTime": 21000,
+    "label": "UART TX: Hi",
+    "fields": {
+      "channel": "TX",
+      "data": "0x48 0x69",
+      "ascii": "Hi",
+      "bytes": "2"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 32000,
+    "endTime": 42000,
+    "label": "UART TX: U",
+    "fields": {
+      "channel": "TX",
+      "data": "0x55",
+      "ascii": "U",
+      "bytes": "1"
+    },
+    "isError": true,
+    "errorMessage": "Framing error: stop bit low"
+  },
+  {
+    "startTime": 35000,
+    "endTime": 55000,
+    "label": "UART RX: OK",
+    "fields": {
+      "channel": "RX",
+      "data": "0x4F 0x4B",
+      "ascii": "OK",
+      "bytes": "2"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

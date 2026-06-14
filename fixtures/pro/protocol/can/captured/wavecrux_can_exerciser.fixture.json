@@ -1,0 +1,14 @@
+{
+  "decoder": "can",
+  "signal_bindings": {
+    "can_rx": "tb_can_exerciser.can_rx"
+  },
+  "parameters": {
+    "format": "auto",
+    "protocol": "can",
+    "fd_iso": true,
+    "nominal_bit_period": 2000000,
+    "data_bit_period": 0,
+    "sample_point": 75
+  }
+}

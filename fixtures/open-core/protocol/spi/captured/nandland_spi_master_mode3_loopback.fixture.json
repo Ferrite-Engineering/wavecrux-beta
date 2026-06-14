@@ -1,0 +1,16 @@
+{
+  "decoder": "spi",
+  "signal_bindings": {
+    "sclk": "SPI_Master_With_Single_CS_TB.w_SPI_Clk",
+    "mosi": "SPI_Master_With_Single_CS_TB.w_SPI_MOSI",
+    "miso": "SPI_Master_With_Single_CS_TB.w_SPI_MOSI",
+    "cs": "SPI_Master_With_Single_CS_TB.w_SPI_CS_n"
+  },
+  "parameters": {
+    "cpol": "1",
+    "cpha": "1",
+    "bit_order": "msb",
+    "word_size": 8,
+    "cs_active_level": "0"
+  }
+}

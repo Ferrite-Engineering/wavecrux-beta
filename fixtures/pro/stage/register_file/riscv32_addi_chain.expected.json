@@ -1,0 +1,39 @@
+{
+  "description": "RV32I-style 4-write ADDI chain. Cursor at 100 ns covers all four writes; backward seek to 40 ns drops the latter two.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": "top.dut.clk",
+    "wp1Address": "top.dut.wp1_addr",
+    "wp1Data": "top.dut.wp1_data",
+    "wp1Enable": "top.dut.wp1_en"
+  },
+  "config": {
+    "registerCount": 32,
+    "registerWidth": 32,
+    "naming": "riscvAbi"
+  },
+  "cursorTime": 100,
+  "expectedSnapshot": {
+    "totalAccessCount": 4,
+    "mostRecentAccessIndex": 15,
+    "mostRecentAccessTime": 70,
+    "cells": {
+      "10": { "name": "a0", "value": "0x00000005", "lastWriteTime": 10 },
+      "11": { "name": "a1", "value": "0x00000003", "lastWriteTime": 30 },
+      "14": { "name": "a4", "value": "0x00000008", "lastWriteTime": 50 },
+      "15": { "name": "a5", "value": "0x00000007", "lastWriteTime": 70 }
+    }
+  },
+  "backwardSeek": {
+    "cursorTime": 40,
+    "expectedSnapshot": {
+      "totalAccessCount": 2,
+      "mostRecentAccessIndex": 11,
+      "mostRecentAccessTime": 30,
+      "cells": {
+        "10": { "name": "a0", "value": "0x00000005", "lastWriteTime": 10 },
+        "11": { "name": "a1", "value": "0x00000003", "lastWriteTime": 30 }
+      }
+    }
+  }
+}

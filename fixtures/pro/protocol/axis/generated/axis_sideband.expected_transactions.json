@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "packet",
+    "sofTick": 15,
+    "eofTick": 25,
+    "beatCount": 2,
+    "byteCount": 8,
+    "payloadHex": "1011121314151617",
+    "tuser": 0,
+    "tdestSeen": [
+      5
+    ],
+    "tidSeen": [
+      1
+    ],
+    "tkeepDiscontinuity": false
+  },
+  {
+    "kind": "packet",
+    "sofTick": 95,
+    "eofTick": 115,
+    "beatCount": 3,
+    "byteCount": 12,
+    "payloadHex": "202122232425262728292a2b",
+    "tuser": 0,
+    "tdestSeen": [
+      9
+    ],
+    "tidSeen": [
+      2
+    ],
+    "tkeepDiscontinuity": false
+  },
+  {
+    "kind": "packet",
+    "sofTick": 185,
+    "eofTick": 195,
+    "beatCount": 2,
+    "byteCount": 8,
+    "payloadHex": "3031323334353637",
+    "tuser": 10,
+    "tdestSeen": [
+      9
+    ],
+    "tidSeen": [
+      2
+    ],
+    "tkeepDiscontinuity": false
+  }
+]

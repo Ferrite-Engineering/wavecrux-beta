@@ -1,0 +1,10 @@
+{
+  "decoder": "i2c",
+  "signal_bindings": {
+    "sda": "tb_i2c_master_slave.sda",
+    "scl": "tb_i2c_master_slave.scl"
+  },
+  "parameters": {
+    "address_bits": "7"
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "sofTick": 15,
+    "eofTick": 645,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 865,
+    "eofTick": 1495,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 1715,
+    "eofTick": 2345,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 2565,
+    "eofTick": 2955,
+    "byteCount": 40,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 3175,
+    "eofTick": 3805,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 4025,
+    "eofTick": 4655,
+    "byteCount": 64,
+    "tuserError": true,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 4875,
+    "eofTick": 5505,
+    "byteCount": 64,
+    "tuserError": false,
+    "tkeepDiscontinuity": false
+  },
+  {
+    "sofTick": 5725,
+    "eofTick": 6305,
+    "byteCount": 59,
+    "tuserError": false,
+    "tkeepDiscontinuity": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "startTime": 110000,
+    "endTime": 170000,
+    "label": "IR = 0x8",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x8",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1000 (MSB first)",
+      "tdo_bits": "0000 (MSB first)"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 200000,
+    "endTime": 540000,
+    "label": "DR = 0x00000000 (32 bits)",
+    "fields": {
+      "kind": "DR",
+      "bits": "32",
+      "tdi_hex": "0x00000000",
+      "tdo_hex": "0xF77DB57B",
+      "tdi_bits": "00000000000000000000000000000000 (MSB first)",
+      "tdo_bits": "11110111011111011011010101111011 (MSB first)"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 580000,
+    "endTime": 640000,
+    "label": "IR = 0xF",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0xF",
+      "tdo_hex": "0x8",
+      "tdi_bits": "1111 (MSB first)",
+      "tdo_bits": "1000 (MSB first)"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 670000,
+    "endTime": 730000,
+    "label": "DR = 0x5 (4 bits)",
+    "fields": {
+      "kind": "DR",
+      "bits": "4",
+      "tdi_hex": "0x5",
+      "tdo_hex": "0x2",
+      "tdi_bits": "0101 (MSB first)",
+      "tdo_bits": "0010 (MSB first)"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

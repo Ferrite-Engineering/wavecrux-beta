@@ -1,0 +1,38 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 15,
+    "label": "R 0x00000100 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000100",
+      "data": "0x12345678",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "5",
+      "data_phase_start": "5"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 25,
+    "label": "W 0x00000200 = 0xDEADBEEF",
+    "fields": {
+      "type": "Write",
+      "address": "0x00000200",
+      "data": "0xDEADBEEF",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "0",
+      "addr_phase_start": "15",
+      "data_phase_start": "15"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "startTime": 16000000,
+    "endTime": 136000000,
+    "label": "DATA 0x123 [2]",
+    "fields": {
+      "type": "Data Frame",
+      "id": "0x123",
+      "ide": "Standard (11-bit)",
+      "dlc": "2",
+      "data": "AB CD"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

@@ -1,0 +1,68 @@
+name: 🐞 Bug report
+description: Something in WaveCrux is broken or behaves incorrectly.
+title: "[Bug]: "
+labels: ["bug", "beta-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the WaveCrux beta!
+
+        **Tip:** the easiest way to file a bug is from inside the app —
+        **Help → Submit Issue** — which fills in your version, platform, and an
+        optional diagnostics snapshot for you. Use this form if you'd rather
+        report by hand.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Opened my_sim.fst
+        2. Bound the AXI4-Lite decoder to the bus
+        3. Expected a write to 0x40; WaveCrux showed a read
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A numbered list we can follow exactly.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Web
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WaveCrux version / build SHA
+      description: From **About WaveCrux** (the in-app reporter fills this in automatically).
+      placeholder: "e.g. beta 678941f"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics (optional)
+      description: |
+        Paste the diagnostics report from **Help → Submit Issue** if you have it.
+        Do **not** paste proprietary signal values or file contents.
+      render: text
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        **Got a waveform that reproduces this?** A trace that breaks a decoder is
+        the most valuable thing you can attach — see
+        [Submitting a Test Fixture](https://github.com/Ferrite-Engineering/wavecrux-beta/blob/main/docs/SUBMITTING_FIXTURES.md).
+        Please only attach files you can share under a permissive license.

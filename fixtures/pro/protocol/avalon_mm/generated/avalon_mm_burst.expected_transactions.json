@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "write",
+    "kind_detail": "burst_write",
+    "address_hex": "20000000",
+    "beats": 4,
+    "writedata_beats": "a0a0a0a0,b1b1b1b1,c2c2c2c2,d3d3d3d3",
+    "response": "OKAY",
+    "sofTick": 15,
+    "eofTick": 45
+  },
+  {
+    "kind": "read",
+    "address_hex": "20000010",
+    "readdata_hex": "e4e4e4e4",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 85,
+    "eofTick": 85
+  }
+]

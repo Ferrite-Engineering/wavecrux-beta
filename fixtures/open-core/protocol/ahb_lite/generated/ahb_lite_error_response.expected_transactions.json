@@ -1,0 +1,20 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 25,
+    "label": "W 0x00000300 = 0xBADF00D1 [ERROR]",
+    "fields": {
+      "type": "Write",
+      "address": "0x00000300",
+      "data": "0xBADF00D1",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "ERROR",
+      "wait_states": "1",
+      "addr_phase_start": "5",
+      "data_phase_start": "5"
+    },
+    "isError": true,
+    "errorMessage": "Response = ERROR"
+  }
+]

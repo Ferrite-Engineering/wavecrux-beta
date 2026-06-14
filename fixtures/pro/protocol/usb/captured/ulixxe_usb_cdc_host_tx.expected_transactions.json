@@ -1,0 +1,54 @@
+[
+  {
+    "startTime": 1743000,
+    "endTime": 4648000,
+    "label": "USB SOF · frame=291",
+    "fields": {
+      "pid": "0xA5",
+      "pidName": "SOF",
+      "frame": "291",
+      "crc5": "0x1E"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 5395000,
+    "endTime": 8300000,
+    "label": "USB SETUP · addr=0x00 ep=0",
+    "fields": {
+      "pid": "0x2D",
+      "pidName": "SETUP",
+      "address": "0x00",
+      "endpoint": "0",
+      "crc5": "0x02"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 8549000,
+    "endTime": 16766000,
+    "label": "USB DATA0 · 8 B: 0x80 0x06 0x00 0x01 0x00 0x00 0x40 0x00",
+    "fields": {
+      "pid": "0xC3",
+      "pidName": "DATA0",
+      "bytes": "8",
+      "data": "0x80 0x06 0x00 0x01 0x00 0x00 0x40 0x00",
+      "crc16": "0x94DD"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 17015000,
+    "endTime": 18592000,
+    "label": "USB ACK",
+    "fields": {
+      "pid": "0xD2",
+      "pidName": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

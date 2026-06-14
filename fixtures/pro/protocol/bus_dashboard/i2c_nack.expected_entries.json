@@ -1,0 +1,10 @@
+[
+  {
+    "direction": "write",
+    "address": "0x42",
+    "deviceName": null,
+    "payload": [],
+    "isError": true,
+    "errorMessage": "Address phase NACK"
+  }
+]

@@ -1,0 +1,38 @@
+name: 💡 Feature request
+description: Suggest a capability or improvement for WaveCrux.
+title: "[Feature]: "
+labels: ["enhancement", "beta-feedback"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow or goal, not just the widget — it helps us find the best solution.
+      placeholder: "When debugging a hung AXI transaction I want to…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like WaveCrux to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this today?
+      description: Other tools, workarounds, or GTKWave behavior you rely on.
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform(s) this matters for
+      multiple: true
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Web
+    validations:
+      required: false

@@ -1,0 +1,152 @@
+[
+  {
+    "startTime": 80000,
+    "endTime": 80000,
+    "label": "R 0x00000000 → 0x3FC00093",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000000",
+      "data": "0x3FC00093",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 140000,
+    "endTime": 140000,
+    "label": "R 0x00000004 → 0x0000A023",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000004",
+      "data": "0x0000A023",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 200000,
+    "endTime": 200000,
+    "label": "R 0x00000008 → 0x0000A103",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000008",
+      "data": "0x0000A103",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 250000,
+    "endTime": 250000,
+    "label": "W 0x000003FC = 0x00000000",
+    "fields": {
+      "type": "Write",
+      "cycle": "Classic",
+      "address": "0x000003FC",
+      "data": "0x00000000",
+      "termination": "ACK",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 310000,
+    "endTime": 310000,
+    "label": "R 0x0000000C → 0x00110113",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x0000000C",
+      "data": "0x00110113",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 360000,
+    "endTime": 360000,
+    "label": "R 0x000003FC → 0x00000000",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x000003FC",
+      "data": "0x00000000",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 420000,
+    "endTime": 420000,
+    "label": "R 0x00000010 → 0x0020A023",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000010",
+      "data": "0x0020A023",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 480000,
+    "endTime": 480000,
+    "label": "R 0x00000014 → 0xFF5FF06F",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000014",
+      "data": "0xFF5FF06F",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 530000,
+    "endTime": 530000,
+    "label": "W 0x000003FC = 0x00000001",
+    "fields": {
+      "type": "Write",
+      "cycle": "Classic",
+      "address": "0x000003FC",
+      "data": "0x00000001",
+      "termination": "ACK",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 590000,
+    "endTime": 590000,
+    "label": "R 0x00000008 → 0x0000A103",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000008",
+      "data": "0x0000A103",
+      "termination": "ACK",
+      "sel": "0x0"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

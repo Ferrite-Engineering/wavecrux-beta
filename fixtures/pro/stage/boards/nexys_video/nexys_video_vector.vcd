@@ -1,0 +1,54 @@
+$version Hand-crafted Nexys Video vector fixture $end
+$comment 8-bit LEDs vector, 8-bit switches vector, individual buttons, OLED MOSI, HDMI in/out 24-bit pixel data, 16-bit audio sample. Tests the auto-bind service's vector fan-out tier across the led / sw families and validates singleton-slot binding. $end
+$date 2026-05-04 $end
+$timescale 1ns $end
+$scope module top $end
+$var wire 8 ! leds $end
+$var wire 8 " sws $end
+$var wire 1 # btnC $end
+$var wire 1 $ btnU $end
+$var wire 1 % btnL $end
+$var wire 1 & btnR $end
+$var wire 1 ' btnD $end
+$var wire 1 ( oled_mosi $end
+$var wire 24 ) hdmi_in_data $end
+$var wire 24 * hdmi_out_data $end
+$var wire 16 + audio_left $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000 !
+b10101010 "
+0#
+0$
+0%
+0&
+0'
+0(
+b000000000000000000000000 )
+b000000000000000000000000 *
+b0000000000000000 +
+$end
+#100
+b00000001 !
+b01010101 "
+1#
+b111111110000000000000000 )
+b1100110011001100 +
+#200
+b00000011 !
+1$
+b000000001111111100000000 *
+b0011001100110011 +
+#300
+b00001111 !
+b11110000 "
+0#
+1(
+b000000000000000011111111 )
+b0101010101010101 +
+#400
+b11111111 !
+0$
+b101010101010101010101010 *
+$end

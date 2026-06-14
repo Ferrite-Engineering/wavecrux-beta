@@ -1,0 +1,28 @@
+{
+  "description": "Unclocked memfill — clock binding empty; we=1 throughout. Each data-bus transition emits a write event.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": null,
+    "writeEnable": "top.dut.we",
+    "readEnable": "top.dut.re",
+    "addressBus": "top.dut.addr",
+    "dataBus": "top.dut.data"
+  },
+  "config": {
+    "mapBaseAddress": 0,
+    "mapWordCount": 16,
+    "wordSize": 4
+  },
+  "cursorTime": 80,
+  "expectedSnapshot": {
+    "totalAccessCount": 4,
+    "mostRecentAccessIndex": 3,
+    "mostRecentAccessTime": 40,
+    "cells": {
+      "0": { "value": "0xDEADBEEF", "lastWriteTime": 10, "lastReadTime": null },
+      "1": { "value": "0xCAFEBABE", "lastWriteTime": 20, "lastReadTime": null },
+      "2": { "value": "0x12345678", "lastWriteTime": 30, "lastReadTime": null },
+      "3": { "value": "0x00000000", "lastWriteTime": 40, "lastReadTime": null }
+    }
+  }
+}

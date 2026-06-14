@@ -1,0 +1,13 @@
+[
+  {
+    "startTime": 10,
+    "endTime": 660,
+    "label": "RDID",
+    "fields": {
+      "opcode": "0x9F",
+      "jedec_id": "0xEF-0x40-0x18"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

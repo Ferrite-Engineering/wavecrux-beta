@@ -1,0 +1,27 @@
+[
+  {
+    "startTime": 50,
+    "endTime": 820,
+    "label": "I²C 0x48 W 0x55",
+    "fields": {
+      "address": "0x48",
+      "rw": "W",
+      "data": "0x55",
+      "ack": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 900,
+    "endTime": 1340,
+    "label": "I²C 0x20 W NACK",
+    "fields": {
+      "address": "0x20",
+      "rw": "W",
+      "ack": "NACK"
+    },
+    "isError": true,
+    "errorMessage": "Address phase NACK"
+  }
+]

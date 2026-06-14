@@ -1,0 +1,83 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 85,
+    "label": "MWr32 0x10000000 ×4",
+    "fields": {
+      "fmt": "3'b010",
+      "type": "5'b00000",
+      "tc": "0",
+      "attr": "2'b00",
+      "at": "2'b00",
+      "length_dw": "4",
+      "requester_id": "01:00.0",
+      "tag": "0x05",
+      "first_be": "4'b1111",
+      "last_be": "4'b1111",
+      "address": "0x10000000",
+      "ph": "2'b00",
+      "data": "0xCAFE0001, 0xCAFE0002, 0xCAFE0003, 0xCAFE0004"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 105,
+    "endTime": 125,
+    "label": "MRd32 0x20000000",
+    "fields": {
+      "fmt": "3'b000",
+      "type": "5'b00000",
+      "tc": "0",
+      "length_dw": "2",
+      "requester_id": "01:00.0",
+      "tag": "0x06",
+      "first_be": "4'b1111",
+      "last_be": "4'b1111",
+      "address": "0x20000000",
+      "ph": "2'b00"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 145,
+    "endTime": 175,
+    "label": "CplD [SC] ×1",
+    "fields": {
+      "fmt": "3'b010",
+      "type": "5'b01010",
+      "tc": "0",
+      "length_dw": "1",
+      "completer_id": "00:10.0",
+      "cpl_status": "SC",
+      "byte_count": "4",
+      "requester_id": "01:00.0",
+      "tag": "0x06",
+      "lower_addr": "0x00",
+      "data": "0xDEADBEEF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 195,
+    "endTime": 225,
+    "label": "CfgWr0 reg=0x010 ×1",
+    "fields": {
+      "fmt": "3'b010",
+      "type": "5'b00100",
+      "tc": "0",
+      "length_dw": "1",
+      "requester_id": "01:00.0",
+      "tag": "0x07",
+      "first_be": "4'b1111",
+      "last_be": "4'b0000",
+      "target_id": "01:00.0",
+      "register": "0x010",
+      "data": "0x00000007"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

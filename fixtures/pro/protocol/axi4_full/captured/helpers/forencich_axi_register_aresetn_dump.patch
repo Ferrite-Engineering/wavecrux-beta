@@ -1,0 +1,33 @@
+From: WaveCrux Pro capture pipeline
+Subject: [PATCH] Add `aresetn` (active-low) to the FST dump (axi_register)
+
+Sibling of `forencich_aresetn_dump.patch` (which targets `tb/axi_ram/`)
+— same idea, retargeted at the `axi_register` testbench. The Pro
+`Axi4FullDecoder` requires an `aresetn` binding (active-low synchronous
+reset). Forencich's testbenches drive `rst` active-high. We expose the
+inverted reset in the same testbench-side dump scope so the FST carries
+the signal natively — no DUT modification, no decoder change.
+
+Apply with `patch -p1` from inside `verilog-axi/tb/axi_register/`:
+
+    patch -p1 < forencich_axi_register_aresetn_dump.patch
+
+Tested against `alexforencich/verilog-axi` commit
+`516bd5dadc3365b7f9e225d2af8fe0b8d804fe53`.
+
+---
+ iverilog_dump.v | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/iverilog_dump.v b/iverilog_dump.v
+--- a/iverilog_dump.v
++++ b/iverilog_dump.v
+@@ -1,6 +1,8 @@
+ module iverilog_dump();
++wire aresetn = !axi_register.rst;
+ initial begin
+     $dumpfile("axi_register.fst");
+     $dumpvars(0, axi_register);
++    $dumpvars(0, iverilog_dump.aresetn);
+ end
+ endmodule

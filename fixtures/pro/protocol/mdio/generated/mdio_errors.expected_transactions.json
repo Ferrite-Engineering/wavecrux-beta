@@ -1,0 +1,110 @@
+[
+  {
+    "startTime": 4,
+    "endTime": 128,
+    "label": "R 0x01.0x02 → 0x55AA",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x02",
+      "ta": "z0",
+      "data": "0x55AA",
+      "frame_hex": "0x608855AA",
+      "op": "R"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 164,
+    "endTime": 288,
+    "label": "Invalid C22 OP=11",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x02",
+      "ta": "10",
+      "data": "0x0000",
+      "frame_hex": "0x708A0000",
+      "op": "INVALID"
+    },
+    "isError": true,
+    "errorMessage": "Invalid OP code"
+  },
+  {
+    "startTime": 324,
+    "endTime": 448,
+    "label": "W 0x01.0x10 = 0xABCD",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x10",
+      "ta": "10",
+      "data": "0xABCD",
+      "frame_hex": "0x50C2ABCD",
+      "op": "W"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 484,
+    "endTime": 608,
+    "label": "R 0x01.0x02 → 0x0000 [Bad TA]",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x01",
+      "regad": "0x02",
+      "ta": "z1",
+      "data": "0x0000",
+      "frame_hex": "0x60890000",
+      "op": "R"
+    },
+    "isError": true,
+    "errorMessage": "Bad turnaround — slave did not drive"
+  },
+  {
+    "startTime": 644,
+    "endTime": 768,
+    "label": "W 0x03.0x1F = 0xBABE",
+    "fields": {
+      "clause": "45",
+      "prtad": "0x03",
+      "devad": "0x1F",
+      "ta": "10",
+      "frame_hex": "0x11FEBABE",
+      "op": "W",
+      "data": "0xBABE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 804,
+    "endTime": 900,
+    "label": "Truncated MDIO frame (24/32 bits)",
+    "fields": {
+      "bits_captured": "24",
+      "frame_hex": "0x508A12",
+      "error": "Truncated MDIO frame"
+    },
+    "isError": true,
+    "errorMessage": "Truncated MDIO frame (got 24/32 bits)"
+  },
+  {
+    "startTime": 948,
+    "endTime": 1072,
+    "label": "W 0x17.0x02 = 0x1234 [X/Z]",
+    "fields": {
+      "clause": "22",
+      "phyad": "0x17",
+      "regad": "0x02",
+      "ta": "10",
+      "data": "0x1234",
+      "frame_hex": "0x5B8A1234",
+      "op": "W"
+    },
+    "isError": true,
+    "errorMessage": "X/Z value on MDIO at bit 5"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 5,
+    "label": "mul a0, a1, a2",
+    "fields": {
+      "mnemonic": "mul",
+      "disasm": "mul a0, a1, a2",
+      "raw": "0x02C58533",
+      "isa": "RV32M"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "div a0, a1, a2",
+    "fields": {
+      "mnemonic": "div",
+      "disasm": "div a0, a1, a2",
+      "raw": "0x02C5C533",
+      "isa": "RV32M"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "divu a0, a1, a2",
+    "fields": {
+      "mnemonic": "divu",
+      "disasm": "divu a0, a1, a2",
+      "raw": "0x02C5D533",
+      "isa": "RV32M"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "rem a0, a1, a2",
+    "fields": {
+      "mnemonic": "rem",
+      "disasm": "rem a0, a1, a2",
+      "raw": "0x02C5E533",
+      "isa": "RV32M"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

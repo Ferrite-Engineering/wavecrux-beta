@@ -1,0 +1,80 @@
+[
+  {
+    "startTime": 80,
+    "endTime": 430,
+    "label": "USB SETUP · addr=0x12 ep=3",
+    "fields": {
+      "pid": "0x2D",
+      "pidName": "SETUP",
+      "address": "0x12",
+      "endpoint": "3",
+      "crc5": "0x1A"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 510,
+    "endTime": 860,
+    "label": "USB SETUP · addr=0x12 ep=3",
+    "fields": {
+      "pid": "0x2D",
+      "pidName": "SETUP",
+      "address": "0x12",
+      "endpoint": "3",
+      "crc5": "0x1B"
+    },
+    "isError": true,
+    "errorMessage": "CRC5 mismatch (received 0x1b, computed 0x1a)"
+  },
+  {
+    "startTime": 940,
+    "endTime": 1940,
+    "label": "USB DATA0 · 8 B: 0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+    "fields": {
+      "pid": "0xC3",
+      "pidName": "DATA0",
+      "bytes": "8",
+      "data": "0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+      "crc16": "0x1F2C"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 2020,
+    "endTime": 3020,
+    "label": "USB DATA0 · 8 B: 0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+    "fields": {
+      "pid": "0xC3",
+      "pidName": "DATA0",
+      "bytes": "8",
+      "data": "0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+      "crc16": "0x1F2D"
+    },
+    "isError": true,
+    "errorMessage": "CRC16 mismatch (received 0x1F2D, computed 0x1F2C)"
+  },
+  {
+    "startTime": 3100,
+    "endTime": 3290,
+    "label": "USB ACK",
+    "fields": {
+      "pid": "0xD2",
+      "pidName": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 3370,
+    "endTime": 3560,
+    "label": "USB ACK",
+    "fields": {
+      "pid": "0xC2",
+      "pidName": "ACK"
+    },
+    "isError": true,
+    "errorMessage": "PID inverted-check mismatch (0xC2)"
+  }
+]

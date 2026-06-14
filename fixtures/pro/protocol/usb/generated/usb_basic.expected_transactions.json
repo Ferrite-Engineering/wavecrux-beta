@@ -1,0 +1,104 @@
+[
+  {
+    "startTime": 80,
+    "endTime": 430,
+    "label": "USB SETUP · addr=0x12 ep=3",
+    "fields": {
+      "pid": "0x2D",
+      "pidName": "SETUP",
+      "address": "0x12",
+      "endpoint": "3",
+      "crc5": "0x1A"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 510,
+    "endTime": 1510,
+    "label": "USB DATA0 · 8 B: 0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+    "fields": {
+      "pid": "0xC3",
+      "pidName": "DATA0",
+      "bytes": "8",
+      "data": "0xDE 0xAD 0xBE 0xEF 0xCA 0xFE 0xBA 0xBE",
+      "crc16": "0x1F2C"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 1590,
+    "endTime": 1780,
+    "label": "USB ACK",
+    "fields": {
+      "pid": "0xD2",
+      "pidName": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 1860,
+    "endTime": 2210,
+    "label": "USB SOF · frame=42",
+    "fields": {
+      "pid": "0xA5",
+      "pidName": "SOF",
+      "frame": "42",
+      "crc5": "0x0A"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 2290,
+    "endTime": 2640,
+    "label": "USB IN · addr=0x12 ep=4",
+    "fields": {
+      "pid": "0x69",
+      "pidName": "IN",
+      "address": "0x12",
+      "endpoint": "4",
+      "crc5": "0x03"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 2720,
+    "endTime": 2910,
+    "label": "USB NAK",
+    "fields": {
+      "pid": "0x5A",
+      "pidName": "NAK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 2990,
+    "endTime": 3340,
+    "label": "USB DATA1 · empty",
+    "fields": {
+      "pid": "0x4B",
+      "pidName": "DATA1",
+      "bytes": "0",
+      "data": "",
+      "crc16": "0x0000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 3420,
+    "endTime": 3610,
+    "label": "USB ACK",
+    "fields": {
+      "pid": "0xD2",
+      "pidName": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

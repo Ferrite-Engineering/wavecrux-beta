@@ -1,0 +1,27 @@
+{
+  "description": "Clocked memfill with X data on the second write (addr 0x04). Address gets marked written but cell value remains null.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": "top.dut.clk",
+    "writeEnable": "top.dut.we",
+    "readEnable": "top.dut.re",
+    "addressBus": "top.dut.addr",
+    "dataBus": "top.dut.data"
+  },
+  "config": {
+    "mapBaseAddress": 0,
+    "mapWordCount": 16,
+    "wordSize": 4
+  },
+  "cursorTime": 80,
+  "expectedSnapshot": {
+    "totalAccessCount": 3,
+    "mostRecentAccessIndex": 2,
+    "mostRecentAccessTime": 50,
+    "cells": {
+      "0": { "value": "0xDEADBEEF", "lastWriteTime": 10, "lastReadTime": null },
+      "1": { "value": null, "lastWriteTime": 30, "lastReadTime": null, "hasUnknownData": true },
+      "2": { "value": "0x12345678", "lastWriteTime": 50, "lastReadTime": null }
+    }
+  }
+}

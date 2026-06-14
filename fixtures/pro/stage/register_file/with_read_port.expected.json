@@ -1,0 +1,28 @@
+{
+  "description": "Three writes followed by read-port-1 toggling through addresses 1/2/3. Read events update lastReadByPort but never overwrite cell values.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": "top.dut.clk",
+    "wp1Address": "top.dut.wp1_addr",
+    "wp1Data": "top.dut.wp1_data",
+    "wp1Enable": "top.dut.wp1_en",
+    "rp1Address": "top.dut.rp1_addr",
+    "rp1Data": "top.dut.rp1_data"
+  },
+  "config": {
+    "registerCount": 32,
+    "registerWidth": 32,
+    "naming": "numeric",
+    "enableReadPort1": true
+  },
+  "cursorTime": 100,
+  "expectedSnapshot": {
+    "totalAccessCount": 6,
+    "lastReadByPort": { "readPort1": 3 },
+    "cells": {
+      "1": { "value": "0x000000AA", "lastWriteTime": 10, "lastReadTime": 65 },
+      "2": { "value": "0x000000BB", "lastWriteTime": 30, "lastReadTime": 75 },
+      "3": { "value": "0x000000CC", "lastWriteTime": 50, "lastReadTime": 85 }
+    }
+  }
+}

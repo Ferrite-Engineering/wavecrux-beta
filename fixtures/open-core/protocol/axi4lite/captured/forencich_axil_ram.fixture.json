@@ -1,0 +1,30 @@
+{
+  "decoder": "axi4_lite",
+  "signal_bindings": {
+    "aclk": "axil_ram.clk",
+    "aresetn": "iverilog_dump.aresetn",
+    "awaddr": "axil_ram.s_axil_awaddr",
+    "awvalid": "axil_ram.s_axil_awvalid",
+    "awready": "axil_ram.s_axil_awready",
+    "wdata": "axil_ram.s_axil_wdata",
+    "wvalid": "axil_ram.s_axil_wvalid",
+    "wready": "axil_ram.s_axil_wready",
+    "wstrb": "axil_ram.s_axil_wstrb",
+    "bresp": "axil_ram.s_axil_bresp",
+    "bvalid": "axil_ram.s_axil_bvalid",
+    "bready": "axil_ram.s_axil_bready",
+    "araddr": "axil_ram.s_axil_araddr",
+    "arvalid": "axil_ram.s_axil_arvalid",
+    "arready": "axil_ram.s_axil_arready",
+    "rdata": "axil_ram.s_axil_rdata",
+    "rresp": "axil_ram.s_axil_rresp",
+    "rvalid": "axil_ram.s_axil_rvalid",
+    "rready": "axil_ram.s_axil_rready",
+    "awprot": "axil_ram.s_axil_awprot",
+    "arprot": "axil_ram.s_axil_arprot"
+  },
+  "parameters": {
+    "addr_width": 16,
+    "data_width": 32
+  }
+}

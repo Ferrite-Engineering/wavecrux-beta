@@ -1,0 +1,98 @@
+$timescale 1 ns $end
+$scope module spi_flash_tb $end
+$var wire 1 ! sclk $end
+$var wire 1 " mosi $end
+$var wire 1 # miso $end
+$var wire 1 % cs $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+1%
+$end
+$comment
+  Fixture: spi_flash_rdsr
+  Transaction 1: MOSI=[0x05 0x00]  MISO=[0x00 0x02]
+$end
+#10
+0%
+#20
+1!
+#30
+0!
+#40
+1!
+#50
+0!
+#60
+1!
+#70
+0!
+#80
+1!
+#90
+0!
+#100
+1!
+#110
+0!
+#115
+1"
+#120
+1!
+#130
+0!
+#135
+0"
+#140
+1!
+#150
+0!
+#155
+1"
+#160
+1!
+#170
+0!
+#175
+0"
+#180
+1!
+#190
+0!
+#200
+1!
+#210
+0!
+#220
+1!
+#230
+0!
+#240
+1!
+#250
+0!
+#260
+1!
+#270
+0!
+#280
+1!
+#290
+0!
+#295
+1#
+#300
+1!
+#310
+0!
+#315
+0#
+#320
+1!
+#330
+0!
+#340
+1%

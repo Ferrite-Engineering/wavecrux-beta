@@ -1,0 +1,23 @@
+{
+  "decoder": "avalon_mm",
+  "signal_bindings": {
+    "clk": "tb_avalon_mm_exerciser.clk",
+    "reset": "tb_avalon_mm_exerciser.reset",
+    "address": "tb_avalon_mm_exerciser.address",
+    "read": "tb_avalon_mm_exerciser.read",
+    "write": "tb_avalon_mm_exerciser.write",
+    "writedata": "tb_avalon_mm_exerciser.writedata",
+    "readdata": "tb_avalon_mm_exerciser.readdata",
+    "byteenable": "tb_avalon_mm_exerciser.byteenable",
+    "burstcount": "tb_avalon_mm_exerciser.burstcount",
+    "waitrequest": "tb_avalon_mm_exerciser.waitrequest",
+    "readdatavalid": "tb_avalon_mm_exerciser.readdatavalid",
+    "response": "tb_avalon_mm_exerciser.response"
+  },
+  "parameters": {
+    "address_width": 12,
+    "data_width": 32,
+    "burst_align": "symbol",
+    "max_pending_reads": 8
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "startTime": 56,
+    "endTime": 80,
+    "label": "IR = 0x1 (IDCODE)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x1",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1000 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "IDCODE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 92,
+    "endTime": 228,
+    "label": "IDCODE = 0xCAFEBABE",
+    "fields": {
+      "kind": "DR",
+      "bits": "32",
+      "tdi_hex": "0x00000000",
+      "tdo_hex": "0xCAFEBABE",
+      "tdi_bits": "00000000000000000000000000000000 (LSB first)",
+      "tdo_bits": "01111101010111010111111101010011 (LSB first)",
+      "instruction": "IDCODE",
+      "idcode": "0xCAFEBABE",
+      "manufacturer": "0x55F",
+      "part_number": "0xAFEB",
+      "version": "0xC"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 244,
+    "endTime": 268,
+    "label": "IR = 0x1 (IDCODE)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x1",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1000 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "IDCODE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 280,
+    "endTime": 336,
+    "label": "DR scan aborted by TRST (12 bits captured)",
+    "fields": {
+      "kind": "DR",
+      "bits": "12",
+      "tdi_bits": "000000000000 (LSB first)",
+      "tdo_bits": "000000000000 (LSB first)",
+      "error": "Scan aborted by TRST"
+    },
+    "isError": true,
+    "errorMessage": "Scan aborted by TRST"
+  },
+  {
+    "startTime": 376,
+    "endTime": 400,
+    "label": "IR = 0xF (BYPASS)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0xF",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1111 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "BYPASS"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 412,
+    "endTime": 452,
+    "label": "BYPASS (8 bits)",
+    "fields": {
+      "kind": "DR",
+      "bits": "8",
+      "tdi_hex": "0x4D",
+      "tdo_hex": "0x55",
+      "tdi_bits": "10110010 (LSB first)",
+      "tdo_bits": "10101010 (LSB first)",
+      "instruction": "BYPASS"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 464,
+    "endTime": 504,
+    "label": "BYPASS (8 bits) [X/Z]",
+    "fields": {
+      "kind": "DR",
+      "bits": "8",
+      "tdi_hex": "0x25",
+      "tdo_hex": "0x00",
+      "tdi_bits": "10100100 (LSB first)",
+      "tdo_bits": "00000000 (LSB first)",
+      "instruction": "BYPASS"
+    },
+    "isError": true,
+    "errorMessage": "X/Z value on TDI at bit 3"
+  },
+  {
+    "startTime": 520,
+    "endTime": 544,
+    "label": "IR = 0x2 (SAMPLE/PRELOAD)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x2",
+      "tdo_hex": "0x0",
+      "tdi_bits": "0100 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "SAMPLE/PRELOAD"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 560,
+    "endTime": 572,
+    "label": "IR scan aborted by indeterminate TMS (2 bits captured)",
+    "fields": {
+      "kind": "IR",
+      "bits": "2",
+      "tdi_bits": "01 (LSB first)",
+      "tdo_bits": "00 (LSB first)",
+      "error": "Indeterminate TAP transition"
+    },
+    "isError": true,
+    "errorMessage": "Indeterminate TAP transition at 572"
+  }
+]

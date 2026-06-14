@@ -1,0 +1,35 @@
+[
+  {
+    "startTime": 5000,
+    "endTime": 100000,
+    "label": "0xFF",
+    "fields": {
+      "opcode": "0xFF",
+      "raw": ""
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 110000,
+    "endTime": 205000,
+    "label": "RES",
+    "fields": {
+      "opcode": "0xAB"
+    },
+    "isError": true,
+    "errorMessage": "incomplete_frame"
+  },
+  {
+    "startTime": 215000,
+    "endTime": 1245000,
+    "label": "READ",
+    "fields": {
+      "opcode": "0x03",
+      "address": "0x100000",
+      "data": "0x93 0x00 0x00 0x00 0x93 0x01 0x00 0x00"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Signal(s) ADR changed while STB asserted and STALL high (master must repeat outputs across stalled cycles)"
+    },
+    "isError": true,
+    "errorMessage": "Signal(s) ADR changed while STB asserted and STALL high (master must repeat outputs across stalled cycles)"
+  },
+  {
+    "startTime": 55,
+    "endTime": 55,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "Multiple terminations asserted simultaneously (ACK=1 ERR=1 RTY=0)"
+    },
+    "isError": true,
+    "errorMessage": "Multiple terminations asserted simultaneously (ACK=1 ERR=1 RTY=0)"
+  },
+  {
+    "startTime": 65,
+    "endTime": 65,
+    "label": "Wishbone Violation",
+    "fields": {
+      "error": "CYC dropped with 1 outstanding pipelined request(s) — spec requires waiting for the final ACK"
+    },
+    "isError": true,
+    "errorMessage": "CYC dropped with 1 outstanding pipelined request(s) — spec requires waiting for the final ACK"
+  }
+]

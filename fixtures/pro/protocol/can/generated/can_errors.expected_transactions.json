@@ -1,0 +1,30 @@
+[
+  {
+    "startTime": 6000,
+    "endTime": 110000,
+    "label": "DATA 0x55 [1]",
+    "fields": {
+      "type": "Data Frame",
+      "id": "0x55",
+      "ide": "Standard (11-bit)",
+      "dlc": "1",
+      "data": "AB"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 116000,
+    "endTime": 236000,
+    "label": "DATA 0x111 [2]",
+    "fields": {
+      "type": "Data Frame",
+      "id": "0x111",
+      "ide": "Standard (11-bit)",
+      "dlc": "2",
+      "data": "12 34"
+    },
+    "isError": true,
+    "errorMessage": "CRC error: computed 0x7392 but received 0x360B"
+  }
+]

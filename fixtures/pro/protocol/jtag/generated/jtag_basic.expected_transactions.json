@@ -1,0 +1,102 @@
+[
+  {
+    "startTime": 56,
+    "endTime": 80,
+    "label": "IR = 0x1 (IDCODE)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x1",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1000 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "IDCODE"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 92,
+    "endTime": 228,
+    "label": "IDCODE = 0x1234ABCD",
+    "fields": {
+      "kind": "DR",
+      "bits": "32",
+      "tdi_hex": "0x00000000",
+      "tdo_hex": "0x1234ABCD",
+      "tdi_bits": "00000000000000000000000000000000 (LSB first)",
+      "tdo_bits": "10110011110101010010110001001000 (LSB first)",
+      "instruction": "IDCODE",
+      "idcode": "0x1234ABCD",
+      "manufacturer": "0x5E6",
+      "part_number": "0x234A",
+      "version": "0x1"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 244,
+    "endTime": 268,
+    "label": "IR = 0xF (BYPASS)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0xF",
+      "tdo_hex": "0x0",
+      "tdi_bits": "1111 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "BYPASS"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 280,
+    "endTime": 320,
+    "label": "BYPASS (8 bits)",
+    "fields": {
+      "kind": "DR",
+      "bits": "8",
+      "tdi_hex": "0x4D",
+      "tdo_hex": "0x55",
+      "tdi_bits": "10110010 (LSB first)",
+      "tdo_bits": "10101010 (LSB first)",
+      "instruction": "BYPASS"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 336,
+    "endTime": 360,
+    "label": "IR = 0x2 (SAMPLE/PRELOAD)",
+    "fields": {
+      "kind": "IR",
+      "bits": "4",
+      "tdi_hex": "0x2",
+      "tdo_hex": "0x0",
+      "tdi_bits": "0100 (LSB first)",
+      "tdo_bits": "0000 (LSB first)",
+      "instruction": "SAMPLE/PRELOAD"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 372,
+    "endTime": 412,
+    "label": "DR = 0x96 (8 bits)",
+    "fields": {
+      "kind": "DR",
+      "bits": "8",
+      "tdi_hex": "0x96",
+      "tdo_hex": "0x33",
+      "tdi_bits": "01101001 (LSB first)",
+      "tdo_bits": "11001100 (LSB first)",
+      "instruction": "SAMPLE/PRELOAD"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

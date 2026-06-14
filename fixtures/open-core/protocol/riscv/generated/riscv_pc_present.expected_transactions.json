@@ -1,0 +1,44 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 5,
+    "label": "[0x80000000] addi t0, t1, 10",
+    "fields": {
+      "mnemonic": "addi",
+      "disasm": "addi t0, t1, 10",
+      "raw": "0x00A30293",
+      "isa": "RV32I",
+      "pc": "0x80000000"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "[0x80000004] add a0, a1, a2",
+    "fields": {
+      "mnemonic": "add",
+      "disasm": "add a0, a1, a2",
+      "raw": "0x00C58533",
+      "isa": "RV32I",
+      "pc": "0x80000004"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 25,
+    "endTime": 25,
+    "label": "[0x80000008] ecall",
+    "fields": {
+      "mnemonic": "ecall",
+      "disasm": "ecall",
+      "raw": "0x00000073",
+      "isa": "RV32I",
+      "pc": "0x80000008"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

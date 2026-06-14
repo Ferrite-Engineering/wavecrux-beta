@@ -1,0 +1,28 @@
+{
+  "description": "Same memfill as basic plus a read pulse at t=90 ns to address 0x04. Cursor at 120 ns covers all 4 writes plus the read.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signals": {
+    "clock": "top.dut.clk",
+    "writeEnable": "top.dut.we",
+    "readEnable": "top.dut.re",
+    "addressBus": "top.dut.addr",
+    "dataBus": "top.dut.data"
+  },
+  "config": {
+    "mapBaseAddress": 0,
+    "mapWordCount": 16,
+    "wordSize": 4
+  },
+  "cursorTime": 120,
+  "expectedSnapshot": {
+    "totalAccessCount": 5,
+    "mostRecentAccessIndex": 1,
+    "mostRecentAccessTime": 90,
+    "cells": {
+      "0": { "value": "0xDEADBEEF", "lastWriteTime": 10, "lastReadTime": null },
+      "1": { "value": "0xCAFEBABE", "lastWriteTime": 30, "lastReadTime": 90 },
+      "2": { "value": "0x12345678", "lastWriteTime": 50, "lastReadTime": null },
+      "3": { "value": "0x00000000", "lastWriteTime": 70, "lastReadTime": null }
+    }
+  }
+}

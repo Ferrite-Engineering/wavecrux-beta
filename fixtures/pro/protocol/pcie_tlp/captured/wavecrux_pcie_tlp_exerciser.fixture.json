@@ -1,0 +1,15 @@
+{
+  "decoder": "pcie_tlp",
+  "signal_bindings": {
+    "clk": "tb_pcie_tlp_exerciser.clk",
+    "rst_n": "tb_pcie_tlp_exerciser.rst_n",
+    "tlp_valid": "tb_pcie_tlp_exerciser.tlp_valid",
+    "tlp_sop": "tb_pcie_tlp_exerciser.tlp_sop",
+    "tlp_eop": "tb_pcie_tlp_exerciser.tlp_eop",
+    "tlp_data": "tb_pcie_tlp_exerciser.tlp_data",
+    "tlp_ready": "tb_pcie_tlp_exerciser.tlp_ready"
+  },
+  "parameters": {
+    "data_width": 32
+  }
+}

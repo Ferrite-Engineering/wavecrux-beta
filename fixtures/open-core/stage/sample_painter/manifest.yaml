@@ -1,0 +1,25 @@
+id: com.wavecrux.test.sample_painter
+version: 1.0.0
+display_name: Sample Painter
+category: instrument
+runtime: painter
+runtime_asset_path: painters/sample_painter
+required_api_version: 1
+signal_bindings:
+  - name: level
+    description: Drives the painter's fill percentage.
+    signal_type: vector
+    bit_width:
+      min: 1
+      max: 16
+    required: true
+    default_policy: treat_as_zero
+parameters:
+  - binding: level
+    normalizer:
+      kind: linear
+      input_min: 0.0
+      input_max: 65535.0
+      output_min: 0.0
+      output_max: 1.0
+      clamp: true

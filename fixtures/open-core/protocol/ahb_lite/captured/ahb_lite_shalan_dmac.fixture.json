@@ -1,0 +1,17 @@
+{
+  "decoder": "ahb_lite",
+  "signal_bindings": {
+    "hclk": "tb_ms_dmac_ahbl.HCLK",
+    "hresetn": "tb_ms_dmac_ahbl.HRESETn",
+    "haddr": "tb_ms_dmac_ahbl.M_HADDR",
+    "htrans": "tb_ms_dmac_ahbl.M_HTRANS",
+    "hwrite": "tb_ms_dmac_ahbl.M_HWRITE",
+    "hsize": "tb_ms_dmac_ahbl.M_HSIZE",
+    "hburst": "tb_ms_dmac_ahbl.M_HBURST",
+    "hwdata": "tb_ms_dmac_ahbl.M_HWDATA",
+    "hrdata": "tb_ms_dmac_ahbl.M_HRDATA",
+    "hready": "tb_ms_dmac_ahbl.M_HREADY",
+    "hresp": "tb_ms_dmac_ahbl.M_HRESP"
+  },
+  "parameters": {}
+}

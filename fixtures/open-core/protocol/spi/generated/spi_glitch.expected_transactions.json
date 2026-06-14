@@ -1,0 +1,26 @@
+[
+  {
+    "startTime": 10,
+    "endTime": 170,
+    "label": "SPI 0xA5",
+    "fields": {
+      "mosi": "0xA5",
+      "miso": "0x5A",
+      "words": "1"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 180,
+    "endTime": 340,
+    "label": "SPI 0xD3",
+    "fields": {
+      "mosi": "0xD3",
+      "miso": "0x3C",
+      "words": "1"
+    },
+    "isError": true,
+    "errorMessage": "MOSI changes at sample edge t=250"
+  }
+]

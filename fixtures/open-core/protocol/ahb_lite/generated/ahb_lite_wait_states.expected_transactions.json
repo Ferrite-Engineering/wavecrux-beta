@@ -1,0 +1,20 @@
+[
+  {
+    "startTime": 5,
+    "endTime": 35,
+    "label": "R 0x00000100 → 0xCAFE0001",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000100",
+      "data": "0xCAFE0001",
+      "size_bits": "32",
+      "burst": "SINGLE",
+      "response": "OKAY",
+      "wait_states": "2",
+      "addr_phase_start": "5",
+      "data_phase_start": "5"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

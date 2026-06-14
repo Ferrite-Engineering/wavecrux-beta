@@ -1,0 +1,15 @@
+{
+  "description": "33% duty 100 kHz PWM. Tests kHz auto-scaling. 1 ms window centered at 5 ms covers ~100 full cycles.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signal": "top.dut.pwm",
+  "cursorTime": 5000000,
+  "windowMs": 1,
+  "expected": {
+    "dutyCyclePercentApprox": 33.3,
+    "dutyCyclePercentTolerance": 1.0,
+    "frequencyHzApprox": 100000.0,
+    "frequencyHzTolerance": 100.0,
+    "hasError": false,
+    "isStatic": false
+  }
+}

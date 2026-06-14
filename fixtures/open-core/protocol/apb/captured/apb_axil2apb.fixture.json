@@ -1,0 +1,21 @@
+{
+  "decoder": "apb",
+  "signal_bindings": {
+    "pclk": "tb_apb.s_axi_aclk",
+    "presetn": "tb_apb.s_axi_aresetn",
+    "psel": "tb_apb.m_apb_psel",
+    "penable": "tb_apb.m_apb_penable",
+    "pwrite": "tb_apb.m_apb_pwrite",
+    "paddr": "tb_apb.m_apb_paddr",
+    "pwdata": "tb_apb.m_apb_pwdata",
+    "prdata": "tb_apb.m_apb_prdata",
+    "pready": "tb_apb.m_apb_pready",
+    "pslverr": "tb_apb.m_apb_pslverr",
+    "pstrb": "tb_apb.m_apb_pwstrb",
+    "pprot": "tb_apb.m_apb_pprot"
+  },
+  "parameters": {
+    "addr_width": 12,
+    "data_width": 32
+  }
+}

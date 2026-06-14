@@ -1,0 +1,15 @@
+{
+  "description": "Duty changes mid-window from 25% to 75% at 1 kHz. A 60 ms window centered at 50 ms straddles both halves; the average duty should land near 50%.",
+  "timescaleSecondsPerTick": 1e-9,
+  "signal": "top.dut.pwm",
+  "cursorTime": 50000000,
+  "windowMs": 60,
+  "expected": {
+    "dutyCyclePercentApprox": 50.0,
+    "dutyCyclePercentTolerance": 5.0,
+    "frequencyHzApprox": 1000.0,
+    "frequencyHzTolerance": 1.0,
+    "hasError": false,
+    "isStatic": false
+  }
+}

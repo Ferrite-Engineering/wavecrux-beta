@@ -1,0 +1,56 @@
+[
+  {
+    "startTime": 25,
+    "endTime": 35,
+    "label": "W 0x00000004 = 0xDEADBEEF [OKAY]",
+    "fields": {
+      "type": "Write",
+      "address": "0x00000004",
+      "data": "0xDEADBEEF",
+      "response": "OKAY",
+      "wstrb": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 45,
+    "endTime": 55,
+    "label": "R 0x00000008 = 0x12345678 [OKAY]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000008",
+      "data": "0x12345678",
+      "response": "OKAY"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 65,
+    "endTime": 75,
+    "label": "W 0x0000000C = 0xCAFEBABE [SLVERR]",
+    "fields": {
+      "type": "Write",
+      "address": "0x0000000C",
+      "data": "0xCAFEBABE",
+      "response": "SLVERR",
+      "wstrb": "0xF"
+    },
+    "isError": true,
+    "errorMessage": "Response: SLVERR"
+  },
+  {
+    "startTime": 85,
+    "endTime": 95,
+    "label": "R 0x00000010 = 0xA5A5A5A5 [DECERR]",
+    "fields": {
+      "type": "Read",
+      "address": "0x00000010",
+      "data": "0xA5A5A5A5",
+      "response": "DECERR"
+    },
+    "isError": true,
+    "errorMessage": "Response: DECERR"
+  }
+]

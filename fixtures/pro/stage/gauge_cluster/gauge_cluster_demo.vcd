@@ -1,0 +1,45 @@
+$comment
+  Hand-crafted VCD fixture for the Pro Gauge Cluster Stage widget.
+  Drives four 8-bit gauges through normal, warning, and critical
+  zones at known time-points. Used by the renderer integration test
+  (cursor scrubbing) and by the verification doc as the demo file.
+
+  Signal mapping (default 0–100 range):
+    rpm   — gauge 0  — sweeps 0 → 50 → 78 (warn) → 95 (critical)
+    temp  — gauge 1  — constant 30 → 70 (warn) → 88 (critical)
+    volt  — gauge 2  — constant 50 (always normal)
+    psi   — gauge 3  — error track: 50 → x (X-state at t=200)
+
+  All signals are 8-bit unsigned wires interpreted as 0–255 by the
+  reader; the gauge widget's min/max=0/100 maps the raw integer value
+  one-to-one to the gauge's value space.
+$end
+$version Hand-crafted gauge_cluster_demo $end
+$date 2026-05-04 $end
+$timescale 1ns $end
+$scope module top $end
+$scope module gauges $end
+$var wire 8 ! rpm $end
+$var wire 8 " temp $end
+$var wire 8 # volt $end
+$var wire 8 $ psi $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000 !
+b00011110 "
+b00110010 #
+b00110010 $
+$end
+#100
+b00110010 !
+#150
+b01001110 !
+b01000110 "
+#200
+b01011111 !
+bxxxxxxxx $
+#250
+b01011111 !
+b01011000 "

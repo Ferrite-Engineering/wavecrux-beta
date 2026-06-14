@@ -1,0 +1,62 @@
+[
+  {
+    "startTime": 15,
+    "endTime": 15,
+    "label": "W 0x00000100 = 0xDEADBEEF",
+    "fields": {
+      "type": "Write",
+      "cycle": "Classic",
+      "address": "0x00000100",
+      "data": "0xDEADBEEF",
+      "termination": "ACK",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 35,
+    "endTime": 35,
+    "label": "R 0x00000100 → 0x12345678",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000100",
+      "data": "0x12345678",
+      "termination": "ACK",
+      "sel": "0xF"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 55,
+    "endTime": 55,
+    "label": "R 0x00000200 → 0xBADBADBA [ERR]",
+    "fields": {
+      "type": "Read",
+      "cycle": "Classic",
+      "address": "0x00000200",
+      "data": "0xBADBADBA",
+      "termination": "ERR",
+      "sel": "0xF"
+    },
+    "isError": true,
+    "errorMessage": "Termination = ERR"
+  },
+  {
+    "startTime": 75,
+    "endTime": 75,
+    "label": "W 0x00000300 = 0xCAFEBABE [RTY]",
+    "fields": {
+      "type": "Write",
+      "cycle": "Classic",
+      "address": "0x00000300",
+      "data": "0xCAFEBABE",
+      "termination": "RTY",
+      "sel": "0xF"
+    },
+    "isError": true,
+    "errorMessage": "Termination = RTY"
+  }
+]

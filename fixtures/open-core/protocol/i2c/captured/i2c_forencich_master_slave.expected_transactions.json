@@ -1,0 +1,28 @@
+[
+  {
+    "startTime": 180000,
+    "endTime": 29970000,
+    "label": "I²C 0x50 W 2 bytes",
+    "fields": {
+      "address": "0x50",
+      "rw": "W",
+      "data": "0xAB 0xCD",
+      "ack": "ACK ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 30410000,
+    "endTime": 50600000,
+    "label": "I²C 0x50 W 0x42",
+    "fields": {
+      "address": "0x50",
+      "rw": "W",
+      "data": "0x42",
+      "ack": "ACK"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

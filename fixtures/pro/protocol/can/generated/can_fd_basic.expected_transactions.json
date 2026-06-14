@@ -1,0 +1,53 @@
+[
+  {
+    "startTime": 6000,
+    "endTime": 344000,
+    "label": "CAN-FD 0x1234567 [12]",
+    "fields": {
+      "type": "CAN-FD Data Frame",
+      "id": "0x1234567",
+      "ide": "Extended (29-bit)",
+      "dlc": "9 (12 bytes)",
+      "brs": "1 (data-phase bit-rate)",
+      "esi": "0",
+      "crc_bits": "17-bit",
+      "data": "A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 350000,
+    "endTime": 624000,
+    "label": "CAN-FD 0x1 [8]",
+    "fields": {
+      "type": "CAN-FD Data Frame",
+      "id": "0x1",
+      "ide": "Extended (29-bit)",
+      "dlc": "8 (8 bytes)",
+      "brs": "0",
+      "esi": "0",
+      "crc_bits": "17-bit",
+      "data": "10 11 12 13 14 15 16 17"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 630000,
+    "endTime": 1104000,
+    "label": "CAN-FD 0x1AABBCC [20]",
+    "fields": {
+      "type": "CAN-FD Data Frame",
+      "id": "0x1AABBCC",
+      "ide": "Extended (29-bit)",
+      "dlc": "11 (20 bytes)",
+      "brs": "1 (data-phase bit-rate)",
+      "esi": "1 (error-passive)",
+      "crc_bits": "21-bit",
+      "data": "30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F 40 41 42 43"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

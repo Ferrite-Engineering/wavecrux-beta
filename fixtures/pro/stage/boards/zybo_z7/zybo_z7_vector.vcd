@@ -1,0 +1,60 @@
+$version Hand-crafted Zybo Z7 vector fixture $end
+$comment 4-bit LEDs vector, 2-bit RGB-LED position vector (named to match the led_rgb_ family prefix), 4-bit switches vector, 4-bit button vector (alias-driven match — 'button' is in the auto-bind alias table for 'btn'), HDMI in / HDMI out 24-bit pixel data, and 16-bit audio codec mic-in / headphone-out streams. Tests the auto-bind service's vector fan-out tier across the led / led_rgb / sw / btn families and validates singleton-slot binding for the four advanced peripherals. $end
+$date 2026-05-04 $end
+$timescale 1ns $end
+$scope module top $end
+$var wire 4 ! leds $end
+$var wire 2 " led_rgb_ $end
+$var wire 4 # sws $end
+$var wire 4 $ button $end
+$var wire 24 % hdmi_in_data $end
+$var wire 24 & hdmi_out_data $end
+$var wire 16 ' mic_in $end
+$var wire 16 ( headphone_out $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 !
+b00 "
+b1010 #
+b0000 $
+b000000000000000000000000 %
+b000000000000000000000000 &
+b0000000000000000 '
+b0000000000000000 (
+$end
+#100
+b0001 !
+b01 "
+b0101 #
+b0001 $
+b111111110000000000000000 %
+b000000001111111100000000 &
+b0000111100001111 '
+b1111000011110000 (
+#200
+b0011 !
+b10 "
+b0111 $
+b000000001111111100000000 %
+b111111110000000000000000 &
+b1100110011001100 '
+b0011001100110011 (
+#300
+b0111 !
+b11 "
+b1100 #
+b1111 $
+b000000000000000011111111 %
+b000000000000000011111111 &
+b0101010101010101 '
+b1010101010101010 (
+#400
+b1111 !
+b10 "
+b1010 $
+b101010101010101010101010 %
+b010101010101010101010101 &
+b1111111100000000 '
+b0000000011111111 (
+$end

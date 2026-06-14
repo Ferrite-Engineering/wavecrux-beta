@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "read",
+    "address_hex": "30000000",
+    "readdata_hex": "11111111",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 15,
+    "eofTick": 35
+  },
+  {
+    "kind": "read",
+    "address_hex": "30000004",
+    "readdata_hex": "22222222",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 45,
+    "eofTick": 75
+  },
+  {
+    "kind": "read",
+    "address_hex": "30000008",
+    "readdata_hex": "33333333",
+    "beats": 1,
+    "response": "OKAY",
+    "sofTick": 85,
+    "eofTick": 125
+  }
+]

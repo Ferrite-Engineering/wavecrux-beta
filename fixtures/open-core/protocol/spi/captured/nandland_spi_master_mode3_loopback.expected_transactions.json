@@ -1,0 +1,14 @@
+[
+  {
+    "startTime": 86,
+    "endTime": 618,
+    "label": "SPI 2 words",
+    "fields": {
+      "mosi": "0xC1 0xC2",
+      "miso": "0xC1 0xC2",
+      "words": "2"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]
