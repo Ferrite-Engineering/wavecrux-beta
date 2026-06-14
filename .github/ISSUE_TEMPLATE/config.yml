@@ -2,11 +2,18 @@
 # opens a pre-filled new-issue URL with ?title=&body=&labels= rather than a
 # template; disabling blank issues would break that flow. Do not set
 # blank_issues_enabled to false.
+#
+# The Issues tab is a work queue: bugs and fixture submissions only. Everything
+# conversational — questions, feature ideas, announcements — lives in GitHub
+# Discussions, the single community hub for the beta (no Discord/Slack).
 blank_issues_enabled: true
 contact_links:
-  - name: Questions & discussion
-    url: https://github.com/Ferrite-Engineering/wavecrux-beta/discussions
-    about: Ask "how do I…", share workflow tips, or discuss with other beta users. Keep crashes and defects in Issues.
-  - name: Report from inside the app (recommended for bugs)
+  - name: 💡 Request a feature / share an idea
+    url: https://github.com/Ferrite-Engineering/wavecrux-beta/discussions/categories/ideas
+    about: Feature ideas live in Discussions → Ideas, where they can be discussed and upvoted before we turn accepted ones into tracked issues.
+  - name: 🙋 Questions & help
+    url: https://github.com/Ferrite-Engineering/wavecrux-beta/discussions/categories/q-a
+    about: "Ask \"how do I…\", share workflow tips, or get help. Keep crashes and defects in Issues so they hit the triage queue."
+  - name: 🐞 Report a bug from inside the app (recommended)
     url: https://github.com/Ferrite-Engineering/wavecrux-beta/blob/main/docs/BETA_GUIDE.md#bugs-and-crashes--from-inside-the-app-best
     about: Help → Submit Issue attaches your app version, platform, and an optional diagnostics snapshot automatically.

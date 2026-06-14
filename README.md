@@ -15,12 +15,20 @@ point for the beta:
 - 🐞 **[Report a bug](../../issues/new?template=bug_report.yml)** — or just use
   **Help → Submit Issue** inside the app (recommended; it attaches diagnostics
   for you — see below).
-- 💡 **[Request a feature](../../issues/new?template=feature_request.yml)**
 - 🧪 **[Submit a test fixture](../../issues/new?template=fixture_submission.yml)** —
   hand us a waveform that breaks a decoder and we'll fold it into the suite.
-- 💬 **[Ask a question / get help](../../discussions)** (GitHub Discussions)
+- 💡 **[Request a feature / share an idea](../../discussions/categories/ideas)** —
+  in Discussions, so it can be discussed and upvoted.
+- 🙋 **[Ask a question / get help](../../discussions/categories/q-a)** — in Discussions.
 - 📂 **[Browse the test fixtures](fixtures/)** — *this is what WaveCrux tests
   against.* See [`fixtures/README.md`](fixtures/README.md).
+
+> **Two places, clear split.** The **[Issues](../../issues)** tab is a work
+> queue — **bugs and fixture submissions only**. Everything conversational —
+> questions, feature ideas, announcements, show-and-tell — lives in
+> **[Discussions](../../discussions)**, the single community hub for the beta.
+> (No Discord or Slack — Discussions keeps every answer searchable and in one
+> place.)
 
 ---
 
@@ -45,10 +53,16 @@ Prefer to file by hand? Use the [bug report form](../../issues/new?template=bug_
 
 ## Getting help
 
-- **[GitHub Discussions](../../discussions)** — questions, "how do I…", workflow
-  tips, and discussion with other beta users.
-- **Bugs and crashes** → file an issue (above), don't open a Discussion, so it
-  lands in the triage queue.
+**[GitHub Discussions](../../discussions) is the community hub** — it's where all
+the conversation happens:
+
+- **[Q&A](../../discussions/categories/q-a)** — questions, "how do I…", workflow tips.
+- **[Ideas](../../discussions/categories/ideas)** — feature requests and suggestions, upvotable.
+- **[Show and tell](../../discussions/categories/show-and-tell)** — share what you've built.
+- **[Announcements](../../discussions/categories/announcements)** — updates from us.
+
+**Bugs and crashes** → file an [Issue](../../issues) (above) instead, so they land
+in the triage queue, not the discussion stream.
 
 ## What's in this repo
 
@@ -58,7 +72,7 @@ Prefer to file by hand? Use the [bug report form](../../issues/new?template=bug_
 | [`docs/BETA_GUIDE.md`](docs/BETA_GUIDE.md) | How to join the beta, what to test, how feedback is handled, what you get for contributing. |
 | [`docs/SUBMITTING_FIXTURES.md`](docs/SUBMITTING_FIXTURES.md) | How to contribute a waveform fixture (and the license rules). |
 | [`fixtures/`](fixtures/) | The decoder + Stage test-fixture corpus WaveCrux is tested against. |
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug / feature / fixture issue forms. |
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug / fixture issue forms (feature ideas go to Discussions). |
 
 ## After the beta
 

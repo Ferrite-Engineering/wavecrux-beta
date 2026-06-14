@@ -58,16 +58,22 @@ dialog shows exactly what it adds, and you see the full body before it's sent.
 
 Filing by hand works too: [bug report form](../../issues/new?template=bug_report.yml).
 
-### Feature requests
+### Feature requests and ideas
 
-Use the [feature request form](../../issues/new?template=feature_request.yml).
-Tell us the workflow you're trying to complete, not just the widget you want — it
-helps us find the best solution.
+Post them in [Discussions → Ideas](../../discussions/categories/ideas), where
+other beta users can discuss and upvote them and we turn accepted ones into
+tracked issues. Tell us the workflow you're trying to complete, not just the
+widget you want — it helps us find the best solution.
 
-### Questions and discussion
+### Questions, help, and discussion
 
-Use [GitHub Discussions](../../discussions). Keep crashes and defects in Issues
-so they hit the triage queue.
+[GitHub Discussions](../../discussions) is the single community hub for the
+beta — [Q&A](../../discussions/categories/q-a) for help,
+[Ideas](../../discussions/categories/ideas) for feature requests,
+[Show and tell](../../discussions/categories/show-and-tell) for what you've
+built. (We're keeping everything here rather than running a Discord or Slack, so
+answers stay searchable and in one place.) Keep crashes and defects in Issues so
+they hit the triage queue.
 
 ## How feedback is handled
 
