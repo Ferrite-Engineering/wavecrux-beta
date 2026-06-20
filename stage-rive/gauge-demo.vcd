@@ -1,0 +1,76 @@
+$date
+  2026-06-20T00:00:00Z
+$end
+$version
+  WaveCrux Stage — Tachometer custom-widget demo
+$end
+$comment
+  Drives the Tachometer / Community Gauge custom widget: an 8-bit
+  rpm ramp, a redline that asserts in the upper range, and shift
+  pulses simulating gear changes. Bind rpm->rpm, redline->redline,
+  shift->shift.
+$end
+$timescale 1 ns $end
+$scope module gauge_demo $end
+$var wire 8 ! rpm $end
+$var wire 1 " redline $end
+$var wire 1 # shift $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0 "
+0 #
+$end
+#100
+b1101 !
+#200
+b11010 !
+#300
+b100111 !
+#400
+b110100 !
+#500
+b1000001 !
+1 #
+#600
+b1001110 !
+0 #
+#700
+b1011011 !
+#800
+b1101000 !
+#900
+b1110101 !
+#1000
+b10000010 !
+1 #
+#1100
+b10001111 !
+0 #
+#1200
+b10011100 !
+#1300
+b10101001 !
+#1400
+b10110110 !
+#1500
+b11000011 !
+1 #
+#1600
+b11010000 !
+1 "
+0 #
+#1700
+b11011101 !
+#1800
+b11101010 !
+#1900
+b11110111 !
+#2000
+b11111111 !
+1 #
+#2100
+0 #
+#2200

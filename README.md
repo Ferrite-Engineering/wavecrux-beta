@@ -22,6 +22,9 @@ point for the beta:
 - 🙋 **[Ask a question / get help](../../discussions/categories/q-a)** — in Discussions.
 - 📂 **[Browse the test fixtures](fixtures/)** — *this is what WaveCrux tests
   against.* See [`fixtures/README.md`](fixtures/README.md).
+- 🎛️ **[Try a custom Stage widget](stage-rive/)** — load a ready-made Rive
+  tachometer into WaveCrux and watch it animate against a demo waveform. See
+  [`stage-rive/README.md`](stage-rive/README.md).
 
 > **Two places, clear split.** The **[Issues](../../issues)** tab is a work
 > queue — **bugs and fixture submissions only**. Everything conversational —
