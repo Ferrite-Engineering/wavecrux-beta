@@ -15,6 +15,7 @@ glows when asserted, and an amber shift-light that flashes on each rising edge.
 |---|---|
 | `community-gauge.wcrux-widget` | The loadable widget bundle (a manifest + a Rive `.riv`, zipped). Loads as **Community Gauge** in the picker. |
 | `gauge-demo.vcd` | A tiny demo waveform whose signals are named `rpm`, `redline`, and `shift` so the bindings are obvious. |
+| `tachometer.rev` | The **editable** Rive editor source for the gauge artboard. Open it in the [Rive editor](https://rive.app/) to see exactly how the needle blend, redline glow, and shift pulse are built — a worked starting point for your own widgets. |
 
 ## Try it (≈ 1 minute)
 
@@ -40,8 +41,10 @@ Remove it any time via **Settings → Custom Widgets → Remove**.
 
 This widget is just a manifest + a Rive artboard whose state-machine inputs
 (`rpm` Number, `redline` Boolean, `shift` Boolean) match the manifest's signal
-bindings. The full authoring guide — Rive contract, manifest schema, normalizers,
-and packaging — is at **<https://docs.wavecrux.com/docs/authoring-rive-widgets>**.
+bindings. **Open `tachometer.rev` in the [Rive editor](https://rive.app/)** to
+see a complete worked example, then read the full authoring guide — Rive
+contract, manifest schema, normalizers, and packaging — at
+**<https://docs.wavecrux.com/docs/authoring-rive-widgets>**.
 
 Found a bug or have an idea? See the repo root
 [`README.md`](../README.md) for where to file it.
