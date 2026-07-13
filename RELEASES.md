@@ -6,6 +6,18 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.1 — 2026-07-13
+
+Hotfix on top of 0.2.0.
+
+- **Fixed: "Check for Updates" always failed.** A lifecycle bug made every
+  update check — automatic and manual — report "Couldn't check for updates"
+  in all previous builds. If you're on 0.1.0 or 0.2.0, the check now works
+  again without any action on your part (a compatible server-side change
+  covers existing installs), and this release fixes it permanently.
+- Opening a file now shows the parsing overlay with the file's name on all
+  platforms.
+
 ## 0.2.0 — 2026-07-13
 
 A beta-feedback release: hierarchy workflow features requested by early
