@@ -6,6 +6,14 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.2 — 2026-07-13
+
+- **Clicking a signal in the hierarchy now highlights it** as the current
+  selection (as well as adding it to the timeline). The highlight is also
+  the visible anchor for Shift+click range selection — click a signal,
+  Shift+click another, and the range grows from the highlighted row,
+  matching the file-manager convention.
+
 ## 0.2.1 — 2026-07-13
 
 Hotfix on top of 0.2.0.
