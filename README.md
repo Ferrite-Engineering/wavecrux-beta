@@ -20,6 +20,7 @@ point for the beta:
 - 💡 **[Request a feature / share an idea](../../discussions/categories/ideas)** —
   in Discussions, so it can be discussed and upvoted.
 - 🙋 **[Ask a question / get help](../../discussions/categories/q-a)** — in Discussions.
+- 📋 **[Release notes](RELEASES.md)** — what changed in each beta build.
 - 📂 **[Browse the test fixtures](fixtures/)** — *this is what WaveCrux tests
   against.* See [`fixtures/README.md`](fixtures/README.md).
 - 🎛️ **[Try a custom Stage widget](stage-rive/)** — load a ready-made Rive
