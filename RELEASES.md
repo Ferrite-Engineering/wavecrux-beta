@@ -6,6 +6,20 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.3 — 2026-07-13
+
+- **Fixed: "Apply Decoder to Selection…" picked the wrong signals on FST
+  files with aliased nets.** FST traces report a net wired through module
+  ports as multiple hierarchy entries sharing one underlying signal (e.g. a
+  testbench `clk` and the DUT's `wb_clk_i`). Selecting signals in one scope
+  could resolve to their aliases in another scope, so the decoder's
+  configuration dialog listed names from scopes you never clicked and the
+  auto-bind heuristic matched almost nothing. Hierarchy selection is now
+  keyed by the row you actually clicked, everywhere: highlights, bulk add,
+  decoder-from-selection, and format changes all operate on the exact rows
+  selected. (Thanks to Kevin Laeufer for the report and the reproduction
+  trace.)
+
 ## 0.2.2 — 2026-07-13
 
 - **Clicking a signal in the hierarchy now highlights it** as the current
