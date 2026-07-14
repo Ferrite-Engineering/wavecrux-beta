@@ -6,6 +6,17 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.6 — 2026-07-14
+
+- **The hierarchy now sorts alphanumerically.** Numbered names order the way
+  you'd expect — bit 2 before bit 11 — instead of the file's dump order
+  (`[0] [1] [10] [11] [2]`), which is what gate-level netlists with
+  bit-blasted names used to show. Scopes and signals both sort; range
+  selection and bulk add follow the on-screen order; signals that share a
+  name keep their relative file order. Prefer the file's declaration order?
+  **Settings → Waveform Defaults → "Sort hierarchy alphanumerically"**
+  switches back, live. (Thanks to Kevin Laeufer for the suggestion.)
+
 ## 0.2.5 — 2026-07-14
 
 - **The About box is a proper dialog on web.** In a desktop browser, About
