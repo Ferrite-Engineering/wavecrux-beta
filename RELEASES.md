@@ -6,6 +6,18 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.5 — 2026-07-14
+
+- **The About box is a proper dialog on web.** In a desktop browser, About
+  now opens as a modal dialog (matching the desktop apps) instead of the
+  mobile full-screen slide-in. Phones and tablets keep the slide-in. Reach
+  it on web via the command palette (Ctrl/Cmd+Shift+P → "About") or the
+  toolbar's ☰ menu.
+- **The version is now always visible.** The welcome screen shows the
+  running version under its header — handy on web, where there's no native
+  menu bar.
+- Housekeeping: internal documentation and text cleanup.
+
 ## 0.2.4 — 2026-07-14
 
 The gate-level hierarchy release: opening a scope with tens of thousands of
