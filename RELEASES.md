@@ -6,6 +6,27 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.4 — 2026-07-14
+
+The gate-level hierarchy release: opening a scope with tens of thousands of
+variables is now instant.
+
+- **Signal tree virtualization.** The hierarchy renders as a flat lazy list
+  that builds only the rows on screen, so expanding a scope costs the same
+  whether it holds 40 variables or 64,000. On the 1.3-million-variable
+  gate-level reference trace, expanding the 64k-variable scope dropped from
+  a multi-minute frozen frame to ~70 ms, search stays responsive per
+  keystroke, and scrolling deep into huge scopes is smooth. All hierarchy
+  interactions (multi-select, ranges, context menus, drag-to-Stage) are
+  unchanged.
+- **Fixed: gate-level traces could crash the hierarchy on expansion.**
+  Netlists can dump the same escaped identifier twice in one scope; row
+  identity now tolerates duplicate names and aliased signals everywhere.
+- **Web: no more "new version available" banner.** The web app updates
+  itself on every deploy, so the download banner (which could appear briefly
+  around releases) is gone on web. Desktop update notifications are
+  unchanged.
+
 ## 0.2.3 — 2026-07-13
 
 - **Fixed: "Apply Decoder to Selection…" picked the wrong signals on FST
