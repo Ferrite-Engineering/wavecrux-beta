@@ -6,6 +6,21 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.2.7 — 2026-07-15
+
+- **Import Verilator's elaborated AST for exact RTL source tracing**
+  (desktop only). Run your design through `verilator --json-only`, then use
+  **Tools → Import Verilator AST (JSON)…** and pick the `V<top>.tree.json`
+  it emits (the sibling `.tree.meta.json` is found automatically). Because
+  the dump is Verilator's own post-elaboration AST, generate loops arrive
+  unrolled (`gen_blink[0]`, `gen_blink[1]`, …) and every mapping carries the
+  exact per-instance path your waveform uses — accuracy the built-in
+  source-tree parser can't reach. The result is also saved as a portable
+  GTKWave-compatible `.stems` file, which matters more than it used to:
+  Verilator 5.x removed the XML output that GTKWave's `xml2stems` consumed,
+  so this import is the working replacement. (Thanks to Hong Ping Tan for
+  the suggestion.)
+
 ## 0.2.6 — 2026-07-14
 
 - **The hierarchy now sorts alphanumerically.** Numbered names order the way
