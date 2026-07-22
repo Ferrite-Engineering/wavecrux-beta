@@ -1,0 +1,47 @@
+{
+  "_comment": "Binding-contract + visual-expectation companion for bldc_motor_demo.vcd, the Pro BLDC Motor Stage widget's demonstration fixture. Unlike the sibling bldc_spinup_demo/bldc_six_step_slow fixtures (which predate the widget and carry a richer HDL-telemetry contract: rpm/mech_angle/phase_u.v.w/hall_u.v.w/comm_state/...), this fixture's signals are named 1:1 with the artboard's `Motor` state-machine inputs so they bind directly with no normalizer gymnastics. Regenerate with `dart run tool/generate_bldc_stage_fixture.dart` (writes both fixture trees).",
+  "vcd": "bldc_motor_demo.vcd",
+  "timescaleNs": 1000,
+  "widgetId": "wavecrux.pro.bldc_motor",
+  "stateMachine": "State Machine Motor",
+  "bindings": {
+    "speed": "Number 0..1 -> rotor angular velocity. Bind with speedFullScale=1 (this fixture is pre-normalized).",
+    "phaseA": "Number -1..+1 -> coil A drive (0 off, - cool, + warm; |v| = intensity). phaseFullScale=1.",
+    "phaseB": "Number -1..+1 -> coil B drive.",
+    "phaseC": "Number -1..+1 -> coil C drive.",
+    "commutate": "Boolean -> accent flash on the just-switched coil; the state machine fires it on the signal rising edge.",
+    "fault": "Boolean -> over-current: rotor halts + red over-current ring while asserted."
+  },
+  "extraSignals": {
+    "_comment": "Authentic 6-step gate-drive lines and hall sensors are also present under gate_drive/ and hall/ sub-scopes so the trace reads like a real motor capture. They are NOT bound by the widget; they exist for context and for users who want to overlay them on the waveform.",
+    "gate_drive": ["AH", "AL", "BH", "BL", "CH", "CL"],
+    "hall": ["hall_a", "hall_b", "hall_c"]
+  },
+  "checkpoints": [
+    {
+      "timeUs": 0,
+      "note": "Idle pose: rotor parked, all coils dark, no fault.",
+      "speed": 0.0, "phaseA": 0.0, "phaseB": 0.0, "phaseC": 0.0, "commutate": 0, "fault": 0
+    },
+    {
+      "timeUs": 20000,
+      "note": "Full-speed cruise: two coils energized (B cool / C warm), coil A floating; rotor spinning fast.",
+      "speed": 1.0, "phaseA": 0.0, "phaseB": -1.0, "phaseC": 1.0, "commutate": 0, "fault": 0
+    },
+    {
+      "timeUs": 23000,
+      "note": "Fault window: over-current asserted, rotor halted, coils dark, red ring shown.",
+      "speed": 0.0, "phaseA": 0.0, "phaseB": 0.0, "phaseC": 0.0, "commutate": 0, "fault": 1
+    },
+    {
+      "timeUs": 25000,
+      "note": "Fault still asserted mid-window.",
+      "speed": 0.0, "phaseA": 0.0, "phaseB": 0.0, "phaseC": 0.0, "commutate": 0, "fault": 1
+    },
+    {
+      "timeUs": 27000,
+      "note": "Recovered: fault cleared, spin resumes at full speed.",
+      "speed": 1.0, "phaseA": 0.0, "phaseB": -1.0, "phaseC": 1.0, "commutate": 0, "fault": 0
+    }
+  ]
+}

@@ -88,8 +88,7 @@ void main() {
       }
     });
 
-    test('signals carry value transitions over the 0..20 µs range',
-        () async {
+    test('signals carry value transitions over the 0..20 µs range', () async {
       // The bus_byte counter should change many times across the run.
       final byte = provider
           .findVariables(const SignalFilter())

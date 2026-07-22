@@ -32,8 +32,9 @@ Map<String, Variable> _byPath(WellenProvider provider) {
 /// caring whether the underlying provider stores raw VCD idcodes
 /// (`WellenProvider`) or `signalRef.toString()` integers
 /// (`WellenProvider`).
-Map<String, String> _refToPath(Map<String, Variable> byPath) =>
-    {for (final v in byPath.values) v.signalRef: v.fullPath};
+Map<String, String> _refToPath(Map<String, Variable> byPath) => {
+  for (final v in byPath.values) v.signalRef: v.fullPath,
+};
 
 void main() {
   const board = De10NanoStageWidget();
@@ -71,8 +72,7 @@ void main() {
       },
     );
 
-    test('LED / switch / button / ADC slots resolve via the per-slot tier',
-        () {
+    test('LED / switch / button / ADC slots resolve via the per-slot tier', () {
       final result = service.computeBindings(
         slots: board.slots,
         availableSignals: _byPath(provider),

@@ -88,8 +88,10 @@ void main() {
   // see what was written. avoid_print is a runtime-app rule; not
   // applicable to one-shot tools.
   // ignore: avoid_print
-  print('Wrote ${outFile.path} (${outFile.lengthSync()} bytes, '
-      '${defs.vars.length} signals).');
+  print(
+    'Wrote ${outFile.path} (${outFile.lengthSync()} bytes, '
+    '${defs.vars.length} signals).',
+  );
 }
 
 // ── definitions ────────────────────────────────────────────────────────────
@@ -105,8 +107,11 @@ _Definitions _buildDefinitions() {
   final vars = <_Var>[];
   final ids = _IdCodeGenerator();
 
-  void scope(String name) =>
-      scopeLines.add(r'$scope module ' '$name' r' $end');
+  void scope(String name) => scopeLines.add(
+    r'$scope module '
+    '$name'
+    r' $end',
+  );
   void upscope() => scopeLines.add(r'$upscope $end');
 
   void addVar(_Var v) {
@@ -133,10 +138,12 @@ _Definitions _buildDefinitions() {
   // Seven-segment cathode mode: 7-bit cathode bus encoding the same
   // 0..f digit pattern as the value-mode signal. Bit 0 = a (top),
   // bit 6 = g (middle); active-high.
-  addVar(_Var.bus('seven_seg_cathodes', 7, (t) {
-    final digit = (t ~/ 250) % 16;
-    return _hexCathodePattern(digit);
-  }));
+  addVar(
+    _Var.bus('seven_seg_cathodes', 7, (t) {
+      final digit = (t ~/ 250) % 16;
+      return _hexCathodePattern(digit);
+    }),
+  );
   // Seven-segment decimal point: toggles every 1000 ns so users can
   // see the dp indicator move alongside cathode-mode digits.
   addVar(_Var.scalar('seven_seg_dp', _periodicScalar(periodNs: 1000)));
@@ -150,19 +157,25 @@ _Definitions _buildDefinitions() {
   // Level bar: 0..255 ramp so it reaches full at end of simulation
   // (the level bar primitive defaults to a 0..255 range, matching an
   // unsigned byte).
-  addVar(_Var.bus('level_ramp', 8, (t) {
-    final v = (t / _simulationDurationNs) * 255;
-    return v.clamp(0, 255).floor();
-  }));
+  addVar(
+    _Var.bus('level_ramp', 8, (t) {
+      final v = (t / _simulationDurationNs) * 255;
+      return v.clamp(0, 255).floor();
+    }),
+  );
   // Analog sine and ramp.
-  addVar(_Var.real('analog_sine', (t) {
-    final phase = 2 * math.pi * (t / 4000); // 4 µs period
-    return math.sin(phase);
-  }));
-  addVar(_Var.real('analog_ramp', (t) {
-    final cycle = (t % 5000) / 5000; // 5 µs sawtooth
-    return cycle * 2 - 1; // -1..+1
-  }));
+  addVar(
+    _Var.real('analog_sine', (t) {
+      final phase = 2 * math.pi * (t / 4000); // 4 µs period
+      return math.sin(phase);
+    }),
+  );
+  addVar(
+    _Var.real('analog_ramp', (t) {
+      final cycle = (t % 5000) / 5000; // 5 µs sawtooth
+      return cycle * 2 - 1; // -1..+1
+    }),
+  );
   upscope();
 
   // ── basys3 ───────────────────────────────────────────────────────────
@@ -193,10 +206,12 @@ _Definitions _buildDefinitions() {
   // Four 4-bit digits: each driven by a different nibble of a 16-bit
   // counter so the 4-digit display runs through interesting values.
   for (var i = 0; i < 4; i++) {
-    addVar(_Var.bus('digit$i', 4, (t) {
-      final v = (t ~/ 100) & 0xFFFF;
-      return (v >> (i * 4)) & 0xF;
-    }));
+    addVar(
+      _Var.bus('digit$i', 4, (t) {
+        final v = (t ~/ 100) & 0xFFFF;
+        return (v >> (i * 4)) & 0xF;
+      }),
+    );
   }
   upscope();
 
@@ -217,10 +232,12 @@ _Definitions _buildDefinitions() {
   addVar(_Var.scalar('key1', _pulse(startNs: 8500, widthNs: 400)));
   // 6 hex displays: each shows a different nibble of a wide counter.
   for (var i = 0; i < 6; i++) {
-    addVar(_Var.bus('hex$i', 4, (t) {
-      final v = (t ~/ 150) & 0xFFFFFF;
-      return (v >> (i * 4)) & 0xF;
-    }));
+    addVar(
+      _Var.bus('hex$i', 4, (t) {
+        final v = (t ~/ 150) & 0xFFFFFF;
+        return (v >> (i * 4)) & 0xF;
+      }),
+    );
   }
   upscope();
 
@@ -253,8 +270,22 @@ _Generator _pulse({required int startNs, required int widthNs}) {
 /// bit 0 = a (top), bit 1 = b, …, bit 6 = g (middle). Active-high.
 int _hexCathodePattern(int digit) {
   const table = [
-    0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07,
-    0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71,
+    0x3F,
+    0x06,
+    0x5B,
+    0x4F,
+    0x66,
+    0x6D,
+    0x7D,
+    0x07,
+    0x7F,
+    0x6F,
+    0x77,
+    0x7C,
+    0x39,
+    0x5E,
+    0x79,
+    0x71,
   ];
   return table[digit & 0xF];
 }

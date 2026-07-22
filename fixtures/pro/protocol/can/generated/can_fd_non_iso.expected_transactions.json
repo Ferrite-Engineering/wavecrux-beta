@@ -1,0 +1,36 @@
+[
+  {
+    "startTime": 6000,
+    "endTime": 270000,
+    "label": "CAN-FD 0x1234567 [8]",
+    "fields": {
+      "type": "CAN-FD Data Frame",
+      "id": "0x1234567",
+      "ide": "Extended (29-bit)",
+      "dlc": "8 (8 bytes)",
+      "brs": "1 (data-phase bit-rate)",
+      "esi": "0",
+      "crc_bits": "17-bit",
+      "data": "50 51 52 53 54 55 56 57"
+    },
+    "isError": false,
+    "errorMessage": null
+  },
+  {
+    "startTime": 276000,
+    "endTime": 604000,
+    "label": "CAN-FD 0xABCDEF [12]",
+    "fields": {
+      "type": "CAN-FD Data Frame",
+      "id": "0xABCDEF",
+      "ide": "Extended (29-bit)",
+      "dlc": "9 (12 bytes)",
+      "brs": "0",
+      "esi": "0",
+      "crc_bits": "17-bit",
+      "data": "60 61 62 63 64 65 66 67 68 69 6A 6B"
+    },
+    "isError": false,
+    "errorMessage": null
+  }
+]

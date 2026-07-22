@@ -106,9 +106,11 @@ Map<String, Variable> _byPath(WellenProvider provider) {
 }
 
 void _expectBound(BoardAutoBindResult result, String slot) {
-  expect(result.candidates[slot]?.confidence,
-      isNot(BoardAutoBindConfidence.noMatch),
-      reason: '$slot should auto-bind');
+  expect(
+    result.candidates[slot]?.confidence,
+    isNot(BoardAutoBindConfidence.noMatch),
+    reason: '$slot should auto-bind',
+  );
 }
 
 void main() {
@@ -143,12 +145,16 @@ void main() {
             availableSignals: _byPath(provider),
           );
           for (var i = 0; i < c.ledCount; i++) {
-            expect(result.candidates['led$i']?.confidence,
-                BoardAutoBindConfidence.exactMatch);
+            expect(
+              result.candidates['led$i']?.confidence,
+              BoardAutoBindConfidence.exactMatch,
+            );
           }
           for (var i = 0; i < c.switchCount; i++) {
-            expect(result.candidates['sw$i']?.confidence,
-                BoardAutoBindConfidence.exactMatch);
+            expect(
+              result.candidates['sw$i']?.confidence,
+              BoardAutoBindConfidence.exactMatch,
+            );
           }
           for (final name in c.buttonNames) {
             _expectBound(result, name);
@@ -179,12 +185,16 @@ void main() {
             availableSignals: _byPath(provider),
           );
           for (var i = 0; i < c.ledCount; i++) {
-            expect(result.candidates['led$i']?.confidence,
-                BoardAutoBindConfidence.vectorFanOut);
+            expect(
+              result.candidates['led$i']?.confidence,
+              BoardAutoBindConfidence.vectorFanOut,
+            );
           }
           for (var i = 0; i < c.switchCount; i++) {
-            expect(result.candidates['sw$i']?.confidence,
-                BoardAutoBindConfidence.vectorFanOut);
+            expect(
+              result.candidates['sw$i']?.confidence,
+              BoardAutoBindConfidence.vectorFanOut,
+            );
           }
           for (final slot in c.peripheralSlots) {
             _expectBound(result, slot);

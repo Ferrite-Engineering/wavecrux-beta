@@ -1,0 +1,17 @@
+{
+  "_comment": "Two-tone Lissajous fixture: 1024 samples tracing a figure-eight (x = 0.8·sin θ, y = 0.8·sin 2θ) in the normalized Q1.15 plane, one per sclk rising edge. Bind xSample→sample, ySample→imag (symbolClock optional — lissajous latches on the clock when bound, else free-running). Regenerate with dart run tool/generate_dsp_fixtures.dart.",
+  "vcd": "xy_two_tone_lissajous.vcd",
+  "timescaleNs": 1,
+  "widgetId": "wavecrux.pro.dsp_xy",
+  "plotMode": "lissajous",
+  "symbolCount": 1024,
+  "bindings": {
+    "xSample": "sample",
+    "ySample": "imag",
+    "symbolClock": "sclk"
+  },
+  "xFormat": "fixedPointQ",
+  "yFormat": "fixedPointQ",
+  "qmIntegerBits": 1,
+  "qmFractionalBits": 15
+}

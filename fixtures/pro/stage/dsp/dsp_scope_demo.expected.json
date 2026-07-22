@@ -1,0 +1,82 @@
+{
+  "_comment": "DSP Scope hero demo: one 200 ms time axis with three choreographed scopes for a 15–20 s landscape screen recording. Stage Playback auto-advances the cursor; each widget renders a cursor-anchored window so the whole choreography plays back synchronized. These are LIGHT anchors (a demo asset, not a per-frame snapshot). Regenerate with dart run tool/generate_dsp_demo_fixture.dart (writes both trees).",
+  "vcd": "dsp_scope_demo.vcd",
+  "session": "dsp_scope_demo.wavecrux",
+  "timescaleNs": 1,
+  "totalTicks": 200000000,
+  "scopes": {
+    "spectrum": {
+      "widgetId": "wavecrux.pro.dsp_spectrum",
+      "bindings": {
+        "sample": "top.spectrum.samples",
+        "sampleClock": "top.spectrum.clk"
+      },
+      "signalRefs": {
+        "sample": "0",
+        "sampleClock": "1"
+      },
+      "sampleRateHz": 100000,
+      "sampleCount": 20000,
+      "fftSize": 256,
+      "chirpNormBand": [
+        0.03,
+        0.3
+      ],
+      "note": "Chirp sweeps 3000 Hz → 30000 Hz (f 0→0.5) and back (f 0.5→1); steady harmonics at 10000 Hz and 20000 Hz. Peak bin slides up then down; assert peakBin(up-ramp) > peakBin(near-start)."
+    },
+    "iq": {
+      "widgetId": "wavecrux.pro.dsp_xy",
+      "bindings": {
+        "xSample": "top.iq.i",
+        "ySample": "top.iq.q",
+        "symbolClock": "top.iq.sym_clk"
+      },
+      "signalRefs": {
+        "xSample": "2",
+        "ySample": "4",
+        "symbolClock": "5"
+      },
+      "symbolCount": 4000,
+      "symbolRateHz": 20000,
+      "phases": {
+        "qpskClusterCount": 4,
+        "qpskFracRange": [
+          0.0,
+          0.25
+        ],
+        "qam16ClusterCount": 16,
+        "qam16FracRange": [
+          0.25,
+          0.5
+        ],
+        "noiseBloomFracRange": [
+          0.5,
+          0.75
+        ],
+        "noiseBloomPeakFrac": 0.625,
+        "clearFracRange": [
+          0.75,
+          1.0
+        ]
+      },
+      "note": "Clean QPSK (4 clusters) → 16-QAM (16 clusters) → noise bloom → clears; a slow 0.75-turn rotation spins the plot. Ideal-QAM grid overlay is on; fixed axis [-1.15, 1.15]."
+    },
+    "eye": {
+      "widgetId": "wavecrux.pro.dsp_eye",
+      "bindings": {
+        "sample": "top.eye.sample",
+        "uiClock": "top.eye.bit_clk"
+      },
+      "signalRefs": {
+        "sample": "6",
+        "uiClock": "7"
+      },
+      "uiPeriodTicks": 500000,
+      "uiCount": 400,
+      "foldedUiSlices": 64,
+      "openFracAnchor": 0.06,
+      "closedFracAnchor": 0.5,
+      "note": "Jitter + amplitude noise + ISI ramp up to a peak at f≈0.5 then ramp down. Eye is OPEN near the start (f≈0.06) and CLOSED at mid-timeline (f≈0.5). Assert measureEye is open at the start anchor and its height shrinks (or closes) at the mid anchor."
+    }
+  }
+}

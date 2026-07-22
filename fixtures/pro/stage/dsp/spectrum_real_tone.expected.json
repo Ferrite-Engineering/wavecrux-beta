@@ -1,0 +1,16 @@
+{
+  "_comment": "Real steady-tone fixture: a 3 kHz cosine sampled at 48 kHz. At the default 1024-pt FFT the tone lands on bin 64 (bin width 46.875 Hz). The half-spectrum peak bin is 64. Regenerate with dart run tool/generate_dsp_fixtures.dart (writes both fixture trees).",
+  "vcd": "spectrum_real_tone.vcd",
+  "timescaleNs": 1,
+  "widgetId": "wavecrux.pro.dsp_spectrum",
+  "sampleRateHz": 48000,
+  "fftSize": 1024,
+  "inputMode": "real",
+  "toneHz": 3000.0,
+  "expectedPeakBin": 64,
+  "expectedPeakFrequencyHz": 3000.0,
+  "bindings": {
+    "sample": "sample",
+    "sampleClock": "sclk"
+  }
+}

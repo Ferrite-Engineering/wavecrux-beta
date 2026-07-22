@@ -32,8 +32,9 @@ Map<String, Variable> _byPath(WellenProvider provider) {
 /// caring whether the underlying provider stores raw VCD idcodes
 /// (`WellenProvider`) or `signalRef.toString()` integers
 /// (`WellenProvider`).
-Map<String, String> _refToPath(Map<String, Variable> byPath) =>
-    {for (final v in byPath.values) v.signalRef: v.fullPath};
+Map<String, String> _refToPath(Map<String, Variable> byPath) => {
+  for (final v in byPath.values) v.signalRef: v.fullPath,
+};
 
 void main() {
   const board = NexysVideoStageWidget();

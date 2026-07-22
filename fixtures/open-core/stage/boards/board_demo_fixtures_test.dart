@@ -144,24 +144,32 @@ void main() {
           );
           for (var i = 0; i < c.ledCount; i++) {
             final slot = '${c.ledPrefix}$i';
-            expect(result.candidates[slot]?.confidence,
-                BoardAutoBindConfidence.exactMatch,
-                reason: '$slot per-bit match');
+            expect(
+              result.candidates[slot]?.confidence,
+              BoardAutoBindConfidence.exactMatch,
+              reason: '$slot per-bit match',
+            );
           }
           for (var i = 0; i < c.switchCount; i++) {
-            expect(result.candidates['sw$i']?.confidence,
-                BoardAutoBindConfidence.exactMatch);
+            expect(
+              result.candidates['sw$i']?.confidence,
+              BoardAutoBindConfidence.exactMatch,
+            );
           }
           for (final name in c.buttonNames) {
-            expect(result.candidates[name]?.confidence,
-                BoardAutoBindConfidence.exactMatch,
-                reason: 'button $name');
+            expect(
+              result.candidates[name]?.confidence,
+              BoardAutoBindConfidence.exactMatch,
+              reason: 'button $name',
+            );
           }
           for (var i = 0; i < c.digitCount; i++) {
             final slot = '${c.digitPrefix}$i';
-            expect(result.candidates[slot]?.confidence,
-                isNot(BoardAutoBindConfidence.noMatch),
-                reason: '$slot should bind');
+            expect(
+              result.candidates[slot]?.confidence,
+              isNot(BoardAutoBindConfidence.noMatch),
+              reason: '$slot should bind',
+            );
           }
         });
       });
@@ -187,18 +195,24 @@ void main() {
           );
           for (var i = 0; i < c.ledCount; i++) {
             final slot = '${c.ledPrefix}$i';
-            expect(result.candidates[slot]?.confidence,
-                BoardAutoBindConfidence.vectorFanOut,
-                reason: '$slot fan-out');
+            expect(
+              result.candidates[slot]?.confidence,
+              BoardAutoBindConfidence.vectorFanOut,
+              reason: '$slot fan-out',
+            );
           }
           for (var i = 0; i < c.switchCount; i++) {
-            expect(result.candidates['sw$i']?.confidence,
-                BoardAutoBindConfidence.vectorFanOut);
+            expect(
+              result.candidates['sw$i']?.confidence,
+              BoardAutoBindConfidence.vectorFanOut,
+            );
           }
           for (var i = 0; i < c.digitCount; i++) {
             final slot = '${c.digitPrefix}$i';
-            expect(result.candidates[slot]?.confidence,
-                isNot(BoardAutoBindConfidence.noMatch));
+            expect(
+              result.candidates[slot]?.confidence,
+              isNot(BoardAutoBindConfidence.noMatch),
+            );
           }
         });
       });

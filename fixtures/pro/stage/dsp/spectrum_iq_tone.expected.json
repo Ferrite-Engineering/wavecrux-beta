@@ -1,0 +1,17 @@
+{
+  "_comment": "IQ complex-tone fixture: a positive +3 kHz complex exponential (I = cos, Q = sin) sampled at 48 kHz. In the full natural-order spectrum the single peak is at positive bin 64 (no mirror image, unlike a real tone). Regenerate with dart run tool/generate_dsp_fixtures.dart (writes both fixture trees).",
+  "vcd": "spectrum_iq_tone.vcd",
+  "timescaleNs": 1,
+  "widgetId": "wavecrux.pro.dsp_spectrum",
+  "sampleRateHz": 48000,
+  "fftSize": 1024,
+  "inputMode": "iq",
+  "toneHz": 3000.0,
+  "expectedPeakBin": 64,
+  "expectedPeakFrequencyHz": 3000.0,
+  "bindings": {
+    "sample": "sample",
+    "imagSample": "imag",
+    "sampleClock": "sclk"
+  }
+}

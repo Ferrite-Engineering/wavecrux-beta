@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "sourceFilePath": "dsp_scope_demo.vcd",
+  "signals": [],
+  "cursor": {
+    "primary": null,
+    "secondary": null
+  },
+  "markers": {},
+  "view": {
+    "ticksPerPixel": 1.0,
+    "panOffsetTicks": 0.0,
+    "scrollOffset": 0.0
+  },
+  "panels": {
+    "signalTree": true,
+    "valueColumn": true,
+    "transactionView": false,
+    "stageView": true,
+    "statisticsStrip": false,
+    "cocotbLogPanel": false,
+    "rtlSource": false
+  },
+  "translateFilters": {},
+  "stage": {
+    "activePanelId": "stagePanel_dsp_demo",
+    "panels": [
+      {
+        "id": "stagePanel_dsp_demo",
+        "name": "DSP Scopes",
+        "instances": [
+          {
+            "id": "dsp_demo_spectrum",
+            "widgetId": "wavecrux.pro.dsp_spectrum",
+            "bindings": {
+              "sample": {
+                "ref": "0"
+              },
+              "sampleClock": {
+                "ref": "1"
+              }
+            },
+            "configuration": {
+              "viewMode": "spectrogram",
+              "rateMode": "physicalHz",
+              "sampleRateHz": 100000,
+              "fftSize": 256,
+              "window": "hann",
+              "floorDb": -80.0,
+              "magnitudeScale": "db",
+              "numericFormat": "signedTwosComplement",
+              "inputMode": "real",
+              "windowMs": 30
+            },
+            "x": 24.0,
+            "y": 24.0,
+            "width": 384.0,
+            "height": 300.0,
+            "label": "Spectrum"
+          },
+          {
+            "id": "dsp_demo_xy",
+            "widgetId": "wavecrux.pro.dsp_xy",
+            "bindings": {
+              "xSample": {
+                "ref": "2"
+              },
+              "ySample": {
+                "ref": "4"
+              },
+              "symbolClock": {
+                "ref": "5"
+              }
+            },
+            "configuration": {
+              "plotMode": "constellation",
+              "xFormat": "fixedPointQ",
+              "yFormat": "fixedPointQ",
+              "xQmIntegerBits": 1,
+              "xQmFractionalBits": 15,
+              "yQmIntegerBits": 1,
+              "yQmFractionalBits": 15,
+              "persistenceDepth": 512,
+              "gridOverlay": "idealQam",
+              "qamOrder": 16,
+              "axisScale": "fixed",
+              "axisMin": -1.15,
+              "axisMax": 1.15,
+              "windowMs": 30
+            },
+            "x": 428.0,
+            "y": 24.0,
+            "width": 384.0,
+            "height": 300.0,
+            "label": "Constellation"
+          },
+          {
+            "id": "dsp_demo_eye",
+            "widgetId": "wavecrux.pro.dsp_eye",
+            "bindings": {
+              "sample": {
+                "ref": "6"
+              },
+              "uiClock": {
+                "ref": "7"
+              }
+            },
+            "configuration": {
+              "uiSource": "clock",
+              "uiCount": 64,
+              "samplesPerUi": 32,
+              "numericFormat": "fixedPointQ",
+              "qmIntegerBits": 1,
+              "qmFractionalBits": 15,
+              "densityColormap": "heat",
+              "showMeasurements": true
+            },
+            "x": 832.0,
+            "y": 24.0,
+            "width": 384.0,
+            "height": 300.0,
+            "label": "Eye"
+          }
+        ]
+      }
+    ]
+  },
+  "activeTheme": "wavecrux-dark"
+}

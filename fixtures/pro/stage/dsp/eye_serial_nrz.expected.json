@@ -1,0 +1,22 @@
+{
+  "_comment": "Serial NRZ eye fixture: a 160-UI PRBS stream (7-bit LFSR) at a 2000ns unit interval, Q1.15 analog level on `sample` with a 1-bit `sclk` rising once per UI at the ideal boundary. Transitions are centered on the UI boundaries with seeded timing jitter (±0.08 UI) and amplitude noise (±0.05), giving a measurable but non-ideal eye. Bind sample→sample, uiClock→sclk; decode as fixed-point Q1.15. For the fixed-period variant bind only sample, set uiSource=fixedPeriod, uiPeriod=2000. The expected mid-UI eye height/width below are computed by an independent reference fold over the continuous analog signal (not the widget). Regenerate with dart run tool/generate_dsp_fixtures.dart (both trees).",
+  "vcd": "eye_serial_nrz.vcd",
+  "timescaleNs": 1,
+  "widgetId": "wavecrux.pro.dsp_eye",
+  "bindings": {
+    "sample": "sample",
+    "uiClock": "sclk"
+  },
+  "numericFormat": "fixedPointQ",
+  "qmIntegerBits": 1,
+  "qmFractionalBits": 15,
+  "uiPeriodTicks": 2000,
+  "uiCount": 160,
+  "amplitude": 0.8,
+  "jitterMaxUi": 0.08,
+  "noiseAmp": 0.05,
+  "expectedEyeHeight": 1.505,
+  "expectedEyeWidth": 0.8352,
+  "eyeHeightTolerance": 0.15,
+  "eyeWidthTolerance": 0.12
+}

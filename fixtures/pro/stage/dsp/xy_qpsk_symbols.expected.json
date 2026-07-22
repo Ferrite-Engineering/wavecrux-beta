@@ -1,0 +1,36 @@
+{
+  "_comment": "QPSK constellation fixture: 256 symbols cycling through the four ideal points (±0.6, ±0.6) in the normalized Q1.15 plane, one per sclk rising edge. Bind xSample→sample, ySample→imag, symbolClock→sclk; decode both buses as fixed-point Q1.15. Regenerate with dart run tool/generate_dsp_fixtures.dart (writes both trees).",
+  "vcd": "xy_qpsk_symbols.vcd",
+  "timescaleNs": 1,
+  "widgetId": "wavecrux.pro.dsp_xy",
+  "plotMode": "constellation",
+  "symbolCount": 256,
+  "bindings": {
+    "xSample": "sample",
+    "ySample": "imag",
+    "symbolClock": "sclk"
+  },
+  "xFormat": "fixedPointQ",
+  "yFormat": "fixedPointQ",
+  "qmIntegerBits": 1,
+  "qmFractionalBits": 15,
+  "qamOrder": 4,
+  "centroids": [
+    [
+      -0.6,
+      -0.6
+    ],
+    [
+      -0.6,
+      0.6
+    ],
+    [
+      0.6,
+      -0.6
+    ],
+    [
+      0.6,
+      0.6
+    ]
+  ]
+}

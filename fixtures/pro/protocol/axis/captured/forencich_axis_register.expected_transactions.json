@@ -7,7 +7,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -22,7 +22,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -37,7 +37,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -52,7 +52,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -67,7 +67,7 @@
       "beat_count": "512",
       "byte_count": "512",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -82,7 +82,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -97,7 +97,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -112,7 +112,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -127,7 +127,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -142,7 +142,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -157,7 +157,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -172,7 +172,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -187,7 +187,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -202,7 +202,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -217,7 +217,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -232,7 +232,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -247,7 +247,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -262,7 +262,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -277,7 +277,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -292,7 +292,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -307,7 +307,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -322,7 +322,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -337,7 +337,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -352,7 +352,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -367,7 +367,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -382,7 +382,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -397,7 +397,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -412,7 +412,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -427,7 +427,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -442,7 +442,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -457,7 +457,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -472,7 +472,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -487,7 +487,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -502,7 +502,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -517,7 +517,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -532,7 +532,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -547,7 +547,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -562,7 +562,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -577,7 +577,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -592,7 +592,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -607,7 +607,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -622,7 +622,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -637,7 +637,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -652,7 +652,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -667,7 +667,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -682,7 +682,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -697,7 +697,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -712,7 +712,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -727,7 +727,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -742,7 +742,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -757,7 +757,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -772,7 +772,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -787,7 +787,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -802,7 +802,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -817,7 +817,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -832,7 +832,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -847,7 +847,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -862,7 +862,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -877,7 +877,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -892,7 +892,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -907,7 +907,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -922,7 +922,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -937,7 +937,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -952,7 +952,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -967,7 +967,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -982,7 +982,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -997,7 +997,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -1012,7 +1012,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -1027,7 +1027,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -1042,7 +1042,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -1057,7 +1057,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -1072,7 +1072,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -1087,7 +1087,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -1102,7 +1102,7 @@
       "beat_count": "512",
       "byte_count": "512",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -1117,7 +1117,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -1132,7 +1132,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -1147,7 +1147,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -1162,7 +1162,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -1177,7 +1177,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -1192,7 +1192,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -1207,7 +1207,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -1222,7 +1222,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -1237,7 +1237,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -1252,7 +1252,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -1267,7 +1267,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -1282,7 +1282,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -1297,7 +1297,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -1312,7 +1312,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -1327,7 +1327,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -1342,7 +1342,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -1357,7 +1357,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -1372,7 +1372,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -1387,7 +1387,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -1402,7 +1402,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -1417,7 +1417,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -1432,7 +1432,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -1447,7 +1447,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -1462,7 +1462,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -1477,7 +1477,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -1492,7 +1492,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -1507,7 +1507,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -1522,7 +1522,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -1537,7 +1537,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -1552,7 +1552,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -1567,7 +1567,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -1582,7 +1582,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -1597,7 +1597,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -1612,7 +1612,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -1627,7 +1627,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -1642,7 +1642,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -1657,7 +1657,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -1672,7 +1672,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -1687,7 +1687,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -1702,7 +1702,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -1717,7 +1717,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -1732,7 +1732,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -1747,7 +1747,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -1762,7 +1762,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -1777,7 +1777,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -1792,7 +1792,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -1807,7 +1807,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -1822,7 +1822,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -1837,7 +1837,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -1852,7 +1852,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -1867,7 +1867,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -1882,7 +1882,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -1897,7 +1897,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -1912,7 +1912,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -1927,7 +1927,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -1942,7 +1942,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -1957,7 +1957,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -1972,7 +1972,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -1987,7 +1987,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -2002,7 +2002,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -2017,7 +2017,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -2032,7 +2032,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -2047,7 +2047,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -2062,7 +2062,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -2077,7 +2077,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -2092,7 +2092,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -2107,7 +2107,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -2122,7 +2122,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -2137,7 +2137,7 @@
       "beat_count": "512",
       "byte_count": "512",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -2152,7 +2152,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -2167,7 +2167,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -2182,7 +2182,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -2197,7 +2197,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -2212,7 +2212,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -2227,7 +2227,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -2242,7 +2242,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -2257,7 +2257,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -2272,7 +2272,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -2287,7 +2287,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -2302,7 +2302,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -2317,7 +2317,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -2332,7 +2332,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -2347,7 +2347,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -2362,7 +2362,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -2377,7 +2377,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -2392,7 +2392,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -2407,7 +2407,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -2422,7 +2422,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -2437,7 +2437,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -2452,7 +2452,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -2467,7 +2467,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -2482,7 +2482,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -2497,7 +2497,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -2512,7 +2512,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -2527,7 +2527,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -2542,7 +2542,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -2557,7 +2557,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -2572,7 +2572,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -2587,7 +2587,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -2602,7 +2602,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -2617,7 +2617,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -2632,7 +2632,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -2647,7 +2647,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -2662,7 +2662,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -2677,7 +2677,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -2692,7 +2692,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -2707,7 +2707,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -2722,7 +2722,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -2737,7 +2737,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -2752,7 +2752,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -2767,7 +2767,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -2782,7 +2782,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -2797,7 +2797,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -2812,7 +2812,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -2827,7 +2827,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -2842,7 +2842,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -2857,7 +2857,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -2872,7 +2872,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -2887,7 +2887,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -2902,7 +2902,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -2917,7 +2917,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -2932,7 +2932,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -2947,7 +2947,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -2962,7 +2962,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -2977,7 +2977,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -2992,7 +2992,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -3007,7 +3007,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -3022,7 +3022,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -3037,7 +3037,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -3052,7 +3052,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -3067,7 +3067,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -3082,7 +3082,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -3097,7 +3097,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -3112,7 +3112,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -3127,7 +3127,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -3142,7 +3142,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -3157,7 +3157,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -3172,7 +3172,7 @@
       "beat_count": "512",
       "byte_count": "512",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -3187,7 +3187,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -3202,7 +3202,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -3217,7 +3217,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -3232,7 +3232,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -3247,7 +3247,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -3262,7 +3262,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -3277,7 +3277,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -3292,7 +3292,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -3307,7 +3307,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -3322,7 +3322,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -3337,7 +3337,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -3352,7 +3352,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -3367,7 +3367,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -3382,7 +3382,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -3397,7 +3397,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -3412,7 +3412,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -3427,7 +3427,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -3442,7 +3442,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -3457,7 +3457,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -3472,7 +3472,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -3487,7 +3487,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -3502,7 +3502,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -3517,7 +3517,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -3532,7 +3532,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -3547,7 +3547,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -3562,7 +3562,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -3577,7 +3577,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -3592,7 +3592,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -3607,7 +3607,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -3622,7 +3622,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -3637,7 +3637,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -3652,7 +3652,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -3667,7 +3667,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -3682,7 +3682,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -3697,7 +3697,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -3712,7 +3712,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -3727,7 +3727,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -3742,7 +3742,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -3757,7 +3757,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -3772,7 +3772,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -3787,7 +3787,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -3802,7 +3802,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -3817,7 +3817,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -3832,7 +3832,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -3847,7 +3847,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -3862,7 +3862,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -3877,7 +3877,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -3892,7 +3892,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -3907,7 +3907,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -3922,7 +3922,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -3937,7 +3937,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -3952,7 +3952,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -3967,7 +3967,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -3982,7 +3982,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -3997,7 +3997,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -4012,7 +4012,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -4027,7 +4027,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -4042,7 +4042,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -4057,7 +4057,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -4072,7 +4072,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -4087,7 +4087,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -4102,7 +4102,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -4117,7 +4117,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -4132,7 +4132,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -4147,7 +4147,7 @@
       "beat_count": "32",
       "byte_count": "32",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
-      "tuser_hex": "1",
+      "tuser_bits": "1",
       "tdest_routing": "0",
       "tid_stream": "0"
     },
@@ -4162,7 +4162,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -4177,7 +4177,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -4192,7 +4192,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -4207,7 +4207,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -4222,7 +4222,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -4237,7 +4237,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -4252,7 +4252,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -4267,7 +4267,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -4282,7 +4282,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -4297,7 +4297,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -4312,7 +4312,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -4327,7 +4327,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -4342,7 +4342,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -4357,7 +4357,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -4372,7 +4372,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -4387,7 +4387,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -4402,7 +4402,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -4417,7 +4417,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -4432,7 +4432,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -4447,7 +4447,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -4462,7 +4462,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -4477,7 +4477,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -4492,7 +4492,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -4507,7 +4507,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -4522,7 +4522,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -4537,7 +4537,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -4552,7 +4552,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -4567,7 +4567,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -4582,7 +4582,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -4597,7 +4597,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -4612,7 +4612,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -4627,7 +4627,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -4642,7 +4642,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -4657,7 +4657,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -4672,7 +4672,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -4687,7 +4687,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -4702,7 +4702,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -4717,7 +4717,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -4732,7 +4732,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -4747,7 +4747,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -4762,7 +4762,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -4777,7 +4777,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -4792,7 +4792,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -4807,7 +4807,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -4822,7 +4822,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -4837,7 +4837,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -4852,7 +4852,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -4867,7 +4867,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -4882,7 +4882,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -4897,7 +4897,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -4912,7 +4912,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -4927,7 +4927,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -4942,7 +4942,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -4957,7 +4957,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -4972,7 +4972,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -4987,7 +4987,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -5002,7 +5002,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -5017,7 +5017,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -5032,7 +5032,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -5047,7 +5047,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -5062,7 +5062,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -5077,7 +5077,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -5092,7 +5092,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -5107,7 +5107,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -5122,7 +5122,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -5137,7 +5137,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -5152,7 +5152,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -5167,7 +5167,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -5182,7 +5182,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -5197,7 +5197,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "70",
       "tid_stream": "70"
     },
@@ -5212,7 +5212,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "71",
       "tid_stream": "71"
     },
@@ -5227,7 +5227,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "72",
       "tid_stream": "72"
     },
@@ -5242,7 +5242,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "73",
       "tid_stream": "73"
     },
@@ -5257,7 +5257,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "74",
       "tid_stream": "74"
     },
@@ -5272,7 +5272,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "75",
       "tid_stream": "75"
     },
@@ -5287,7 +5287,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "76",
       "tid_stream": "76"
     },
@@ -5302,7 +5302,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "77",
       "tid_stream": "77"
     },
@@ -5317,7 +5317,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "78",
       "tid_stream": "78"
     },
@@ -5332,7 +5332,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "79",
       "tid_stream": "79"
     },
@@ -5347,7 +5347,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "80",
       "tid_stream": "80"
     },
@@ -5362,7 +5362,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "81",
       "tid_stream": "81"
     },
@@ -5377,7 +5377,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "82",
       "tid_stream": "82"
     },
@@ -5392,7 +5392,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "83",
       "tid_stream": "83"
     },
@@ -5407,7 +5407,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "84",
       "tid_stream": "84"
     },
@@ -5422,7 +5422,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "85",
       "tid_stream": "85"
     },
@@ -5437,7 +5437,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "86",
       "tid_stream": "86"
     },
@@ -5452,7 +5452,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "87",
       "tid_stream": "87"
     },
@@ -5467,7 +5467,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "88",
       "tid_stream": "88"
     },
@@ -5482,7 +5482,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "89",
       "tid_stream": "89"
     },
@@ -5497,7 +5497,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "90",
       "tid_stream": "90"
     },
@@ -5512,7 +5512,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "91",
       "tid_stream": "91"
     },
@@ -5527,7 +5527,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "92",
       "tid_stream": "92"
     },
@@ -5542,7 +5542,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "93",
       "tid_stream": "93"
     },
@@ -5557,7 +5557,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "94",
       "tid_stream": "94"
     },
@@ -5572,7 +5572,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "95",
       "tid_stream": "95"
     },
@@ -5587,7 +5587,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "96",
       "tid_stream": "96"
     },
@@ -5602,7 +5602,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "97",
       "tid_stream": "97"
     },
@@ -5617,7 +5617,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "98",
       "tid_stream": "98"
     },
@@ -5632,7 +5632,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "99",
       "tid_stream": "99"
     },
@@ -5647,7 +5647,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "100",
       "tid_stream": "100"
     },
@@ -5662,7 +5662,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "101",
       "tid_stream": "101"
     },
@@ -5677,7 +5677,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "102",
       "tid_stream": "102"
     },
@@ -5692,7 +5692,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "103",
       "tid_stream": "103"
     },
@@ -5707,7 +5707,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "104",
       "tid_stream": "104"
     },
@@ -5722,7 +5722,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "105",
       "tid_stream": "105"
     },
@@ -5737,7 +5737,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "106",
       "tid_stream": "106"
     },
@@ -5752,7 +5752,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "107",
       "tid_stream": "107"
     },
@@ -5767,7 +5767,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "108",
       "tid_stream": "108"
     },
@@ -5782,7 +5782,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "109",
       "tid_stream": "109"
     },
@@ -5797,7 +5797,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "110",
       "tid_stream": "110"
     },
@@ -5812,7 +5812,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "111",
       "tid_stream": "111"
     },
@@ -5827,7 +5827,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "112",
       "tid_stream": "112"
     },
@@ -5842,7 +5842,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "113",
       "tid_stream": "113"
     },
@@ -5857,7 +5857,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "114",
       "tid_stream": "114"
     },
@@ -5872,7 +5872,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "115",
       "tid_stream": "115"
     },
@@ -5887,7 +5887,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "116",
       "tid_stream": "116"
     },
@@ -5902,7 +5902,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "117",
       "tid_stream": "117"
     },
@@ -5917,7 +5917,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "118",
       "tid_stream": "118"
     },
@@ -5932,7 +5932,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "119",
       "tid_stream": "119"
     },
@@ -5947,7 +5947,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "120",
       "tid_stream": "120"
     },
@@ -5962,7 +5962,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "121",
       "tid_stream": "121"
     },
@@ -5977,7 +5977,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "122",
       "tid_stream": "122"
     },
@@ -5992,7 +5992,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "123",
       "tid_stream": "123"
     },
@@ -6007,7 +6007,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "124",
       "tid_stream": "124"
     },
@@ -6022,7 +6022,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "125",
       "tid_stream": "125"
     },
@@ -6037,7 +6037,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "126",
       "tid_stream": "126"
     },
@@ -6052,7 +6052,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "127",
       "tid_stream": "127"
     },
@@ -6067,7 +6067,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "128",
       "tid_stream": "128"
     },
@@ -6082,7 +6082,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -6097,7 +6097,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -6112,7 +6112,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -6127,7 +6127,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -6142,7 +6142,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -6157,7 +6157,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -6172,7 +6172,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -6187,7 +6187,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -6202,7 +6202,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -6217,7 +6217,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -6232,7 +6232,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -6247,7 +6247,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -6262,7 +6262,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -6277,7 +6277,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -6292,7 +6292,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -6307,7 +6307,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -6322,7 +6322,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -6337,7 +6337,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -6352,7 +6352,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -6367,7 +6367,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -6382,7 +6382,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -6397,7 +6397,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -6412,7 +6412,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -6427,7 +6427,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -6442,7 +6442,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -6457,7 +6457,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -6472,7 +6472,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -6487,7 +6487,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -6502,7 +6502,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -6517,7 +6517,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -6532,7 +6532,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -6547,7 +6547,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -6562,7 +6562,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -6577,7 +6577,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -6592,7 +6592,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -6607,7 +6607,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -6622,7 +6622,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -6637,7 +6637,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -6652,7 +6652,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -6667,7 +6667,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -6682,7 +6682,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -6697,7 +6697,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -6712,7 +6712,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -6727,7 +6727,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -6742,7 +6742,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -6757,7 +6757,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -6772,7 +6772,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -6787,7 +6787,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -6802,7 +6802,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -6817,7 +6817,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -6832,7 +6832,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -6847,7 +6847,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -6862,7 +6862,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -6877,7 +6877,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -6892,7 +6892,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -6907,7 +6907,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -6922,7 +6922,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -6937,7 +6937,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -6952,7 +6952,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -6967,7 +6967,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -6982,7 +6982,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -6997,7 +6997,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -7012,7 +7012,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -7027,7 +7027,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -7042,7 +7042,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -7057,7 +7057,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -7072,7 +7072,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -7087,7 +7087,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -7102,7 +7102,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -7117,7 +7117,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "70",
       "tid_stream": "70"
     },
@@ -7132,7 +7132,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "71",
       "tid_stream": "71"
     },
@@ -7147,7 +7147,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "72",
       "tid_stream": "72"
     },
@@ -7162,7 +7162,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "73",
       "tid_stream": "73"
     },
@@ -7177,7 +7177,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "74",
       "tid_stream": "74"
     },
@@ -7192,7 +7192,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "75",
       "tid_stream": "75"
     },
@@ -7207,7 +7207,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "76",
       "tid_stream": "76"
     },
@@ -7222,7 +7222,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "77",
       "tid_stream": "77"
     },
@@ -7237,7 +7237,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "78",
       "tid_stream": "78"
     },
@@ -7252,7 +7252,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "79",
       "tid_stream": "79"
     },
@@ -7267,7 +7267,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "80",
       "tid_stream": "80"
     },
@@ -7282,7 +7282,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "81",
       "tid_stream": "81"
     },
@@ -7297,7 +7297,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "82",
       "tid_stream": "82"
     },
@@ -7312,7 +7312,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "83",
       "tid_stream": "83"
     },
@@ -7327,7 +7327,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "84",
       "tid_stream": "84"
     },
@@ -7342,7 +7342,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "85",
       "tid_stream": "85"
     },
@@ -7357,7 +7357,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "86",
       "tid_stream": "86"
     },
@@ -7372,7 +7372,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "87",
       "tid_stream": "87"
     },
@@ -7387,7 +7387,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "88",
       "tid_stream": "88"
     },
@@ -7402,7 +7402,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "89",
       "tid_stream": "89"
     },
@@ -7417,7 +7417,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "90",
       "tid_stream": "90"
     },
@@ -7432,7 +7432,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "91",
       "tid_stream": "91"
     },
@@ -7447,7 +7447,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "92",
       "tid_stream": "92"
     },
@@ -7462,7 +7462,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "93",
       "tid_stream": "93"
     },
@@ -7477,7 +7477,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "94",
       "tid_stream": "94"
     },
@@ -7492,7 +7492,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "95",
       "tid_stream": "95"
     },
@@ -7507,7 +7507,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "96",
       "tid_stream": "96"
     },
@@ -7522,7 +7522,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "97",
       "tid_stream": "97"
     },
@@ -7537,7 +7537,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "98",
       "tid_stream": "98"
     },
@@ -7552,7 +7552,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "99",
       "tid_stream": "99"
     },
@@ -7567,7 +7567,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "100",
       "tid_stream": "100"
     },
@@ -7582,7 +7582,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "101",
       "tid_stream": "101"
     },
@@ -7597,7 +7597,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "102",
       "tid_stream": "102"
     },
@@ -7612,7 +7612,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "103",
       "tid_stream": "103"
     },
@@ -7627,7 +7627,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "104",
       "tid_stream": "104"
     },
@@ -7642,7 +7642,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "105",
       "tid_stream": "105"
     },
@@ -7657,7 +7657,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "106",
       "tid_stream": "106"
     },
@@ -7672,7 +7672,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "107",
       "tid_stream": "107"
     },
@@ -7687,7 +7687,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "108",
       "tid_stream": "108"
     },
@@ -7702,7 +7702,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "109",
       "tid_stream": "109"
     },
@@ -7717,7 +7717,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "110",
       "tid_stream": "110"
     },
@@ -7732,7 +7732,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "111",
       "tid_stream": "111"
     },
@@ -7747,7 +7747,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "112",
       "tid_stream": "112"
     },
@@ -7762,7 +7762,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "113",
       "tid_stream": "113"
     },
@@ -7777,7 +7777,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "114",
       "tid_stream": "114"
     },
@@ -7792,7 +7792,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "115",
       "tid_stream": "115"
     },
@@ -7807,7 +7807,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "116",
       "tid_stream": "116"
     },
@@ -7822,7 +7822,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "117",
       "tid_stream": "117"
     },
@@ -7837,7 +7837,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "118",
       "tid_stream": "118"
     },
@@ -7852,7 +7852,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "119",
       "tid_stream": "119"
     },
@@ -7867,7 +7867,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "120",
       "tid_stream": "120"
     },
@@ -7882,7 +7882,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "121",
       "tid_stream": "121"
     },
@@ -7897,7 +7897,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "122",
       "tid_stream": "122"
     },
@@ -7912,7 +7912,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "123",
       "tid_stream": "123"
     },
@@ -7927,7 +7927,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "124",
       "tid_stream": "124"
     },
@@ -7942,7 +7942,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "125",
       "tid_stream": "125"
     },
@@ -7957,7 +7957,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "126",
       "tid_stream": "126"
     },
@@ -7972,7 +7972,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "127",
       "tid_stream": "127"
     },
@@ -7987,7 +7987,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "128",
       "tid_stream": "128"
     },
@@ -8002,7 +8002,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -8017,7 +8017,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -8032,7 +8032,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -8047,7 +8047,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -8062,7 +8062,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -8077,7 +8077,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -8092,7 +8092,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -8107,7 +8107,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -8122,7 +8122,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -8137,7 +8137,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -8152,7 +8152,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -8167,7 +8167,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -8182,7 +8182,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -8197,7 +8197,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -8212,7 +8212,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -8227,7 +8227,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -8242,7 +8242,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -8257,7 +8257,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -8272,7 +8272,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -8287,7 +8287,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -8302,7 +8302,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -8317,7 +8317,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -8332,7 +8332,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -8347,7 +8347,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -8362,7 +8362,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -8377,7 +8377,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -8392,7 +8392,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -8407,7 +8407,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -8422,7 +8422,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -8437,7 +8437,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -8452,7 +8452,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -8467,7 +8467,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -8482,7 +8482,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -8497,7 +8497,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -8512,7 +8512,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -8527,7 +8527,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -8542,7 +8542,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -8557,7 +8557,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -8572,7 +8572,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -8587,7 +8587,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -8602,7 +8602,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -8617,7 +8617,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -8632,7 +8632,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -8647,7 +8647,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -8662,7 +8662,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -8677,7 +8677,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -8692,7 +8692,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -8707,7 +8707,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -8722,7 +8722,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -8737,7 +8737,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -8752,7 +8752,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -8767,7 +8767,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -8782,7 +8782,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -8797,7 +8797,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -8812,7 +8812,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -8827,7 +8827,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -8842,7 +8842,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -8857,7 +8857,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -8872,7 +8872,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -8887,7 +8887,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -8902,7 +8902,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -8917,7 +8917,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -8932,7 +8932,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -8947,7 +8947,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -8962,7 +8962,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -8977,7 +8977,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -8992,7 +8992,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -9007,7 +9007,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -9022,7 +9022,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -9037,7 +9037,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "70",
       "tid_stream": "70"
     },
@@ -9052,7 +9052,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "71",
       "tid_stream": "71"
     },
@@ -9067,7 +9067,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "72",
       "tid_stream": "72"
     },
@@ -9082,7 +9082,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "73",
       "tid_stream": "73"
     },
@@ -9097,7 +9097,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "74",
       "tid_stream": "74"
     },
@@ -9112,7 +9112,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "75",
       "tid_stream": "75"
     },
@@ -9127,7 +9127,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "76",
       "tid_stream": "76"
     },
@@ -9142,7 +9142,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "77",
       "tid_stream": "77"
     },
@@ -9157,7 +9157,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "78",
       "tid_stream": "78"
     },
@@ -9172,7 +9172,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "79",
       "tid_stream": "79"
     },
@@ -9187,7 +9187,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "80",
       "tid_stream": "80"
     },
@@ -9202,7 +9202,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "81",
       "tid_stream": "81"
     },
@@ -9217,7 +9217,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "82",
       "tid_stream": "82"
     },
@@ -9232,7 +9232,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "83",
       "tid_stream": "83"
     },
@@ -9247,7 +9247,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "84",
       "tid_stream": "84"
     },
@@ -9262,7 +9262,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "85",
       "tid_stream": "85"
     },
@@ -9277,7 +9277,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "86",
       "tid_stream": "86"
     },
@@ -9292,7 +9292,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "87",
       "tid_stream": "87"
     },
@@ -9307,7 +9307,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "88",
       "tid_stream": "88"
     },
@@ -9322,7 +9322,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "89",
       "tid_stream": "89"
     },
@@ -9337,7 +9337,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "90",
       "tid_stream": "90"
     },
@@ -9352,7 +9352,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "91",
       "tid_stream": "91"
     },
@@ -9367,7 +9367,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "92",
       "tid_stream": "92"
     },
@@ -9382,7 +9382,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "93",
       "tid_stream": "93"
     },
@@ -9397,7 +9397,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "94",
       "tid_stream": "94"
     },
@@ -9412,7 +9412,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "95",
       "tid_stream": "95"
     },
@@ -9427,7 +9427,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "96",
       "tid_stream": "96"
     },
@@ -9442,7 +9442,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "97",
       "tid_stream": "97"
     },
@@ -9457,7 +9457,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "98",
       "tid_stream": "98"
     },
@@ -9472,7 +9472,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "99",
       "tid_stream": "99"
     },
@@ -9487,7 +9487,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "100",
       "tid_stream": "100"
     },
@@ -9502,7 +9502,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "101",
       "tid_stream": "101"
     },
@@ -9517,7 +9517,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "102",
       "tid_stream": "102"
     },
@@ -9532,7 +9532,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "103",
       "tid_stream": "103"
     },
@@ -9547,7 +9547,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "104",
       "tid_stream": "104"
     },
@@ -9562,7 +9562,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "105",
       "tid_stream": "105"
     },
@@ -9577,7 +9577,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "106",
       "tid_stream": "106"
     },
@@ -9592,7 +9592,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "107",
       "tid_stream": "107"
     },
@@ -9607,7 +9607,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "108",
       "tid_stream": "108"
     },
@@ -9622,7 +9622,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "109",
       "tid_stream": "109"
     },
@@ -9637,7 +9637,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "110",
       "tid_stream": "110"
     },
@@ -9652,7 +9652,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "111",
       "tid_stream": "111"
     },
@@ -9667,7 +9667,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "112",
       "tid_stream": "112"
     },
@@ -9682,7 +9682,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "113",
       "tid_stream": "113"
     },
@@ -9697,7 +9697,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "114",
       "tid_stream": "114"
     },
@@ -9712,7 +9712,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "115",
       "tid_stream": "115"
     },
@@ -9727,7 +9727,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "116",
       "tid_stream": "116"
     },
@@ -9742,7 +9742,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "117",
       "tid_stream": "117"
     },
@@ -9757,7 +9757,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "118",
       "tid_stream": "118"
     },
@@ -9772,7 +9772,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "119",
       "tid_stream": "119"
     },
@@ -9787,7 +9787,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "120",
       "tid_stream": "120"
     },
@@ -9802,7 +9802,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "121",
       "tid_stream": "121"
     },
@@ -9817,7 +9817,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "122",
       "tid_stream": "122"
     },
@@ -9832,7 +9832,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "123",
       "tid_stream": "123"
     },
@@ -9847,7 +9847,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "124",
       "tid_stream": "124"
     },
@@ -9862,7 +9862,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "125",
       "tid_stream": "125"
     },
@@ -9877,7 +9877,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "126",
       "tid_stream": "126"
     },
@@ -9892,7 +9892,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "127",
       "tid_stream": "127"
     },
@@ -9907,7 +9907,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "128",
       "tid_stream": "128"
     },
@@ -9922,7 +9922,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "1",
       "tid_stream": "1"
     },
@@ -9937,7 +9937,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "2",
       "tid_stream": "2"
     },
@@ -9952,7 +9952,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "3",
       "tid_stream": "3"
     },
@@ -9967,7 +9967,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "4",
       "tid_stream": "4"
     },
@@ -9982,7 +9982,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "5",
       "tid_stream": "5"
     },
@@ -9997,7 +9997,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "6",
       "tid_stream": "6"
     },
@@ -10012,7 +10012,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "7",
       "tid_stream": "7"
     },
@@ -10027,7 +10027,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "8",
       "tid_stream": "8"
     },
@@ -10042,7 +10042,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "9",
       "tid_stream": "9"
     },
@@ -10057,7 +10057,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "10",
       "tid_stream": "10"
     },
@@ -10072,7 +10072,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "11",
       "tid_stream": "11"
     },
@@ -10087,7 +10087,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "12",
       "tid_stream": "12"
     },
@@ -10102,7 +10102,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "13",
       "tid_stream": "13"
     },
@@ -10117,7 +10117,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "14",
       "tid_stream": "14"
     },
@@ -10132,7 +10132,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "15",
       "tid_stream": "15"
     },
@@ -10147,7 +10147,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "16",
       "tid_stream": "16"
     },
@@ -10162,7 +10162,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "17",
       "tid_stream": "17"
     },
@@ -10177,7 +10177,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "18",
       "tid_stream": "18"
     },
@@ -10192,7 +10192,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "19",
       "tid_stream": "19"
     },
@@ -10207,7 +10207,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "20",
       "tid_stream": "20"
     },
@@ -10222,7 +10222,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "21",
       "tid_stream": "21"
     },
@@ -10237,7 +10237,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "22",
       "tid_stream": "22"
     },
@@ -10252,7 +10252,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "23",
       "tid_stream": "23"
     },
@@ -10267,7 +10267,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "24",
       "tid_stream": "24"
     },
@@ -10282,7 +10282,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "25",
       "tid_stream": "25"
     },
@@ -10297,7 +10297,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "26",
       "tid_stream": "26"
     },
@@ -10312,7 +10312,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "27",
       "tid_stream": "27"
     },
@@ -10327,7 +10327,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "28",
       "tid_stream": "28"
     },
@@ -10342,7 +10342,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "29",
       "tid_stream": "29"
     },
@@ -10357,7 +10357,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "30",
       "tid_stream": "30"
     },
@@ -10372,7 +10372,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "31",
       "tid_stream": "31"
     },
@@ -10387,7 +10387,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "32",
       "tid_stream": "32"
     },
@@ -10402,7 +10402,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "33",
       "tid_stream": "33"
     },
@@ -10417,7 +10417,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "34",
       "tid_stream": "34"
     },
@@ -10432,7 +10432,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "35",
       "tid_stream": "35"
     },
@@ -10447,7 +10447,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "36",
       "tid_stream": "36"
     },
@@ -10462,7 +10462,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "37",
       "tid_stream": "37"
     },
@@ -10477,7 +10477,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "38",
       "tid_stream": "38"
     },
@@ -10492,7 +10492,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "39",
       "tid_stream": "39"
     },
@@ -10507,7 +10507,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "40",
       "tid_stream": "40"
     },
@@ -10522,7 +10522,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "41",
       "tid_stream": "41"
     },
@@ -10537,7 +10537,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "42",
       "tid_stream": "42"
     },
@@ -10552,7 +10552,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "43",
       "tid_stream": "43"
     },
@@ -10567,7 +10567,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "44",
       "tid_stream": "44"
     },
@@ -10582,7 +10582,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "45",
       "tid_stream": "45"
     },
@@ -10597,7 +10597,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "46",
       "tid_stream": "46"
     },
@@ -10612,7 +10612,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "47",
       "tid_stream": "47"
     },
@@ -10627,7 +10627,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "48",
       "tid_stream": "48"
     },
@@ -10642,7 +10642,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "49",
       "tid_stream": "49"
     },
@@ -10657,7 +10657,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "50",
       "tid_stream": "50"
     },
@@ -10672,7 +10672,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "51",
       "tid_stream": "51"
     },
@@ -10687,7 +10687,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "52",
       "tid_stream": "52"
     },
@@ -10702,7 +10702,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "53",
       "tid_stream": "53"
     },
@@ -10717,7 +10717,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "54",
       "tid_stream": "54"
     },
@@ -10732,7 +10732,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "55",
       "tid_stream": "55"
     },
@@ -10747,7 +10747,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "56",
       "tid_stream": "56"
     },
@@ -10762,7 +10762,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "57",
       "tid_stream": "57"
     },
@@ -10777,7 +10777,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "58",
       "tid_stream": "58"
     },
@@ -10792,7 +10792,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "59",
       "tid_stream": "59"
     },
@@ -10807,7 +10807,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "60",
       "tid_stream": "60"
     },
@@ -10822,7 +10822,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "61",
       "tid_stream": "61"
     },
@@ -10837,7 +10837,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "62",
       "tid_stream": "62"
     },
@@ -10852,7 +10852,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "63",
       "tid_stream": "63"
     },
@@ -10867,7 +10867,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "64",
       "tid_stream": "64"
     },
@@ -10882,7 +10882,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "65",
       "tid_stream": "65"
     },
@@ -10897,7 +10897,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "66",
       "tid_stream": "66"
     },
@@ -10912,7 +10912,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "67",
       "tid_stream": "67"
     },
@@ -10927,7 +10927,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "68",
       "tid_stream": "68"
     },
@@ -10942,7 +10942,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "69",
       "tid_stream": "69"
     },
@@ -10957,7 +10957,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "70",
       "tid_stream": "70"
     },
@@ -10972,7 +10972,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "71",
       "tid_stream": "71"
     },
@@ -10987,7 +10987,7 @@
       "beat_count": "3",
       "byte_count": "3",
       "payload_bytes": "000102",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "72",
       "tid_stream": "72"
     },
@@ -11002,7 +11002,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "73",
       "tid_stream": "73"
     },
@@ -11017,7 +11017,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "74",
       "tid_stream": "74"
     },
@@ -11032,7 +11032,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "75",
       "tid_stream": "75"
     },
@@ -11047,7 +11047,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "76",
       "tid_stream": "76"
     },
@@ -11062,7 +11062,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "77",
       "tid_stream": "77"
     },
@@ -11077,7 +11077,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "78",
       "tid_stream": "78"
     },
@@ -11092,7 +11092,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "79",
       "tid_stream": "79"
     },
@@ -11107,7 +11107,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "80",
       "tid_stream": "80"
     },
@@ -11122,7 +11122,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "81",
       "tid_stream": "81"
     },
@@ -11137,7 +11137,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "82",
       "tid_stream": "82"
     },
@@ -11152,7 +11152,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "83",
       "tid_stream": "83"
     },
@@ -11167,7 +11167,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "84",
       "tid_stream": "84"
     },
@@ -11182,7 +11182,7 @@
       "beat_count": "4",
       "byte_count": "4",
       "payload_bytes": "00010203",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "85",
       "tid_stream": "85"
     },
@@ -11197,7 +11197,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "86",
       "tid_stream": "86"
     },
@@ -11212,7 +11212,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "87",
       "tid_stream": "87"
     },
@@ -11227,7 +11227,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "88",
       "tid_stream": "88"
     },
@@ -11242,7 +11242,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "89",
       "tid_stream": "89"
     },
@@ -11257,7 +11257,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "90",
       "tid_stream": "90"
     },
@@ -11272,7 +11272,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "91",
       "tid_stream": "91"
     },
@@ -11287,7 +11287,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "92",
       "tid_stream": "92"
     },
@@ -11302,7 +11302,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "93",
       "tid_stream": "93"
     },
@@ -11317,7 +11317,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "94",
       "tid_stream": "94"
     },
@@ -11332,7 +11332,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "95",
       "tid_stream": "95"
     },
@@ -11347,7 +11347,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "96",
       "tid_stream": "96"
     },
@@ -11362,7 +11362,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "97",
       "tid_stream": "97"
     },
@@ -11377,7 +11377,7 @@
       "beat_count": "5",
       "byte_count": "5",
       "payload_bytes": "0001020304",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "98",
       "tid_stream": "98"
     },
@@ -11392,7 +11392,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "99",
       "tid_stream": "99"
     },
@@ -11407,7 +11407,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "100",
       "tid_stream": "100"
     },
@@ -11422,7 +11422,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "101",
       "tid_stream": "101"
     },
@@ -11437,7 +11437,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "102",
       "tid_stream": "102"
     },
@@ -11452,7 +11452,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "103",
       "tid_stream": "103"
     },
@@ -11467,7 +11467,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "104",
       "tid_stream": "104"
     },
@@ -11482,7 +11482,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "105",
       "tid_stream": "105"
     },
@@ -11497,7 +11497,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "106",
       "tid_stream": "106"
     },
@@ -11512,7 +11512,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "107",
       "tid_stream": "107"
     },
@@ -11527,7 +11527,7 @@
       "beat_count": "9",
       "byte_count": "9",
       "payload_bytes": "000102030405060708",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "108",
       "tid_stream": "108"
     },
@@ -11542,7 +11542,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "109",
       "tid_stream": "109"
     },
@@ -11557,7 +11557,7 @@
       "beat_count": "11",
       "byte_count": "11",
       "payload_bytes": "000102030405060708090a",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "110",
       "tid_stream": "110"
     },
@@ -11572,7 +11572,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "111",
       "tid_stream": "111"
     },
@@ -11587,7 +11587,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "112",
       "tid_stream": "112"
     },
@@ -11602,7 +11602,7 @@
       "beat_count": "1",
       "byte_count": "1",
       "payload_bytes": "00",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "113",
       "tid_stream": "113"
     },
@@ -11617,7 +11617,7 @@
       "beat_count": "16",
       "byte_count": "16",
       "payload_bytes": "000102030405060708090a0b0c0d0e0f",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "114",
       "tid_stream": "114"
     },
@@ -11632,7 +11632,7 @@
       "beat_count": "15",
       "byte_count": "15",
       "payload_bytes": "000102030405060708090a0b0c0d0e",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "115",
       "tid_stream": "115"
     },
@@ -11647,7 +11647,7 @@
       "beat_count": "6",
       "byte_count": "6",
       "payload_bytes": "000102030405",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "116",
       "tid_stream": "116"
     },
@@ -11662,7 +11662,7 @@
       "beat_count": "12",
       "byte_count": "12",
       "payload_bytes": "000102030405060708090a0b",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "117",
       "tid_stream": "117"
     },
@@ -11677,7 +11677,7 @@
       "beat_count": "10",
       "byte_count": "10",
       "payload_bytes": "00010203040506070809",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "118",
       "tid_stream": "118"
     },
@@ -11692,7 +11692,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "119",
       "tid_stream": "119"
     },
@@ -11707,7 +11707,7 @@
       "beat_count": "14",
       "byte_count": "14",
       "payload_bytes": "000102030405060708090a0b0c0d",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "120",
       "tid_stream": "120"
     },
@@ -11722,7 +11722,7 @@
       "beat_count": "8",
       "byte_count": "8",
       "payload_bytes": "0001020304050607",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "121",
       "tid_stream": "121"
     },
@@ -11737,7 +11737,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "122",
       "tid_stream": "122"
     },
@@ -11752,7 +11752,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "123",
       "tid_stream": "123"
     },
@@ -11767,7 +11767,7 @@
       "beat_count": "13",
       "byte_count": "13",
       "payload_bytes": "000102030405060708090a0b0c",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "124",
       "tid_stream": "124"
     },
@@ -11782,7 +11782,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "125",
       "tid_stream": "125"
     },
@@ -11797,7 +11797,7 @@
       "beat_count": "2",
       "byte_count": "2",
       "payload_bytes": "0001",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "126",
       "tid_stream": "126"
     },
@@ -11812,7 +11812,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "127",
       "tid_stream": "127"
     },
@@ -11827,7 +11827,7 @@
       "beat_count": "7",
       "byte_count": "7",
       "payload_bytes": "00010203040506",
-      "tuser_hex": "0",
+      "tuser_bits": "0",
       "tdest_routing": "128",
       "tid_stream": "128"
     },
