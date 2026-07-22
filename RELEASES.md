@@ -6,6 +6,97 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.3.0 — 2026-07-22
+
+The DSP Scope release — three new signal-analysis Stage widgets — on top of a
+week-long responsiveness and correctness pass across the whole viewer.
+
+### New
+
+- **DSP Scope: three new Stage widgets (Pro).** Point them at a numeric
+  sample bus and watch it the way you would on bench equipment.
+  - **Spectrum Analyzer** — magnitude-vs-frequency plus a rolling
+    time × frequency spectrogram, with a peak marker and readout, a
+    physical-Hz or normalized (f/fs) axis, and complex IQ input
+    (real + imaginary bus) alongside plain real sample streams.
+  - **X-Y / Constellation** — plot two sample buses against each other as a
+    phosphor-decay Lissajous trail, or symbol-clock them into a constellation
+    with density, persistence, and an optional ideal 4/16/64-QAM grid overlay.
+  - **Eye Diagram** — fold a sampled serial line modulo one unit interval into
+    a density-shaded eye, referenced to a recovered clock or a fixed period,
+    with a mid-UI eye-height / eye-width measurement overlay.
+- **A turnkey DSP demo.** A choreographed 200 ms capture and a preloaded
+  session drop all three widgets onto one Stage panel, pre-bound: a chirping
+  spectrogram, a QPSK → 16-QAM constellation that blooms into noise and
+  clears, and a serial eye that closes at mid-timeline and reopens — all on a
+  single time axis. Open it and press play.
+- **Disabled shortcuts now tell you why.** Pressing a key for an action that
+  isn't currently available used to do nothing at all, which reads as a broken
+  keyboard. It now says what's missing — "Load a waveform file to use protocol
+  decoders", and so on — resolved from the actual unmet precondition, so
+  actions with several requirements name the one that's blocking you.
+- **Unreachable CXP peers are visible.** The cross-probe panel gained an
+  "Unreachable peers" section, so a one-way link — a peer that dialled you but
+  that you can't dial back — no longer looks healthy.
+- **Remote control speaks the WCP spec envelope.** The server now accepts the
+  upstream Waveform Control Protocol envelope alongside WaveCrux's own dialect
+  on the same port, advertises protocol version 0, and unifies the default port
+  at 54321 across the suite. Batch commands are atomic — a partial failure adds
+  nothing. It also starts on its own when you enable remote control, instead of
+  waiting for the next launch.
+
+### Faster
+
+- **Clicking is instant again.** Signal-tree scope headers and Stage tab
+  strips each sat behind a double-tap recognizer, so every single click waited
+  out the ~300 ms double-tap window before anything happened. Both now respond
+  the moment you release.
+- **Pixel Stage widgets redraw incrementally.** The framebuffer, OLED, and
+  character-LCD renderers re-emulated the entire capture from t=0 on every
+  frame and drew one rectangle per pixel. They now resume forward from the last
+  emulated time and blit an image, so scrubbing a long capture no longer gets
+  progressively slower.
+- **Spectrum, audio, and PS/2 renderers memoize their pipelines**, so a
+  rebuild that changes nothing costs nothing.
+- **Transaction lanes and hierarchy search scale.** Decoded-transaction
+  painting now binary-searches the visible window and coalesces sub-pixel
+  transactions into density columns — draw cost is bounded by lane width, not
+  transaction count — and the signal-tree search filter no longer rescans each
+  subtree once per level.
+- **Long collaboration sessions stay light.** The recording buffer is bounded
+  (structural events always kept, cursor moves progressively thinned), inbound
+  cursor updates coalesce to one per frame, and the presenter's view
+  composition is encoded once instead of per snapshot.
+
+### Fixed
+
+- **Three-or-more-party LAN sessions sync.** A LAN host didn't relay a
+  client's frames to the *other* clients, so anything past a two-party session
+  saw a partial picture.
+- **Resizing the window could break open tabs.** Persisting window geometry
+  replaced the workspace document wholesale, which tore down the live state of
+  tabs that were still on screen — occasionally throwing mid-layout.
+- **Decoder configuration lands in the right tab.** Both the "Add decoder"
+  dialog and "Configure" from the transaction table could write their settings
+  into whichever tab was active when the dialog opened rather than the one that
+  launched it.
+- **Resetting a lane height honours your setting.** Double-clicking a signal
+  name reset the lane to a hardcoded 30 dp instead of the default from
+  **Settings → Waveform Defaults**.
+- **Decoders:** RGMII's automatic phase-mode detection now identifies an RX
+  delay correctly (by matching the preamble); AXI4-Full collapses error storms,
+  caps outstanding joins, and bounds overflow instead of flooding the lane;
+  Avalon-ST no longer flags an undriven active-low error bus as an error; and
+  payload display caps sit above real-world packet sizes.
+- **The AI assistant survives a closed tab.** Closing a tab mid-conversation
+  (or mid tool-use) now aborts the run cleanly instead of writing into a
+  disposed tab.
+- **Fixed: the update check could crash** when a response arrived after its
+  dialog had gone away.
+- **Japanese, Korean, and Chinese wording** got a full review pass —
+  terminology (clock, signal, cross-probe, custom, history depth), punctuation,
+  and dialog register are now consistent across the app.
+
 ## 0.2.7 — 2026-07-15
 
 - **Import Verilator's elaborated AST for exact RTL source tracing**
