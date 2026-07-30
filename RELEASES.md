@@ -6,6 +6,51 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.4.0 — 2026-07-28
+
+The suite release. WaveCrux 0.4.0 ships alongside the first public betas of
+its three sibling apps — **NetCrux** (schematic / netlist exploration),
+**LintCrux** (lint triage), and **SimCrux** (regression running) — and almost
+everything in this build is about making the four apps work as one tool:
+cross-probing got a ground-up reliability pass, exercised end-to-end against
+real designs until every direction between every pair of apps behaved.
+
+### New
+
+- **Cross-probe with the rest of the suite.** Click a net in NetCrux's
+  schematic, a violation in LintCrux, or a failing test in SimCrux, and the
+  corresponding signal lands in WaveCrux — added to the canvas, selected,
+  and revealed in the hierarchy, visibly. The Cross-Probe panel is now the
+  shared suite component, with per-peer send, an auto-send toggle for your
+  live selection, and a ⇧⌘X / Ctrl+Shift+X shortcut. Clicking a signal's
+  name on the canvas now selects it, so what you send is always what you
+  see.
+- **Every cross-probe send is acknowledged.** An explicit send now waits for
+  the receiving app's answer and tells you what happened — highlighted,
+  rejected (with the peer's reason), or no response — instead of silently
+  doing nothing. WaveCrux's own sends also carry the signal's canonical
+  hierarchical path rather than an internal handle, so peers can actually
+  resolve them.
+- **Inbound cross-probes open what they need.** If the target waveform isn't
+  open, WaveCrux opens it; if it's already open in a background tab, that
+  tab is activated instead of a duplicate opening. This completes the
+  **Debug in WaveCrux** handoff from SimCrux: a failing test's captured
+  waveform opens with the test's scopes expanded onto the canvas and its
+  primary signal selected.
+- **Suite-consistent window chrome.** The title bar and the bottom status
+  bar are now the shared suite components, so layout, typography, and
+  behavior match across all four apps.
+- **Linux feels installed.** The AppImage offers desktop integration on
+  first run (menu entry and icon), and the app icon now appears in the
+  dock / taskbar instead of the generic placeholder.
+
+### Fixed
+
+- **Intermittent crash on launch (macOS).** A threading race in Flutter's
+  accessibility bridge could crash the app a few seconds after launching
+  from Finder. All four suite apps now opt out of the merged UI/platform
+  thread mode that triggered it.
+
 ## 0.3.0 — 2026-07-22
 
 The DSP Scope release — three new signal-analysis Stage widgets — on top of a
