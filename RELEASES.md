@@ -6,6 +6,53 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.5.0 — 2026-07-31
+
+A Stage release. The headline is a second curated Rive widget for the Stage —
+a full traffic-light intersection — alongside a Stage that finally has one
+obvious place to drive playback from. Underneath it, the four apps took a
+concerted pass at looking and behaving like one product.
+
+### New
+
+- **Traffic Light Intersection — a new Stage widget.** A signed, curated Rive
+  widget that renders a full intersection: vehicle aspects, pedestrian walk,
+  and flash mode, driven straight from your design's signals. Bind the aspect
+  codes and the boolean levels, scrub the waveform, and watch the intersection
+  step through its states. It joins the tachometer as the second curated Pro
+  Stage widget, and went through two rounds of designer refinement so the
+  ambient motion keeps running independently of state changes.
+- **One playback transport for the Stage.** Stage playback is now driven from
+  a single set of dock-strip actions, replacing the panel row and the separate
+  toolbar glyph that used to compete for the same job.
+- **Turning the Stage on gives you a Stage.** Enabling it seeds a default
+  panel instead of dropping you on a create-something-first empty state.
+- **The toolbar shows your CXP peer count**, so you can tell at a glance how
+  many sibling apps are connected.
+
+### Fixed
+
+- **Quit works from every route.** The menu item did nothing on some screens.
+- **The APB decoder accepts any address-bus width** when binding `paddr`,
+  instead of insisting on one width.
+- **The BLDC Stage widget holds the rotor still** while playback is paused,
+  rather than drifting.
+- **Loading overlays no longer clip their action button** in a short pane.
+- **The web app no longer hangs on startup** — a desktop-only integration path
+  was running in the browser.
+
+### Also
+
+- **One consistent suite.** The menu bar, toolbar, status bar and Settings are
+  now shared components across all four apps, and panels moved to a
+  VS Code-style dock model: bottom, right and left regions, tabs you can drag
+  between docks, restore bars for collapsed regions, and direction-aware hide
+  controls. The welcome screen gained an animated app logo and now shows the
+  running version — handy in the browser, where there is no menu bar to check.
+- Other performance and quality enhancements.
+
+---
+
 ## 0.4.0 — 2026-07-28
 
 The suite release. WaveCrux 0.4.0 ships alongside the first public betas of
