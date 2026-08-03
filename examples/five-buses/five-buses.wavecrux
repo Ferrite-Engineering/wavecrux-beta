@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "sourceFilePath": "five-buses.vcd",
+  "signals": [
+    {
+      "kind": "group",
+      "name": "SPI",
+      "collapsed": false,
+      "children": [
+        { "kind": "signal", "ref": "0", "path": "spi_tb.sclk", "name": "sclk", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "1", "path": "spi_tb.mosi", "name": "mosi", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "2", "path": "spi_tb.miso", "name": "miso", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "4", "path": "spi_tb.cs", "name": "cs", "format": "binary", "height": 30.0 }
+      ]
+    },
+    {
+      "kind": "group",
+      "name": "I2C",
+      "collapsed": false,
+      "children": [
+        { "kind": "signal", "ref": "3", "path": "i2c_tb.scl", "name": "scl", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "5", "path": "i2c_tb.sda", "name": "sda", "format": "binary", "height": 30.0 }
+      ]
+    },
+    {
+      "kind": "group",
+      "name": "UART",
+      "collapsed": false,
+      "children": [
+        { "kind": "signal", "ref": "6", "path": "uart_tb.tx", "name": "tx", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "7", "path": "uart_tb.rx", "name": "rx", "format": "binary", "height": 30.0 }
+      ]
+    },
+    {
+      "kind": "group",
+      "name": "AXI4-Lite",
+      "collapsed": false,
+      "children": [
+        { "kind": "signal", "ref": "8", "path": "axi4lite_tb.ACLK", "name": "ACLK", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "9", "path": "axi4lite_tb.ARESETn", "name": "ARESETn", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "10", "path": "axi4lite_tb.AWADDR", "name": "AWADDR", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "11", "path": "axi4lite_tb.AWVALID", "name": "AWVALID", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "12", "path": "axi4lite_tb.AWREADY", "name": "AWREADY", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "13", "path": "axi4lite_tb.WDATA", "name": "WDATA", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "14", "path": "axi4lite_tb.WVALID", "name": "WVALID", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "15", "path": "axi4lite_tb.WREADY", "name": "WREADY", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "20", "path": "axi4lite_tb.ARADDR", "name": "ARADDR", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "23", "path": "axi4lite_tb.RDATA", "name": "RDATA", "format": "hexadecimal", "height": 30.0 }
+      ]
+    },
+    {
+      "kind": "group",
+      "name": "APB",
+      "collapsed": true,
+      "children": [
+        { "kind": "signal", "ref": "27", "path": "apb_tb.PCLK", "name": "PCLK", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "33", "path": "apb_tb.PSEL", "name": "PSEL", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "34", "path": "apb_tb.PENABLE", "name": "PENABLE", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "30", "path": "apb_tb.PWRITE", "name": "PWRITE", "format": "binary", "height": 30.0 },
+        { "kind": "signal", "ref": "29", "path": "apb_tb.PADDR", "name": "PADDR", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "31", "path": "apb_tb.PWDATA", "name": "PWDATA", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "32", "path": "apb_tb.PRDATA", "name": "PRDATA", "format": "hexadecimal", "height": 30.0 },
+        { "kind": "signal", "ref": "35", "path": "apb_tb.PREADY", "name": "PREADY", "format": "binary", "height": 30.0 }
+      ]
+    }
+  ],
+  "cursor": { "primary": 0, "secondary": null },
+  "markers": {},
+  "view": { "ticksPerPixel": 60.0, "panOffsetTicks": 0.0, "scrollOffset": 0.0 },
+  "panels": {
+    "signalTree": true,
+    "valueColumn": true,
+    "transactionView": true,
+    "stageView": false,
+    "statisticsStrip": false,
+    "cocotbLogPanel": false,
+    "rtlSource": false
+  },
+  "translateFilters": {},
+  "stage": { "panels": [] },
+  "activeTheme": "wavecrux-dark",
+  "decoders": [
+    {
+      "decoderId": "spi",
+      "instanceNumber": 1,
+      "config": {
+        "bindings": { "sclk": "0", "mosi": "1", "miso": "2", "cs": "4" },
+        "parameters": {}
+      }
+    },
+    {
+      "decoderId": "i2c",
+      "instanceNumber": 1,
+      "config": {
+        "bindings": { "scl": "3", "sda": "5" },
+        "parameters": {}
+      }
+    },
+    {
+      "decoderId": "uart",
+      "instanceNumber": 1,
+      "config": {
+        "bindings": { "tx": "6", "rx": "7" },
+        "parameters": { "baud_rate": 1000000 }
+      }
+    },
+    {
+      "decoderId": "axi4_lite",
+      "instanceNumber": 1,
+      "config": {
+        "bindings": {
+          "aclk": "8",
+          "aresetn": "9",
+          "awaddr": "10",
+          "awvalid": "11",
+          "awready": "12",
+          "wdata": "13",
+          "wvalid": "14",
+          "wready": "15",
+          "wstrb": "16",
+          "bresp": "17",
+          "bvalid": "18",
+          "bready": "19",
+          "araddr": "20",
+          "arvalid": "21",
+          "arready": "22",
+          "rdata": "23",
+          "rresp": "24",
+          "rvalid": "25",
+          "rready": "26"
+        },
+        "parameters": {}
+      }
+    },
+    {
+      "decoderId": "apb",
+      "instanceNumber": 1,
+      "config": {
+        "bindings": {
+          "pclk": "27",
+          "presetn": "28",
+          "paddr": "29",
+          "pwrite": "30",
+          "pwdata": "31",
+          "prdata": "32",
+          "psel": "33",
+          "penable": "34",
+          "pready": "35",
+          "pslverr": "36",
+          "pstrb": "37",
+          "pprot": "38"
+        },
+        "parameters": {}
+      }
+    }
+  ]
+}

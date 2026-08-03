@@ -1,0 +1,153 @@
+{
+  "scenario": "riscv_branch_predictor",
+  "description": "Twenty cycles of a small RV32I core resolving eight branches at three addresses: three mispredicts (37.5 %), six predictor-structure hits (75 %) on a deliberately different denominator, one branch that hits the predictor and mispredicts anyway, and a well-predicted branch that resolves four times without ever missing so the hot list can prove it lists mispredicts rather than branches. Both redirect shapes are emitted — aligned with the resolve, and one cycle late.",
+  "cycleCount": 20,
+  "firstEdgeTick": 5,
+  "cycleTickStride": 10,
+  "sites": [
+    {
+      "pc": 2147483664,
+      "pcHex": "0x8000_0010",
+      "word": 4261584099,
+      "disasm": "bne t0, zero, -8",
+      "resolved": 4,
+      "mispredicted": 0,
+      "firstMispredictCycle": -1
+    },
+    {
+      "pc": 2147483684,
+      "pcHex": "0x8000_0024",
+      "word": 919651,
+      "disasm": "beq t3, zero, 16",
+      "resolved": 3,
+      "mispredicted": 2,
+      "firstMispredictCycle": 4
+    },
+    {
+      "pc": 2147483704,
+      "pcHex": "0x8000_0038",
+      "word": 11879523,
+      "disasm": "blt a0, a1, 8",
+      "resolved": 1,
+      "mispredicted": 1,
+      "firstMispredictCycle": 14
+    }
+  ],
+  "resolutions": [
+    {
+      "cycle": 2,
+      "tick": 25,
+      "pc": 2147483664,
+      "pcHex": "0x8000_0010",
+      "disasm": "bne t0, zero, -8",
+      "predictedTaken": true,
+      "actualTaken": true,
+      "mispredicted": false,
+      "predictorHit": true
+    },
+    {
+      "cycle": 4,
+      "tick": 45,
+      "pc": 2147483684,
+      "pcHex": "0x8000_0024",
+      "disasm": "beq t3, zero, 16",
+      "predictedTaken": false,
+      "actualTaken": true,
+      "mispredicted": true,
+      "predictorHit": true
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "pc": 2147483664,
+      "pcHex": "0x8000_0010",
+      "disasm": "bne t0, zero, -8",
+      "predictedTaken": true,
+      "actualTaken": true,
+      "mispredicted": false,
+      "predictorHit": true
+    },
+    {
+      "cycle": 9,
+      "tick": 95,
+      "pc": 2147483684,
+      "pcHex": "0x8000_0024",
+      "disasm": "beq t3, zero, 16",
+      "predictedTaken": true,
+      "actualTaken": false,
+      "mispredicted": true,
+      "predictorHit": false
+    },
+    {
+      "cycle": 11,
+      "tick": 115,
+      "pc": 2147483664,
+      "pcHex": "0x8000_0010",
+      "disasm": "bne t0, zero, -8",
+      "predictedTaken": true,
+      "actualTaken": true,
+      "mispredicted": false,
+      "predictorHit": true
+    },
+    {
+      "cycle": 14,
+      "tick": 145,
+      "pc": 2147483704,
+      "pcHex": "0x8000_0038",
+      "disasm": "blt a0, a1, 8",
+      "predictedTaken": false,
+      "actualTaken": true,
+      "mispredicted": true,
+      "predictorHit": false
+    },
+    {
+      "cycle": 16,
+      "tick": 165,
+      "pc": 2147483664,
+      "pcHex": "0x8000_0010",
+      "disasm": "bne t0, zero, -8",
+      "predictedTaken": false,
+      "actualTaken": false,
+      "mispredicted": false,
+      "predictorHit": true
+    },
+    {
+      "cycle": 18,
+      "tick": 185,
+      "pc": 2147483684,
+      "pcHex": "0x8000_0024",
+      "disasm": "beq t3, zero, 16",
+      "predictedTaken": false,
+      "actualTaken": false,
+      "mispredicted": false,
+      "predictorHit": true
+    }
+  ],
+  "expected": {
+    "resolvedBranches": 8,
+    "mispredictedBranches": 3,
+    "mispredictRate": 0.375,
+    "predictorHits": 6,
+    "predictorHitRate": 0.75,
+    "mispredictCycles": [
+      4,
+      9,
+      14
+    ],
+    "resolveCycles": [
+      2,
+      4,
+      6,
+      9,
+      11,
+      14,
+      16,
+      18
+    ],
+    "lateRedirectCycles": [
+      5,
+      10,
+      15
+    ]
+  }
+}

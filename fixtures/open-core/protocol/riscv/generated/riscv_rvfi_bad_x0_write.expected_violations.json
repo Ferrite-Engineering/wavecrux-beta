@@ -1,0 +1,12 @@
+{
+  "scenario": "riscv_rvfi_bad_x0_write",
+  "rule": "x0Write",
+  "description": "Retirement #5 (addi zero, zero, 0) reports rvfi_rd_addr=0 with rvfi_rd_wdata=0x0000002a. x0 is hardwired zero, so that write cannot have taken effect — the classic stale write-back mux signature.",
+  "expectedViolations": [
+    {
+      "kind": "x0NonZeroWrite",
+      "severity": "error",
+      "order": 5
+    }
+  ]
+}

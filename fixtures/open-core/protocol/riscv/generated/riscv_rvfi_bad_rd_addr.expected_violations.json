@@ -1,0 +1,12 @@
+{
+  "scenario": "riscv_rvfi_bad_rd_addr",
+  "rule": "destinationRegister",
+  "description": "Retirement #0 retires addi t0, zero, 5 (encoding names rd=x5) but reports rvfi_rd_addr=6. The reported destination disagrees with the instruction word the core says it retired.",
+  "expectedViolations": [
+    {
+      "kind": "destinationRegisterMismatch",
+      "severity": "error",
+      "order": 0
+    }
+  ]
+}

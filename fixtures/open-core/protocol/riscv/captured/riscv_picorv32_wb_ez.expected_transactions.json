@@ -72,10 +72,10 @@
   {
     "startTime": 480000,
     "endTime": 480000,
-    "label": "[0x00000014] jal zero, -2561",
+    "label": "[0x00000014] jal zero, -12",
     "fields": {
       "mnemonic": "jal",
-      "disasm": "jal zero, -2561",
+      "disasm": "jal zero, -12",
       "raw": "0xFF5FF06F",
       "isa": "RV32I",
       "pc": "0x00000014"

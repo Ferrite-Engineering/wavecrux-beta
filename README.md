@@ -23,6 +23,9 @@ point for the beta:
 - 📋 **[Release notes](RELEASES.md)** — what changed in each beta build.
 - 📂 **[Browse the test fixtures](fixtures/)** — *this is what WaveCrux tests
   against.* See [`fixtures/README.md`](fixtures/README.md).
+- 🚀 **[Open a ready-made session](examples/)** — saved `.wavecrux` sessions
+  with decoders bound and Stage widgets configured, so your first window isn't
+  an empty one. See [`examples/README.md`](examples/README.md).
 - 🎛️ **[Try a custom Stage widget](stage-rive/)** — load a ready-made Rive
   tachometer into WaveCrux and watch it animate against a demo waveform. See
   [`stage-rive/README.md`](stage-rive/README.md).
@@ -76,6 +79,8 @@ in the triage queue, not the discussion stream.
 | [`docs/BETA_GUIDE.md`](docs/BETA_GUIDE.md) | How to join the beta, what to test, how feedback is handled, what you get for contributing. |
 | [`docs/SUBMITTING_FIXTURES.md`](docs/SUBMITTING_FIXTURES.md) | How to contribute a waveform fixture (and the license rules). |
 | [`fixtures/`](fixtures/) | The decoder + Stage test-fixture corpus WaveCrux is tested against. |
+| [`examples/`](examples/) | Ready-to-open `.wavecrux` sessions, each committed beside its trace. |
+| [`stage-rive/`](stage-rive/) | A ready-made Rive tachometer to load as a custom Stage widget. |
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug / fixture issue forms (feature ideas go to Discussions). |
 
 ## After the beta
