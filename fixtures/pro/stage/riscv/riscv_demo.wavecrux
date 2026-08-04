@@ -1,0 +1,466 @@
+{
+  "version": 3,
+  "sourceFilePath": "riscv_demo.vcd",
+  "signals": [],
+  "cursor": {
+    "primary": null,
+    "secondary": null
+  },
+  "markers": {},
+  "view": {
+    "ticksPerPixel": 1.0,
+    "panOffsetTicks": 0.0,
+    "scrollOffset": 0.0
+  },
+  "panels": {
+    "signalTree": true,
+    "valueColumn": true,
+    "transactionView": false,
+    "stageView": true,
+    "statisticsStrip": false,
+    "cocotbLogPanel": false,
+    "rtlSource": false
+  },
+  "translateFilters": {},
+  "stage": {
+    "activePanelId": "stagePanel_riscv_demo",
+    "panels": [
+      {
+        "id": "stagePanel_riscv_demo",
+        "name": "RISC-V Core Designer",
+        "instances": [
+          {
+            "id": "riscv_demo_commit",
+            "widgetId": "riscv_commit",
+            "bindings": {
+              "rvfi_valid": {
+                "ref": "1"
+              },
+              "rvfi_order": {
+                "ref": "2"
+              },
+              "rvfi_insn": {
+                "ref": "3"
+              },
+              "rvfi_trap": {
+                "ref": "4"
+              },
+              "rvfi_halt": {
+                "ref": "5"
+              },
+              "rvfi_intr": {
+                "ref": "6"
+              },
+              "rvfi_mode": {
+                "ref": "7"
+              },
+              "rvfi_ixl": {
+                "ref": "8"
+              },
+              "rvfi_rs1_addr": {
+                "ref": "9"
+              },
+              "rvfi_rs1_rdata": {
+                "ref": "10"
+              },
+              "rvfi_rs2_addr": {
+                "ref": "11"
+              },
+              "rvfi_rs2_rdata": {
+                "ref": "12"
+              },
+              "rvfi_rd_addr": {
+                "ref": "13"
+              },
+              "rvfi_rd_wdata": {
+                "ref": "14"
+              },
+              "rvfi_pc_rdata": {
+                "ref": "15"
+              },
+              "rvfi_pc_wdata": {
+                "ref": "16"
+              },
+              "rvfi_mem_addr": {
+                "ref": "17"
+              },
+              "rvfi_mem_rmask": {
+                "ref": "18"
+              },
+              "rvfi_mem_wmask": {
+                "ref": "19"
+              },
+              "rvfi_mem_rdata": {
+                "ref": "20"
+              },
+              "rvfi_mem_wdata": {
+                "ref": "21"
+              }
+            },
+            "configuration": {
+              "registerNaming": "abi",
+              "registerCount": 32,
+              "memoryLogDepth": 32
+            },
+            "x": 16.0,
+            "y": 16.0,
+            "width": 608.0,
+            "height": 468.0,
+            "label": "Commit Inspector"
+          },
+          {
+            "id": "riscv_demo_pipeline",
+            "widgetId": "pipeline",
+            "bindings": {
+              "clk": {
+                "ref": "0"
+              },
+              "instruction": {
+                "ref": "22"
+              },
+              "stage1_valid": {
+                "ref": "23"
+              },
+              "stage1_pc": {
+                "ref": "24"
+              },
+              "stage1_stall": {
+                "ref": "25"
+              },
+              "stage1_flush": {
+                "ref": "26"
+              },
+              "stage2_valid": {
+                "ref": "28"
+              },
+              "stage2_pc": {
+                "ref": "29"
+              },
+              "stage2_stall": {
+                "ref": "30"
+              },
+              "stage2_flush": {
+                "ref": "31"
+              },
+              "stage3_valid": {
+                "ref": "33"
+              },
+              "stage3_pc": {
+                "ref": "34"
+              },
+              "stage3_stall": {
+                "ref": "35"
+              },
+              "stage3_flush": {
+                "ref": "36"
+              },
+              "stage4_valid": {
+                "ref": "38"
+              },
+              "stage4_pc": {
+                "ref": "39"
+              },
+              "stage4_stall": {
+                "ref": "40"
+              },
+              "stage4_flush": {
+                "ref": "41"
+              },
+              "stage5_valid": {
+                "ref": "43"
+              },
+              "stage5_pc": {
+                "ref": "44"
+              },
+              "stage5_stall": {
+                "ref": "45"
+              },
+              "stage5_flush": {
+                "ref": "46"
+              }
+            },
+            "configuration": {
+              "stageCount": 5,
+              "identitySource": "pc",
+              "windowCycles": 24,
+              "stage1Name": "IF",
+              "stage2Name": "ID",
+              "stage3Name": "EX",
+              "stage4Name": "MEM",
+              "stage5Name": "WB"
+            },
+            "x": 640.0,
+            "y": 16.0,
+            "width": 608.0,
+            "height": 468.0,
+            "label": "Pipeline Diagram (Open Core)"
+          },
+          {
+            "id": "riscv_demo_pipeline_adv",
+            "widgetId": "wavecrux.pro.riscv_pipeline_adv",
+            "bindings": {
+              "clk": {
+                "ref": "0"
+              },
+              "instruction": {
+                "ref": "22"
+              },
+              "stage1_valid": {
+                "ref": "23"
+              },
+              "stage1_pc": {
+                "ref": "24"
+              },
+              "stage1_stall": {
+                "ref": "25"
+              },
+              "stage1_flush": {
+                "ref": "26"
+              },
+              "stage1_tag": {
+                "ref": "27"
+              },
+              "stage2_valid": {
+                "ref": "28"
+              },
+              "stage2_pc": {
+                "ref": "29"
+              },
+              "stage2_stall": {
+                "ref": "30"
+              },
+              "stage2_flush": {
+                "ref": "31"
+              },
+              "stage2_tag": {
+                "ref": "32"
+              },
+              "stage3_valid": {
+                "ref": "33"
+              },
+              "stage3_pc": {
+                "ref": "34"
+              },
+              "stage3_stall": {
+                "ref": "35"
+              },
+              "stage3_flush": {
+                "ref": "36"
+              },
+              "stage3_tag": {
+                "ref": "37"
+              },
+              "stage4_valid": {
+                "ref": "38"
+              },
+              "stage4_pc": {
+                "ref": "39"
+              },
+              "stage4_stall": {
+                "ref": "40"
+              },
+              "stage4_flush": {
+                "ref": "41"
+              },
+              "stage4_tag": {
+                "ref": "42"
+              },
+              "stage5_valid": {
+                "ref": "43"
+              },
+              "stage5_pc": {
+                "ref": "44"
+              },
+              "stage5_stall": {
+                "ref": "45"
+              },
+              "stage5_flush": {
+                "ref": "46"
+              },
+              "stage5_tag": {
+                "ref": "47"
+              },
+              "cause1": {
+                "ref": "48"
+              },
+              "cause2": {
+                "ref": "49"
+              },
+              "cause3": {
+                "ref": "50"
+              },
+              "cause4": {
+                "ref": "51"
+              }
+            },
+            "configuration": {
+              "stageCount": 5,
+              "laneCount": 1,
+              "hartCount": 1,
+              "windowCycles": 24,
+              "rowOrder": "tag",
+              "showKills": true,
+              "causeCount": 4,
+              "stage1Name": "IF",
+              "stage2Name": "ID",
+              "stage3Name": "EX",
+              "stage4Name": "MEM",
+              "stage5Name": "WB",
+              "cause1Name": "Load-use stall",
+              "cause1Kind": "stall",
+              "cause2Name": "Branch mispredict",
+              "cause2Kind": "flush",
+              "cause3Name": "Trap redirect",
+              "cause3Kind": "flush",
+              "cause4Name": "D-cache miss",
+              "cause4Kind": "stall"
+            },
+            "x": 1264.0,
+            "y": 16.0,
+            "width": 640.0,
+            "height": 468.0,
+            "label": "Tag-Tracked Pipeline"
+          },
+          {
+            "id": "riscv_demo_cycle_accounting",
+            "widgetId": "wavecrux.pro.cycle_accounting",
+            "bindings": {
+              "clk": {
+                "ref": "0"
+              },
+              "retire": {
+                "ref": "1"
+              },
+              "cause1": {
+                "ref": "48"
+              },
+              "cause2": {
+                "ref": "49"
+              },
+              "cause3": {
+                "ref": "50"
+              },
+              "cause4": {
+                "ref": "51"
+              }
+            },
+            "configuration": {
+              "windowCycles": 32,
+              "windowAnchor": "trailing",
+              "retireMode": "pulse",
+              "causeCount": 4,
+              "cause1Name": "Load-use stall",
+              "cause1Kind": "stall",
+              "cause2Name": "Branch mispredict",
+              "cause2Kind": "flush",
+              "cause3Name": "Trap redirect",
+              "cause3Kind": "flush",
+              "cause4Name": "D-cache miss",
+              "cause4Kind": "stall"
+            },
+            "x": 16.0,
+            "y": 500.0,
+            "width": 608.0,
+            "height": 468.0,
+            "label": "Cycle Accounting"
+          },
+          {
+            "id": "riscv_demo_branch",
+            "widgetId": "wavecrux.pro.riscv_branch",
+            "bindings": {
+              "clk": {
+                "ref": "0"
+              },
+              "branch_resolved": {
+                "ref": "52"
+              },
+              "predicted_taken": {
+                "ref": "53"
+              },
+              "actual_taken": {
+                "ref": "54"
+              },
+              "branch_pc": {
+                "ref": "55"
+              },
+              "branch_insn": {
+                "ref": "56"
+              },
+              "predictor_hit": {
+                "ref": "57"
+              },
+              "redirect": {
+                "ref": "58"
+              }
+            },
+            "configuration": {
+              "windowCycles": 32,
+              "windowAnchor": "trailing",
+              "mispredictEvidence": "outcome",
+              "redirectLagCycles": 0,
+              "hotSort": "mispredicts"
+            },
+            "x": 640.0,
+            "y": 500.0,
+            "width": 608.0,
+            "height": 468.0,
+            "label": "Branch-Predictor Scoreboard"
+          },
+          {
+            "id": "riscv_demo_csr",
+            "widgetId": "wavecrux.pro.riscv_csr",
+            "bindings": {
+              "clk": {
+                "ref": "0"
+              },
+              "priv": {
+                "ref": "59"
+              },
+              "trap": {
+                "ref": "60"
+              },
+              "trap_return": {
+                "ref": "61"
+              },
+              "mstatus": {
+                "ref": "62"
+              },
+              "mie": {
+                "ref": "63"
+              },
+              "mip": {
+                "ref": "64"
+              },
+              "mcause": {
+                "ref": "65"
+              },
+              "mtvec": {
+                "ref": "66"
+              },
+              "mepc": {
+                "ref": "67"
+              },
+              "mtval": {
+                "ref": "68"
+              }
+            },
+            "configuration": {
+              "csrSet": "machine",
+              "xlen": "rv32",
+              "changeReference": "previousCycle",
+              "windowCycles": 32,
+              "windowAnchor": "trailing",
+              "causeDelayCycles": 1
+            },
+            "x": 1264.0,
+            "y": 500.0,
+            "width": 640.0,
+            "height": 468.0,
+            "label": "CSR & Trap Inspector"
+          }
+        ]
+      }
+    ]
+  },
+  "activeTheme": "wavecrux-dark"
+}

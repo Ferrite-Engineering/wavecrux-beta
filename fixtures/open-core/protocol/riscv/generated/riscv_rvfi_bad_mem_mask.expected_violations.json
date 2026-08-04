@@ -1,0 +1,12 @@
+{
+  "scenario": "riscv_rvfi_bad_mem_mask",
+  "rule": "memoryAccess",
+  "description": "Retirement #3 retires sw t2, 0(sp) — a 4-byte store — with rvfi_mem_wmask=0x3, which covers 2 bytes. The byte masks and the access width in the encoding disagree.",
+  "expectedViolations": [
+    {
+      "kind": "memorySizeMismatch",
+      "severity": "error",
+      "order": 3
+    }
+  ]
+}

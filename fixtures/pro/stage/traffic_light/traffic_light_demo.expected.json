@@ -1,0 +1,89 @@
+{
+  "fixture": "traffic_light_demo",
+  "description": "Full-capability traffic-light demo: N-S/E-W cycle through all three aspects, a pedestrian WALK window, an intentional both-green conflict, and an all-red flash fault. Aspect codes red=0 / yellow=1 / green=2 match TrafficLightConfig defaults.",
+  "config": {
+    "redCode": 0,
+    "yellowCode": 1,
+    "greenCode": 2,
+    "pedWalkActiveHigh": true,
+    "flashActiveHigh": true
+  },
+  "proposed_bindings": {
+    "nsState": "ns_state",
+    "ewState": "ew_state",
+    "pedWalk": "ped_walk",
+    "flash": "flash"
+  },
+  "samples": [
+    {
+      "time": 4000,
+      "nsAspect": "green",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 9000,
+      "nsAspect": "yellow",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 10500,
+      "nsAspect": "red",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 14000,
+      "nsAspect": "red",
+      "ewAspect": "green",
+      "pedWalk": true,
+      "flash": false
+    },
+    {
+      "time": 18000,
+      "nsAspect": "red",
+      "ewAspect": "green",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 20000,
+      "nsAspect": "red",
+      "ewAspect": "yellow",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 24000,
+      "nsAspect": "green",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 28000,
+      "nsAspect": "green",
+      "ewAspect": "green",
+      "pedWalk": false,
+      "flash": false
+    },
+    {
+      "time": 33000,
+      "nsAspect": "red",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": true
+    },
+    {
+      "time": 38000,
+      "nsAspect": "green",
+      "ewAspect": "red",
+      "pedWalk": false,
+      "flash": false
+    }
+  ]
+}

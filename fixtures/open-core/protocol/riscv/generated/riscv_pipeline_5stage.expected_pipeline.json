@@ -1,0 +1,327 @@
+{
+  "scenario": "riscv_pipeline_5stage",
+  "description": "Five-stage in-order RV32I pipe with a load-use stall, an EX-to-EX back-to-back forward, and a branch flush signalled on the stageN_flush pins. Positional tracking models this exactly.",
+  "stageCount": 5,
+  "stageNames": [
+    "IF",
+    "ID",
+    "EX",
+    "MEM",
+    "WB"
+  ],
+  "cycleCount": 13,
+  "firstEdgeTick": 5,
+  "cycleTickStride": 10,
+  "trackers": {
+    "positional": {
+      "confidence": "high",
+      "warnings": []
+    },
+    "pc": {
+      "confidence": "high",
+      "warnings": []
+    }
+  },
+  "cells": [
+    {
+      "cycle": 0,
+      "tick": 5,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 0,
+      "pc": 2147483648,
+      "pcHex": "0x80000000",
+      "disasm": "lw t0, 0(sp)"
+    },
+    {
+      "cycle": 1,
+      "tick": 15,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 1,
+      "tick": 15,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 0,
+      "pc": 2147483648,
+      "pcHex": "0x80000000",
+      "disasm": "lw t0, 0(sp)"
+    },
+    {
+      "cycle": 2,
+      "tick": 25,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 2,
+      "tick": 25,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 2,
+      "tick": 25,
+      "stage": 2,
+      "stageName": "EX",
+      "instruction": 0,
+      "pc": 2147483648,
+      "pcHex": "0x80000000",
+      "disasm": "lw t0, 0(sp)"
+    },
+    {
+      "cycle": 3,
+      "tick": 35,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 3,
+      "tick": 35,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 3,
+      "tick": 35,
+      "stage": 3,
+      "stageName": "MEM",
+      "instruction": 0,
+      "pc": 2147483648,
+      "pcHex": "0x80000000",
+      "disasm": "lw t0, 0(sp)"
+    },
+    {
+      "cycle": 4,
+      "tick": 45,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 3,
+      "pc": 2147483660,
+      "pcHex": "0x8000000C",
+      "disasm": "beq t2, zero, 16"
+    },
+    {
+      "cycle": 4,
+      "tick": 45,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 4,
+      "tick": 45,
+      "stage": 2,
+      "stageName": "EX",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 4,
+      "tick": 45,
+      "stage": 4,
+      "stageName": "WB",
+      "instruction": 0,
+      "pc": 2147483648,
+      "pcHex": "0x80000000",
+      "disasm": "lw t0, 0(sp)"
+    },
+    {
+      "cycle": 5,
+      "tick": 55,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 4,
+      "pc": 2147483664,
+      "pcHex": "0x80000010",
+      "disasm": "addi t3, zero, 1"
+    },
+    {
+      "cycle": 5,
+      "tick": 55,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 3,
+      "pc": 2147483660,
+      "pcHex": "0x8000000C",
+      "disasm": "beq t2, zero, 16"
+    },
+    {
+      "cycle": 5,
+      "tick": 55,
+      "stage": 2,
+      "stageName": "EX",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 5,
+      "tick": 55,
+      "stage": 3,
+      "stageName": "MEM",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 5,
+      "pc": 2147483668,
+      "pcHex": "0x80000014",
+      "disasm": "addi t4, zero, 2"
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 4,
+      "pc": 2147483664,
+      "pcHex": "0x80000010",
+      "disasm": "addi t3, zero, 1"
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "stage": 2,
+      "stageName": "EX",
+      "instruction": 3,
+      "pc": 2147483660,
+      "pcHex": "0x8000000C",
+      "disasm": "beq t2, zero, 16"
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "stage": 3,
+      "stageName": "MEM",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 6,
+      "tick": 65,
+      "stage": 4,
+      "stageName": "WB",
+      "instruction": 1,
+      "pc": 2147483652,
+      "pcHex": "0x80000004",
+      "disasm": "add t1, t0, t0"
+    },
+    {
+      "cycle": 7,
+      "tick": 75,
+      "stage": 0,
+      "stageName": "IF",
+      "instruction": 6,
+      "pc": 2147483676,
+      "pcHex": "0x8000001C",
+      "disasm": "addi t5, zero, 3"
+    },
+    {
+      "cycle": 7,
+      "tick": 75,
+      "stage": 3,
+      "stageName": "MEM",
+      "instruction": 3,
+      "pc": 2147483660,
+      "pcHex": "0x8000000C",
+      "disasm": "beq t2, zero, 16"
+    },
+    {
+      "cycle": 7,
+      "tick": 75,
+      "stage": 4,
+      "stageName": "WB",
+      "instruction": 2,
+      "pc": 2147483656,
+      "pcHex": "0x80000008",
+      "disasm": "addi t2, t1, 1"
+    },
+    {
+      "cycle": 8,
+      "tick": 85,
+      "stage": 1,
+      "stageName": "ID",
+      "instruction": 6,
+      "pc": 2147483676,
+      "pcHex": "0x8000001C",
+      "disasm": "addi t5, zero, 3"
+    },
+    {
+      "cycle": 8,
+      "tick": 85,
+      "stage": 4,
+      "stageName": "WB",
+      "instruction": 3,
+      "pc": 2147483660,
+      "pcHex": "0x8000000C",
+      "disasm": "beq t2, zero, 16"
+    },
+    {
+      "cycle": 9,
+      "tick": 95,
+      "stage": 2,
+      "stageName": "EX",
+      "instruction": 6,
+      "pc": 2147483676,
+      "pcHex": "0x8000001C",
+      "disasm": "addi t5, zero, 3"
+    },
+    {
+      "cycle": 10,
+      "tick": 105,
+      "stage": 3,
+      "stageName": "MEM",
+      "instruction": 6,
+      "pc": 2147483676,
+      "pcHex": "0x8000001C",
+      "disasm": "addi t5, zero, 3"
+    },
+    {
+      "cycle": 11,
+      "tick": 115,
+      "stage": 4,
+      "stageName": "WB",
+      "instruction": 6,
+      "pc": 2147483676,
+      "pcHex": "0x8000001C",
+      "disasm": "addi t5, zero, 3"
+    }
+  ]
+}

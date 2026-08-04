@@ -1,0 +1,116 @@
+{
+  "scenario": "riscv_csr_trap",
+  "description": "Twenty-eight cycles of a small RV32 core taking four traps: an ecall from U-mode (exception 8), a machine timer interrupt (interrupt 7, whose raw mcause word reads as an unnamed exception at RV64 and so is the fixture proof that XLEN matters), a load access fault whose mcause is written one cycle after the strobe, and a cause the cited privileged-spec revision designates for custom use and does not name. mstatus moves across every trap boundary so changed-bit highlighting has something real to highlight; mtval is undriven until the first trap writes it; and mtvec keeps a non-zero BASE so the right-shifted-by-two field cannot be mistaken for the handler address.",
+  "privilegedSpecVersion": "20211203",
+  "xlen": "rv32",
+  "cycleCount": 28,
+  "firstEdgeTick": 5,
+  "cycleTickStride": 10,
+  "registers": {
+    "mstatusRunning": 8200,
+    "mstatusInTrap": 8320,
+    "mstatusAfterMret": 8328,
+    "mie": 2184,
+    "mtvec": 2147483905,
+    "mtvecBase": 536870976,
+    "mtvecHandler": 2147483904,
+    "mipTimerPending": 128
+  },
+  "mstatusInTrapFields": {
+    "SD": "0",
+    "TSR": "0",
+    "TW": "0",
+    "TVM": "0",
+    "MXR": "0",
+    "SUM": "0",
+    "MPRV": "0",
+    "XS": "Off",
+    "FS": "Initial",
+    "MPP": "U",
+    "VS": "Off",
+    "SPP": "U",
+    "MPIE": "1",
+    "UBE": "0",
+    "SPIE": "0",
+    "MIE": "0",
+    "SIE": "0"
+  },
+  "traps": [
+    {
+      "cycle": 6,
+      "tick": 65,
+      "causeValue": 8,
+      "causeWriteCycle": 6,
+      "code": 8,
+      "interrupt": false,
+      "mnemonic": "Environment call from U-mode",
+      "epc": 2147483712,
+      "tval": 0,
+      "returnCycle": 10
+    },
+    {
+      "cycle": 14,
+      "tick": 145,
+      "causeValue": 2147483655,
+      "causeWriteCycle": 14,
+      "code": 7,
+      "interrupt": true,
+      "mnemonic": "Machine timer interrupt",
+      "epc": 2147483736,
+      "tval": 0,
+      "returnCycle": 17
+    },
+    {
+      "cycle": 20,
+      "tick": 205,
+      "causeValue": 5,
+      "causeWriteCycle": 21,
+      "code": 5,
+      "interrupt": false,
+      "mnemonic": "Load access fault",
+      "epc": 2147483764,
+      "tval": 536875012,
+      "returnCycle": 23
+    },
+    {
+      "cycle": 26,
+      "tick": 265,
+      "causeValue": 24,
+      "causeWriteCycle": 26,
+      "code": 24,
+      "interrupt": false,
+      "mnemonic": null,
+      "epc": 2147483792,
+      "tval": 0,
+      "returnCycle": null
+    }
+  ],
+  "expected": {
+    "trapCycles": [
+      6,
+      14,
+      20,
+      26
+    ],
+    "returnCycles": [
+      10,
+      17,
+      23
+    ],
+    "namedCauses": [
+      "Environment call from U-mode",
+      "Machine timer interrupt",
+      "Load access fault"
+    ],
+    "unnamedCauseCodes": [
+      24
+    ],
+    "lateTrapCycle": 20,
+    "lateTrapCodeAtZeroDelay": 7,
+    "lateTrapCodeAtCorrectDelay": 5,
+    "timerCauseValue": 2147483655,
+    "timerCodeAtRv32": 7,
+    "timerCodeAtRv64": 2147483655,
+    "mtvalUndrivenUntilCycle": 6
+  }
+}

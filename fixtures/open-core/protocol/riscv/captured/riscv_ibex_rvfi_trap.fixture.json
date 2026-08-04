@@ -1,0 +1,17 @@
+{
+  "decoder": "riscv",
+  "signal_bindings": {
+    "clk": "tb_ibex_rvfi.clk",
+    "instruction": "tb_ibex_rvfi.u_ibex_top.rvfi_insn",
+    "pc": "tb_ibex_rvfi.u_ibex_top.rvfi_pc_rdata",
+    "valid": "tb_ibex_rvfi.u_ibex_top.rvfi_valid"
+  },
+  "parameters": {
+    "xlen": "32",
+    "ext_m": false,
+    "ext_a": false,
+    "ext_f": false,
+    "ext_d": false,
+    "ext_c": false
+  }
+}

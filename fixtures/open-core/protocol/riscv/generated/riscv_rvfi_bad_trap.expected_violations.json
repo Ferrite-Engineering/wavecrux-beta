@@ -1,0 +1,12 @@
+{
+  "scenario": "riscv_rvfi_bad_trap",
+  "rule": "trapConsistency",
+  "description": "Retirement #7 asserts rvfi_trap on an ecall at 0x80000028 but sets rvfi_pc_wdata=0x8000002c — the sequential next PC. A trap that does not redirect to a vector is not a trap.",
+  "expectedViolations": [
+    {
+      "kind": "trapNoRedirect",
+      "severity": "error",
+      "order": 7
+    }
+  ]
+}
