@@ -6,6 +6,67 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.6.0 — 2026-08-04
+
+A RISC-V release. WaveCrux now understands RVFI — the RISC-V Formal Interface
+that cores expose for verification — and can tell you not just what your core
+committed, but where it disagreed with the specification. Around that sit a
+new family of Stage widgets built for core designers, and a hand-off from
+SimCrux that drops you on the exact cycle a proof failed.
+
+### New
+
+- **RVFI Commit Inspector.** Point WaveCrux at a core exposing an RVFI port and
+  get a per-commit view of what actually retired: instruction, decoded
+  operands, register writeback, memory access, and trap state. Six consistency
+  rules run over the stream and flag commits that contradict the interface's
+  own contract — the kind of thing that otherwise surfaces days later as a
+  mystery mismatch. Pointed at a real Ibex trace during development, the
+  checker found two genuine deviations.
+- **A Stage widget family for core designers.** The **Pipeline Diagram**
+  renders instructions moving through your pipeline stage by stage, and is
+  architecture-neutral — it works on any design whose stages you can bind. Pro
+  adds four more: the **Tag-Tracked Pipeline Diagram** for superscalar,
+  out-of-order and SMT designs; a **CSR & Trap Inspector** that decodes control
+  and status registers bitfield by bitfield so you can check them against the
+  spec; a **Branch-Predictor Scoreboard** that reports the hit rate and, just
+  as importantly, the three ways its denominator can fail to exist; and
+  **Cycle Accounting**, which shows where the cycles went and states plainly
+  what the number is divided by.
+- **SimCrux hands you the failing cycle.** When a SimCrux formal proof or
+  regression produces a counterexample, opening it in WaveCrux now lands you on
+  the exact step that failed, with the relevant signals already on the canvas —
+  not merely somewhere in the same trace.
+- **Two example sessions you can open immediately.** No capture, no toolchain:
+  open them from the welcome screen and there is a waveform in front of you.
+
+### Fixed
+
+- **Zoom-out stops at the trace**, instead of continuing to a useless one tick
+  per pixel.
+- **The cross-probe landing scrolls into view.** It was being selected in the
+  list without being brought on screen.
+- **RISC-V immediates decode against the documented schema**, not an assumed
+  one — affecting some instruction operand displays.
+- **Resizable Stage widgets stop clipping their own contents.**
+- **The pipeline grid's horizontal scroll has a visible scrollbar.**
+- **Counts read correctly in every language.** The plural handling sweep is
+  now closed out across the RISC-V, Stage and core UI.
+
+### Also
+
+- **Linux requirements are now measured, not asserted.** Our published glibc
+  figure had drifted from what we actually shipped; every release build now
+  verifies it. WaveCrux's Linux build requires glibc 2.38 (Ubuntu 24.04+,
+  Fedora 39+, Debian 13+) because of a third-party graphics dependency, and it
+  will not run on RHEL / Rocky 9 — see
+  [issue #10](https://github.com/Ferrite-Engineering/wavecrux-beta/issues/10)
+  for the detail and the upstream fix we are waiting on. NetCrux, LintCrux and
+  SimCrux need only glibc 2.34 and do run there.
+- Other performance and quality enhancements.
+
+---
+
 ## 0.5.0 — 2026-07-31
 
 A Stage release. The headline is a second curated Rive widget for the Stage —
