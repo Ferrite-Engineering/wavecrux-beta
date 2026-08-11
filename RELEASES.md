@@ -6,6 +6,92 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.7.0 — 2026-08-11
+
+A release about reading a trace in the design's own units: datapaths drawn as
+curves instead of hex, UART timing stated the way an HDL testbench states it,
+instruction streams for cores that are not RISC-V, and switching activity
+handed off to a power tool. Alongside it, one small file that opens a design in
+all four Crux products at once.
+
+### New
+
+- **One file opens a design in all four products.** Write a `.crux-project`
+  manifest at the root of your design — naming the dump, the RTL, the lint
+  project and the regression config — check it in next to the RTL, and open it
+  in any Crux product. Each one opens the part it owns; WaveCrux loads the
+  `waveform` artifact. All four derive the same design identity from it, so
+  cross-probing between them works exactly as it does when you open each file
+  by hand. Every path resolves against the manifest's own directory, so the
+  file travels with the repository, and everything except `version` is
+  optional. Open Core in all four products.
+- **Draw a bus as an analog curve.** Right-click a signal — in the signal list
+  or in the value column — and choose **Render as analog** to plot a
+  fixed-point or floating-point datapath instead of reading it as hex. The
+  toggle is deliberately separate from the display format: the format says what
+  number the bits are, the toggle says how to draw it. Unknown and
+  high-impedance stretches render as gaps rather than as zero, Gray code is
+  decoded before plotting, and a `.gtkw` session that marks a trace analog
+  imports already switched on. Pro adds the ML float formats (bf16, FP16, FP8
+  E4M3/E5M2).
+- **UART bit timing, stated three ways.** UART has no clock on the wire, so the
+  decoder has to be told how long a bit lasts — and the natural unit depends on
+  where the trace came from. Choose **baud rate** for a captured trace,
+  **clocks per bit** for a simulation (bind your design's clock and enter the
+  same `CLKS_PER_BIT` constant the RTL uses; WaveCrux measures the period from
+  the trace), or **auto-detect from the line** when you know neither.
+- **SAIF switching-activity export.** **File → Export…** now offers SAIF
+  alongside VCD, PNG and SVG, over the same signal and time-range choices as a
+  VCD export. It is the half of a power calculation that requires actually
+  running a simulation — time at 0, 1, `x` and `z` per bit, plus toggle counts
+  — in the format PrimePower, Joules and PowerArtist read. WaveCrux does not
+  estimate power and this is not a power report.
+- **Bring your own ISA.** Point WaveCrux at a TOML encoding table and it
+  decodes your core's fetch stream as instructions. The loader, the schema and
+  the diagnostics are Open Core, for any instruction set you like, and RISC-V's
+  own tables stay free.
+- **The curated ISA pack — MicroBlaze and LatticeMico32 (Pro).** 137 and 57
+  instructions, derived from and checked against GNU binutils rather than
+  transcribed from a manual, then verified across tens of thousands of
+  instruction words — every operand, register for register. A handful of
+  instructions in each are deliberately absent rather than approximated,
+  chiefly the control-and-status-register accesses, where an approximate decode
+  would name the wrong control register.
+- **RISC-V pseudo-instructions (Pro).** The same fetch trace reads `mv a0, a1`,
+  `nop`, `ret` and `li a0, 42` instead of the `addi`/`jalr` forms they assemble
+  to. Curated from Table 25 of the Unprivileged ISA manual, because the hard
+  part is precedence — `addi rd, x0, 0` is simultaneously a valid `li`, `mv`
+  and `nop`, and only the specification says which one to print.
+
+### Fixed
+
+- **Cross-probe lands on the right wire.** The inbound matcher took the
+  trailing segment of a peer's hierarchical path and broke ties by shortest
+  path, which picks the *parent's* net whenever a submodule port name also
+  exists in the parent — the common case, not the corner. It never failed
+  loudly; it answered confidently and sometimes wrongly. Matches are now ranked
+  by how much of the scope agrees. Measured against picorv32 across 229 nets:
+  86.0% exactly correct with eight wrong wires, to 95.2% with none.
+- **AXI4 reconstructs out-of-order and interleaved traffic (Pro).** Write
+  responses were completing whichever burst was at the head of the queue rather
+  than the one naming that BID, and read beats ignored `rid` entirely, so
+  interleaved reads from two IDs were concatenated into a single burst with
+  fabricated data. Both now route by ID; a response naming an ID with nothing
+  outstanding is reported rather than silently consuming an unrelated burst.
+
+### Also
+
+- **Groundwork for running WaveCrux inside a VSCode editor panel.** The web
+  build can now be driven by an editor host over CXP. The extensions themselves
+  are not published yet — this is the WaveCrux half landing first.
+- **Android release builds can reach the network.** The Flutter template
+  declares the `INTERNET` permission for debug and profile builds only, so the
+  release APK shipped without it and the in-app update check could never
+  succeed — silently, because it swallows its own errors.
+- Other performance and quality enhancements.
+
+---
+
 ## 0.6.0 — 2026-08-04
 
 A RISC-V release. WaveCrux now understands RVFI — the RISC-V Formal Interface
