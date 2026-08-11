@@ -81,9 +81,6 @@ all four Crux products at once.
 
 ### Also
 
-- **Groundwork for running WaveCrux inside a VSCode editor panel.** The web
-  build can now be driven by an editor host over CXP. The extensions themselves
-  are not published yet — this is the WaveCrux half landing first.
 - **Android release builds can reach the network.** The Flutter template
   declares the `INTERNET` permission for debug and profile builds only, so the
   release APK shipped without it and the in-app update check could never
