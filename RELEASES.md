@@ -6,6 +6,40 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.7.1 — 2026-08-11
+
+Bring-your-own-ISA gets the piece it was missing: a way to install a table
+without building WaveCrux from source.
+
+### New
+
+- **Point WaveCrux at your own encoding tables.** **Settings → Extensions → ISA
+  encoding tables** takes a directory of TOML tables and WaveCrux decodes your
+  core's instruction stream with them — a custom sequencer, a VLIW accelerator,
+  a teaching CPU, any instruction set you can describe. `WAVECRUX_ISA_PATH`
+  does the same for CI and shared team checkouts. The panel reports what
+  actually loaded and names any file that failed with the offending key,
+  because the question while authoring a table is never what you typed into
+  settings — it is whether the file parsed. Open Core, for any instruction set;
+  the format is documented in `docs/ISA_TABLE_AUTHORING.md`.
+
+### Fixed
+
+- **A mistyped field type is now an error instead of wrong output.** In this
+  format a part's type is either a builtin or the name of a mapping table, so a
+  typo is not a syntax error — it became a reference to a mapping that does not
+  exist, and the disassembly rendered a raw number where a register name
+  belonged. Along with two others of the same kind: a table whose slices do not
+  account for every bit of the instruction word is rejected rather than
+  silently mis-reading every field after the gap, and schema errors now name
+  the file they came from.
+
+### Also
+
+- Other performance and quality enhancements.
+
+---
+
 ## 0.7.0 — 2026-08-11
 
 A release about reading a trace in the design's own units: datapaths drawn as
