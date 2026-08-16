@@ -6,6 +6,80 @@ browser at [app.wavecrux.app](https://app.wavecrux.app).
 
 ---
 
+## 0.8.0 — 2026-08-16
+
+Waveform annotations. Notes anchored to the edges they describe, that survive a
+re-simulation and tell you when they no longer hold — alone, or with two other
+people looking at the same trace.
+
+### New
+
+- **Annotate a waveform.** Callouts, arrows, full-height bands and lane bands,
+  each anchored to a `(time, signal)` pair rather than to pixels, so they stay
+  glued to the edge they describe as you pan and zoom. Author them from the
+  canvas, from a selected region, or from the two cursors; edit the text in
+  place by double-tapping it. **Edit ▸ Add Annotation at Cursor** and
+  **Annotate Selected Range** are the menu routes, and the **Annotations**
+  panel lists every note in time order with its signal, tick and author.
+- **A note that knows when it has gone stale.** Each annotation records the
+  value the signal actually had when you wrote it. Re-simulate, reopen, and any
+  note whose signal no longer does what it claimed flags itself as **drifted**
+  instead of quietly going on asserting something the design stopped doing. The
+  panel filters to drifted-only, which is the review you want after a change.
+- **Notes belong to the file, not to the tab.** Close a tab, reopen the same
+  waveform days later, and your annotations are still on it.
+- **Send an annotated waveform as one file.** **File ▸ Share Annotated
+  Waveform…** writes a `.wavecruxpack` — the notes, the slice of the trace they
+  refer to, and a rendered preview, in a single self-contained file small enough
+  to email. The recipient opens it and sees exactly what you were looking at,
+  with no access to your filesystem and nothing to reconstruct. The preview is
+  also written beside the pack as a `.png`, so the image is there to paste into
+  the ticket or the mail body without unpacking anything.
+- **Open a pack in the browser.** [app.wavecrux.app](https://app.wavecrux.app)
+  now opens a `.wavecruxpack` directly — pick it or drop it on the window.
+  Somebody who was sent one can read the review without installing anything.
+- **Walk somebody through a trace.** `[` and `]` step through the notes in the
+  order the events happened, centring each one; there is a play control for an
+  unattended run. A recorded argument, in sequence, instead of a screenshot with
+  an arrow drawn on it.
+- **Annotate together, live** (Enterprise). Everyone in a collaborative session
+  sees everyone else's notes appear as they are written, colour-coded by author.
+  Joining is by host approval, WAN sessions are end-to-end encrypted so the
+  relay carries ciphertext it cannot read, and a peer that dies without
+  disconnecting cleanly now leaves the roster on its own. When the session ends
+  you choose what to keep.
+- **Write up the meeting.** **File ▸ Export Review Minutes…** turns a session's
+  annotations into a document you paste into a ticket — every note with its
+  signal and time in the file's own timescale, deduplicated so an edited note
+  appears once as it ended up, and one that was deleted does not appear at all.
+  Markdown or CSV, and it works after the session has ended, which is when
+  minutes actually get written. **Export Session Recording…** sits beside it
+  with the raw event log for an audit trail.
+- **A new Stage widget: the Elevator** (Pro). A lift car, doors, call buttons
+  and floor indicator driven straight from your controller's signals — the
+  canonical FSM teaching design, animated from the trace instead of read out of
+  a state-encoding table.
+
+### Fixed
+
+- **A double-clicked waveform now opens on macOS.** WaveCrux has always
+  registered as the handler for `.vcd`, `.fst`, `.ghw`, `.wavecrux` and
+  `.wavecruxpack` — the files carry the icon — but a double-click, an `open -a`
+  or a drag onto the Dock icon did nothing at all. Files only arrived if they
+  were passed on the command line.
+- **An exported image now looks like the app and contains what it draws.** PNG
+  and SVG exports of "All Signals" rendered every lane in the same colour, and
+  annotations fell outside the exported area.
+- **Opening a file no longer breaks on macOS.** A file-picker dependency
+  update turned every Open File into a plugin error; backed out and pinned, in
+  all four products.
+
+### Also
+
+- Other performance and quality enhancements.
+
+---
+
 ## 0.7.1 — 2026-08-11
 
 Bring-your-own-ISA gets the piece it was missing: a way to install a table
