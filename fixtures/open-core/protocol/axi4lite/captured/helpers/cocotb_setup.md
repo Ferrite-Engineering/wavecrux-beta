@@ -118,7 +118,7 @@ capture exactly.
 
 ## Parallels with the Pro AXI4 Full pipeline
 
-This pipeline is a deliberate clone of the closed-source `wavecrux-pro`
+This pipeline is a deliberate clone of the closed-source Pro overlay's
 AXI4 Full captured-fixture pipeline (`tb/axi_ram/`, `tb/axi_register/`),
 adapted for the lite protocol. The toolchain (Python venv, cocotb,
 icarus-verilog), the `iverilog_dump.v` patch technique, and the

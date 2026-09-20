@@ -1,2 +1,11 @@
 .DS_Store
 Thumbs.db
+
+# Credentials. This repository is public; nothing here is ever a place to
+# keep one. The ignore rule is the cheap half of making that true — the
+# other half is that no credential is needed to build or run any of this.
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.envrc

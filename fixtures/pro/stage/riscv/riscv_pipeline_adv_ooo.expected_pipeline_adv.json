@@ -1,6 +1,6 @@
 {
   "scenario": "riscv_pipeline_adv_ooo",
-  "description": "Two-wide superscalar RV32I pipe with out-of-order completion, tag reuse from a free pool, and a mispredicted branch that kills one in-flight instruction in each lane. Two instructions share a pipeline stage in most cycles, so the open-core binding surface — one valid / pc cell per (stage, cycle) — cannot represent this trace at all. That is the free/paid line in RISCV_ECOSYSTEM_PLAN §3.2 made checkable.",
+  "description": "Two-wide superscalar RV32I pipe with out-of-order completion, tag reuse from a free pool, and a mispredicted branch that kills one in-flight instruction in each lane. Two instructions share a pipeline stage in most cycles, so the open-core binding surface — one valid / pc cell per (stage, cycle) — cannot represent this trace at all. That is the free/paid line between the open core and the Pro overlay made checkable.",
   "stageCount": 5,
   "stageNames": [
     "IF",

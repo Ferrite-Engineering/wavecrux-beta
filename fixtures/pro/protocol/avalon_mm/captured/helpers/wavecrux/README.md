@@ -15,7 +15,7 @@ permissive-license Verilog testbench in the open-source ecosystem:
 Intel's BFMs ship with proprietary Quartus, LiteX's Avalon support is
 Migen/Python-based without a standalone Verilog testbench, and the
 opencores Avalon adapters are LGPL (off the allow-list — see
-`test/static/captured_fixture_licenses_test.dart`). Since wavecrux-pro
+`test/static/captured_fixture_licenses_test.dart`). Since the Pro overlay
 is closed-source, GPL/LGPL captures carry attribution obligations
 incompatible with the distribution model.
 

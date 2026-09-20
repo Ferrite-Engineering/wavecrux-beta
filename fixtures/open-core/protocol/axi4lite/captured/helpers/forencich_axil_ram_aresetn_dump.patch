@@ -1,7 +1,7 @@
 From: WaveCrux capture pipeline
 Subject: [PATCH] Add `aresetn` (active-low) to the FST dump (axil_ram)
 
-Sibling of the closed-source `wavecrux-pro` axi_ram / axi_register
+Sibling of the closed-source Pro overlay's axi_ram / axi_register
 patches — same idea, retargeted at the `axil_ram` (AXI4-Lite) testbench.
 The open-core `Axi4LiteDecoder` requires an `aresetn` binding
 (active-low synchronous reset). Forencich's testbenches drive `rst`
