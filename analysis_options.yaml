@@ -1,0 +1,20 @@
+# This repository distributes fixtures; it is not a Dart package.
+#
+# There is no pubspec.yaml and no package resolution here, so the `_test.dart`
+# files under `fixtures/` cannot resolve `package:flutter_test` and every
+# `test`, `group`, `expect` and matcher in them reads as an undefined name.
+# That produced roughly 900 phantom diagnostics in an editor with this folder
+# open — all of them noise, none of them a defect in the fixtures.
+#
+# The files are real and are meant to be run: they are copied into a product's
+# own test tree, where `flutter_test` resolves and they check that a
+# hand-crafted fixture still parses and still exposes the signal names the
+# widgets bind to. Analysing them in place asks a question that has no answer.
+#
+# Excluding them here is therefore the honest fix rather than a suppression.
+# What it costs: nothing in this repository verifies that a fixture test still
+# compiles against the product. The product repositories are where that is
+# checked, because that is where the dependency actually exists.
+analyzer:
+  exclude:
+    - fixtures/**
