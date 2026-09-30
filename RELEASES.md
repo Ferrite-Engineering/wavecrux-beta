@@ -1,5 +1,14 @@
 # WaveCrux Release Notes
 
+> **The public beta has ended.** WaveCrux 1.0 was released on 30 September 2026,
+> and this repository is archived as the record of the beta.
+>
+> - Source code, issues and discussions: https://github.com/Ferrite-Engineering/wavecrux
+> - Release notes: https://github.com/Ferrite-Engineering/wavecrux/releases
+> - Download: https://wavecrux.app/download
+>
+> Thank you to everyone who tested the beta and reported what they found.
+
 All notable changes between beta builds. Download the latest build from
 [wavecrux.app/download](https://wavecrux.app/download) or run it in the
 browser at [app.wavecrux.app](https://app.wavecrux.app).
